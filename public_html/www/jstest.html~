@@ -1,0 +1,11 @@
+<html>
+<head>
+Testing Sir
+<script src="/prototype.js" type="text/javascript"></script>
+<script src="/scriptaculous.js" type="text/javascript"></script>
+<body>
+<div id="contect" style="display:none;">Show me</div>
+<a href="" onclick="Effect.Grow('contect');"> Click me </a>
+</body>
+</head>
+</html>

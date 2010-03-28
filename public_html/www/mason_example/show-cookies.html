@@ -1,0 +1,42 @@
+<%doc>
+ This is actually more complicated than it needs to be.
+
+ You could simply say:
+  $cookies = UNIVERSAL::can("Apache::Cookie", "fetch") ? Apache::Cookie->fetch : CGI::Cookie->fetch;
+ on the assumption that at least one method will work.
+
+ Examining the value of $m->ah->args_method directory is ugly :)
+</%doc>
+
+<h3> Cookies </h3>
+<%perl>
+  my $cookies;
+  my $loaded_cookies;
+  if ($m->can("ah")) {
+    if ($m->ah->args_method eq 'CGI') {
+      $cookies = CGI::Cookie->fetch;
+      $loaded_cookies = "mod_perl + CGI";
+    } elsif ($m->ah->args_method eq 'mod_perl') {
+      $cookies = Apache::Cookie->fetch;
+      $loaded_cookies = "mod_perl + Apache::Request";
+    }
+  }
+  elsif (UNIVERSAL::can("CGI::Cookie", "fetch")) {
+    $cookies = CGI::Cookie->fetch;
+    $loaded_cookies = "CGI";
+  }
+  if ($loaded_cookies) {
+</%perl>
+<ul>
+%  foreach my $key (sort keys %$cookies) {
+<li><b><% $key %></b>: <% $cookies->{$key}->as_string |h%>
+%  }
+</ul>
+<p> Cookies loaded with <% $loaded_cookies |h%> </p>
+% } else {
+<p> Unable to figure out how to get cookies </p>
+% }
+
+<%attr>
+title => "Cookies"
+</%attr>

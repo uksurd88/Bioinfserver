@@ -1,0 +1,63 @@
+Sheet Resetted
+DOWN
+DOWN
+DOWN
+RIGHT
+RIGHT
+UP
+UP
+LEFT
+UP
+LEFT
+DOWN
+LEFT
+DOWN
+LEFT
+DOWN
+RIGHT
+RIGHT
+DOWN
+RIGHT
+UP
+LEFT
+UP
+New Query Column
+RIGHT
+RIGHT
+RIGHT
+UP
+UP
+DOWN
+DOWN
+DOWN
+DOWN
+Commencing UserQuery
+I am your Virtual Navigator
+DOWN
+DOWN
+RIGHT
+RIGHT
+DOWN
+DOWN
+DOWN
+RIGHT
+UP
+UP
+UP
+LEFT
+RIGHT
+UP
+LEFT
+UP
+LEFT
+UP
+LEFT
+LEFT
+LEFT
+DOWN
+DOWN
+DOWN
+LEFT
+Stats Calculated
+Stats Calculated
+Sheet Resetted

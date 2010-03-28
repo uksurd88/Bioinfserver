@@ -1,0 +1,14 @@
+<html>
+<script language="JavaScript" src="/var/www/prototype.js">
+<script type="text/javascript"></script>
+function check {
+var myText= $("div1");
+alert(myText);
+}
+</script>
+<body>
+<div id="div1"> Hello</div>
+<input type="button" name="check" value="check" onClick="alert('Hello');">
+</body>
+
+</html>

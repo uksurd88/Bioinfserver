@@ -1,0 +1,4006 @@
+BLASTP 2.2.20 [Feb-08-2009]
+
+
+Reference: Altschul, Stephen F., Thomas L. Madden, Alejandro A. Schaffer, 
+Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), 
+"Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs",  Nucleic Acids Res. 25:3389-3402.
+
+Reference for compositional score matrix adjustment: Altschul, Stephen F., 
+John C. Wootton, E. Michael Gertz, Richa Agarwala, Aleksandr Morgulis,
+Alejandro A. Schaffer, and Yi-Kuo Yu (2005) "Protein database searches
+using compositionally adjusted substitution matrices", FEBS J. 272:5101-5109.
+
+Query= model
+         (99 letters)
+
+Database: pdb.fasta 
+           42,001 sequences; 9,620,218 total letters
+
+Searching..................................................done
+
+
+
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+gi|56554341|pdb|1W5Y|A Chain A, Hiv-1 Protease In Complex With F...   191   8e-50
+gi|90109335|pdb|2FDE|A Chain A, Wild Type Hiv Protease Bound Wit...   190   1e-49
+gi|443021|pdb|1HOS|A Chain A, Inhibition Of Human Immunodeficien...   190   1e-49
+gi|11513732|pdb|1G6L|A Chain A, 1.9a Crystal Structure Of Tether...   189   1e-49
+gi|157831402|pdb|1HVC|A Chain A, Crystal Structure Of A Tethered...   189   2e-49
+gi|197724931|pdb|2R38|A Chain A, I84v Hiv-1 Protease Mutant In C...   189   2e-49
+gi|197724933|pdb|2R3T|A Chain A, I50v Hiv-1 Protease Mutant In C...   189   2e-49
+gi|443017|pdb|1HIV|A Chain A, Crystal Structure Of A Complex Of ...   189   2e-49
+gi|4558173|pdb|1ODY|A Chain A, Hiv-1 Protease Complexed With An ...   189   2e-49
+gi|493788|pdb|1AAQ|A Chain A, Hydroxyethylene Isostere Inhibitor...   189   2e-49
+gi|6980896|pdb|1BV9|A Chain A, Hiv-1 Protease (I84v) Complexed W...   189   2e-49
+gi|3114324|pdb|1AXA|A Chain A, Active-Site Mobility In Human Imm...   189   3e-49
+gi|126030406|pdb|2FLE|A Chain A, Structural Analysis Of Asymmetr...   189   3e-49
+gi|66360070|pdb|1RL8|A Chain A, Crystal Structure Of The Complex...   189   3e-49
+gi|231149|pdb|5HVP|A Chain A, Crystallographic Analysis Of A Com...   188   3e-49
+gi|6729844|pdb|3TLH|A Chain A, Structural Studies Of Hiv And Fiv...   188   4e-49
+gi|1942941|pdb|1TCX|A Chain A, Hiv Triple Mutant Protease Comple...   188   4e-49
+gi|168988684|pdb|2Q64|A Chain A, Hiv-1 Pr Mutant In Complex With...   188   4e-49
+gi|194368486|pdb|2QHC|A Chain A, The Influence Of I47a Mutation ...   188   4e-49
+gi|122921397|pdb|2O4L|A Chain A, Crystal Structure Of Hiv-1 Prot...   188   5e-49
+gi|193506629|pdb|2Z54|A Chain A, The Influence Of I47a Mutation ...   188   5e-49
+gi|6435759|pdb|1D4S|A Chain A, Hiv-1 Protease V82fI84V DOUBLE MU...   187   6e-49
+gi|6980882|pdb|1BV7|A Chain A, Counteracting Hiv-1 Protease Drug...   187   6e-49
+gi|1421455|pdb|1DIF|A Chain A, Hiv-1 Protease In Complex With A ...   187   6e-49
+gi|6980900|pdb|1BWA|A Chain A, Hiv-1 Protease (V82fI84V) DOUBLE ...   187   7e-49
+gi|3318945|pdb|1A9M|A Chain A, G48h Mutant Of Hiv-1 Protease In ...   187   7e-49
+gi|1943546|pdb|1GNN|A Chain A, Hiv-1 Protease Mutant With Val 82...   187   8e-49
+gi|1943544|pdb|1GNM|A Chain A, Hiv-1 Protease Mutant With Val 82...   187   8e-49
+gi|90108773|pdb|2AZ8|A Chain A, Hiv-1 Protease Nl4-3 In Complex ...   187   9e-49
+gi|2098471|pdb|1ODX|A Chain A, Hiv-1 Proteinase Mutant A71t, V82...   187   1e-48
+gi|576147|pdb|1HEF|E Chain E, The Crystal Structures At 2.2 Angs...   187   1e-48
+gi|4139495|pdb|1HVH|A Chain A, Nonpeptide Cyclic Cyanoguanidines...   187   1e-48
+gi|21730861|pdb|1LV1|A Chain A, Crystal Structure Analysis Of Th...   187   1e-48
+gi|3114315|pdb|1MER|A Chain A, Hiv-1 Mutant (I84v) Protease Comp...   187   1e-48
+gi|158428675|pdb|2I4U|A Chain A, Hiv-1 Protease With Tmc-126 >gn...   186   1e-48
+gi|2098357|pdb|1HPO|A Chain A, Hiv-1 Protease Triple MutantU1032...   186   1e-48
+gi|168988674|pdb|2PYM|A Chain A, Hiv-1 Pr Mutant In Complex With...   186   1e-48
+gi|1421550|pdb|1HVS|A Chain A, Structural Basis Of Drug Resistan...   186   1e-48
+gi|99031740|pdb|1ZSF|A Chain A, Crystal Structure Of Complex Of ...   186   2e-48
+gi|122920942|pdb|2NPH|A Chain A, Crystal Structure Of Hiv1 Prote...   186   2e-48
+gi|168988676|pdb|2PYN|A Chain A, Hiv-1 Pr Mutant In Complex With...   186   2e-48
+gi|30749426|pdb|1LZQ|A Chain A, Crystal Structure Of The Complex...   186   2e-48
+gi|168988682|pdb|2Q63|A Chain A, Hiv-1 Pr Mutant In Complex With...   186   2e-48
+gi|2914186|pdb|1HXW|A Chain A, Hiv-1 Protease Dimer Complexed Wi...   186   2e-48
+gi|12084485|pdb|1FB7|A Chain A, Crystal Structure Of An In Vivo ...   186   2e-48
+gi|158428677|pdb|2I4V|A Chain A, Hiv-1 Protease I84v, L90m With ...   186   2e-48
+gi|90108775|pdb|2AZ9|A Chain A, Hiv-1 Protease Nl4-3 1x Mutant        186   2e-48
+gi|3114319|pdb|1MET|A Chain A, Hiv-1 Mutant (V82f) Protease Comp...   185   3e-48
+gi|3114321|pdb|1MEU|A Chain A, Hiv-1 Mutant (V82f, I84v) Proteas...   185   4e-48
+gi|146387074|pdb|2P3B|B Chain B, Crystal Structure Of The Subtyp...   185   4e-48
+gi|28373793|pdb|1MTB|A Chain A, Viability Of A Drug-Resistant Hi...   184   5e-48
+gi|27573665|pdb|1IZI|A Chain A, Inhibitor Of Hiv Protease With U...   184   6e-48
+gi|38492434|pdb|1MRX|A Chain A, Structure Of Hiv Protease (Mutan...   184   6e-48
+gi|1421543|pdb|1HVR|A Chain A, Rational Design Of Potent, Bioava...   184   6e-48
+gi|2624873|pdb|1AID|A Chain A, Structure Of A Non-Peptide Inhibi...   184   6e-48
+gi|158429165|pdb|2NXD|A Chain A, Structure Of Hiv-1 Protease D25...   183   1e-47
+gi|119389416|pdb|2F3K|A Chain A, Substrate Envelope And Drug Res...   183   1e-47
+gi|14719532|pdb|1F7A|A Chain A, How Does A Symmetric Dimer Recog...   183   1e-47
+gi|1942083|pdb|1YTG|A Chain A, Siv Protease Crystallized With Pe...   183   2e-47
+gi|99031669|pdb|1ZBG|A Chain A, Crystal Structure Of A Complex O...   182   2e-47
+gi|28373784|pdb|1MT7|A Chain A, Viability Of A Drug-Resistant Hi...   182   3e-47
+gi|119389478|pdb|2FGU|A Chain A, X-Ray Crystal Structure Of Hiv-...   182   3e-47
+gi|116667812|pdb|2HS2|A Chain A, Crystal Structure Of M46l Mutan...   182   3e-47
+gi|171849052|pdb|3BVA|A Chain A, Cystal Structure Of Hiv-1 Activ...   182   3e-47
+gi|14488620|pdb|1FGC|C Chain C, Structural Implications Of Drug ...   182   3e-47
+gi|9955095|pdb|1DW6|C Chain C, Structural And Kinetic Analysis O...   181   4e-47
+gi|163311028|pdb|3B80|A Chain A, Hiv-1 Protease Mutant I54v Comp...   181   5e-47
+gi|88192086|pdb|2AOC|A Chain A, Crystal Structure Analysis Of Hi...   181   5e-47
+gi|88192162|pdb|2AVQ|A Chain A, Kinetics, Stability, And Structu...   181   5e-47
+gi|18655473|pdb|1K6C|A Chain A, Lack Of Synergy For Inhibitors T...   181   5e-47
+gi|2624506|pdb|1DMP|A Chain A, Structure Of Hiv-1 Protease Compl...   181   5e-47
+gi|119389480|pdb|2FGV|A Chain A, X-Ray Crystal Structure Of Hiv-...   181   5e-47
+gi|116667810|pdb|2HS1|A Chain A, Ultra-High Resolution X-Ray Cry...   181   6e-47
+gi|189096255|pdb|3D1Z|A Chain A, Crystal Structure Of Hiv-1 Muta...   181   6e-47
+gi|88192157|pdb|2AVM|A Chain A, Kinetics, Stability, And Structu...   181   7e-47
+gi|49258965|pdb|1SDV|A Chain A, Crystal Structures Of Hiv Protea...   181   8e-47
+gi|88192169|pdb|2AVV|A Chain A, Kinetics, Stability, And Structu...   181   8e-47
+gi|2554747|pdb|3AID|A Chain A, A New Class Of Hiv-1 Protease Inh...   180   9e-47
+gi|193885421|pdb|3D3T|A Chain A, Crystal Structure Of Hiv-1 Crf0...   180   1e-46
+gi|4389373|pdb|1A94|A Chain A, Structural Basis For Specificity ...   180   1e-46
+gi|14488614|pdb|1FG6|C Chain C, Structural Implications Of Drug ...   180   1e-46
+gi|14488608|pdb|1FFF|C Chain C, Structural Implications Of Drug ...   180   1e-46
+gi|22218898|pdb|1K2B|A Chain A, Combining Mutations In Hiv-1 Pro...   180   1e-46
+gi|9955098|pdb|1EBK|C Chain C, Structural And Kinetic Analysis O...   180   1e-46
+gi|93278539|pdb|1Z8C|A Chain A, Crystal Structure Of The Complex...   179   2e-46
+gi|109157787|pdb|2G69|A Chain A, Structure Of Unliganded Hiv-1 P...   179   2e-46
+gi|90108667|pdb|2A1E|A Chain A, High Resolution Structure Of Hiv...   179   2e-46
+gi|134104295|pdb|2FXE|A Chain A, X-Ray Crystal Structure Of Hiv-...   179   2e-46
+gi|3891944|pdb|1BDR|A Chain A, Hiv-1 (2: 31, 33-37) Protease Com...   179   2e-46
+gi|189096246|pdb|3CYW|A Chain A, Effect Of Flap Mutations On Str...   179   3e-46
+gi|119389008|pdb|2B60|A Chain A, Structure Of Hiv-1 Protease Mut...   179   3e-46
+gi|58176641|pdb|1RPI|A Chain A, Crystal Structures Of A Multidru...   179   3e-46
+gi|3659988|pdb|1BDL|A Chain A, Hiv-1 (2:31-37) Protease Complexe...   178   4e-46
+gi|22218901|pdb|1K2C|A Chain A, Combining Mutations In Hiv-1 Pro...   178   4e-46
+gi|55669731|pdb|1SGU|A Chain A, Comparing The Accumulation Of Ac...   178   5e-46
+gi|2554748|pdb|3AID|B Chain B, A New Class Of Hiv-1 Protease Inh...   177   6e-46
+gi|231033|pdb|4HVP|A Chain A, Structure Of Complex Of Synthetic ...   177   6e-46
+gi|3659990|pdb|1BDQ|A Chain A, Hiv-1 (2:31-37, 47, 82) Protease ...   177   8e-46
+gi|195927280|pdb|2RKF|A Chain A, Hiv-1 Pr Resistant Mutant + Lpv...   177   1e-45
+gi|12084156|pdb|1C6X|A Chain A, Alternate Binding Site For The P...   177   1e-45
+gi|160877756|pdb|2R5P|A Chain A, Crystal Structure Analysis Of H...   177   1e-45
+gi|146387071|pdb|2P3A|A Chain A, Crystal Structure Of The Multi-...   176   2e-45
+gi|170785196|pdb|3BXR|A Chain A, Crystal Structures Of Highly Co...   176   3e-45
+gi|1827895|pdb|1MTR|A Chain A, Hiv-1 Protease Complexed With A C...   175   3e-45
+gi|90109333|pdb|2FDD|A Chain A, Crystal Structure Of Hiv Proteas...   173   1e-44
+gi|169791925|pdb|1Q9P|A Chain A, Solution Structure Of The Matur...   173   1e-44
+gi|195927282|pdb|2RKG|A Chain A, Hiv-1 Pr Resistant Mutant + Lpv...   172   3e-44
+gi|146387075|pdb|2P3C|A Chain A, Crystal Structure Of The Subtyp...   171   4e-44
+gi|90108777|pdb|2AZB|A Chain A, Hiv-1 Protease Nl4-3 3x Mutant I...   166   2e-42
+gi|146387077|pdb|2P3D|A Chain A, Crystal Structure Of The Multi-...   164   8e-42
+gi|122921400|pdb|2O4N|A Chain A, Crystal Structure Of Hiv-1 Prot...   163   2e-41
+gi|90108779|pdb|2AZC|A Chain A, Hiv-1 Protease Nl4-3 6x Mutant >...   162   3e-41
+gi|158428963|pdb|2JE4|A Chain A, Atomic-Resolution Crystal Struc...   161   5e-41
+gi|7766825|pdb|1DAZ|C Chain C, Structural And Kinetic Analysis O...   160   1e-40
+gi|22218895|pdb|1K1U|A Chain A, Combining Mutations In Hiv-1 Pro...   159   2e-40
+gi|119389010|pdb|2B7Z|B Chain B, Structure Of Hiv-1 Protease Mut...   159   2e-40
+gi|22218892|pdb|1K1T|A Chain A, Combining Mutations In Hiv-1 Pro...   158   4e-40
+gi|197107260|pdb|3DCK|A Chain A, X-Ray Structure Of D25n Chemica...   157   8e-40
+gi|158428936|pdb|2J9J|A Chain A, Atomic-Resolution Crystal Struc...   157   9e-40
+gi|134104293|pdb|2FXD|A Chain A, X-Ray Crystal Structure Of Hiv-...   157   1e-39
+gi|122921392|pdb|2O40|A Chain A, Crystal Structure Of A Chemical...   156   1e-39
+gi|158428937|pdb|2J9J|B Chain B, Atomic-Resolution Crystal Struc...   155   3e-39
+gi|157833815|pdb|1SIP|A Chain A, Alternative Native Flap Conform...   107   1e-24
+gi|157836348|pdb|2SAM|A Chain A, Structure Of The Protease From ...   105   3e-24
+gi|1942089|pdb|1YTI|A Chain A, Siv Protease Crystallized With Pe...   105   4e-24
+gi|494588|pdb|1SIV|A Chain A, Three-Dimensional Structure Of A S...   104   7e-24
+gi|443402|pdb|2MIP|A Chain A, Crystal Structure Of Human Immunod...   102   2e-23
+gi|157830152|pdb|1AZ5|A Chain A, Unliganded Siv Protease Structu...   102   3e-23
+gi|443054|pdb|1IVP|A Chain A, The Crystallographic Structure Of ...   100   9e-23
+gi|4389337|pdb|1BAI|A Chain A, Structural Basis For Specificity ...    48   1e-06
+gi|159162755|pdb|1NSO|A Chain A, Folded Monomer Of Protease From...    34   0.011
+gi|134104445|pdb|2HAH|A Chain A, The Structure Of Fiv 12s Protea...    30   0.18 
+gi|230182|pdb|1MVP|A Chain A, Structural Studies Of The Retrovir...    30   0.26 
+gi|230722|pdb|2RSP|A Chain A, Structure Of The Aspartic Protease...    30   0.27 
+gi|157831103|pdb|1FMB|A Chain A, Eiav Protease Complexed With Th...    28   0.87 
+gi|213424552|pdb|3F1C|A Chain A, Crystal Structure Of 2-C-Methyl...    27   2.4  
+gi|6730067|pdb|5FIV|A Chain A, Structural Studies Of Hiv And Fiv...    27   2.7  
+gi|2624458|pdb|2FIV|A Chain A, Crystal Structure Of Feline Immun...    27   2.7  
+gi|2624481|pdb|3FIV|A Chain A, Crystal Structure Of Feline Immun...    27   2.8  
+gi|6730050|pdb|6FIV|A Chain A, Structural Studies Of Hiv And Fiv...    26   3.0  
+gi|1127270|pdb|1FIV|A Chain A, Structure Of An Inhibitor Complex...    26   3.3  
+gi|159164133|pdb|2DIV|A Chain A, Solution Structure Of The Rrm D...    26   3.6  
+gi|159163504|pdb|1X2L|A Chain A, Solution Structure Of The Cut D...    26   4.0  
+gi|114793631|pdb|2CU9|A Chain A, Crystal Structure Of Histone Ch...    25   4.8  
+gi|2780904|pdb|2HRP|P Chain P, Antigen-Antibody Complex >gnl|BL_...    25   6.9  
+gi|178847337|pdb|2VNU|D Chain D, Crystal Structure Of Sc Rrp44         25   7.2  
+
+>gi|56554341|pdb|1W5Y|A Chain A, Hiv-1 Protease In Complex With
+           Fluoro Substituted Diol- Based C2-Symmetric Inhibitor
+ Chain B, Hiv-1 Protease In Complex With Fluoro Substituted Diol-
+           Based C2-Symmetric Inhibitor
+ Chain A, Hiv-1 Protease In Complex With Fluoro Substituted Diol-
+           Based C2-Symmetric Inhibitor
+ Chain B, Hiv-1 Protease In Complex With Fluoro Substituted Diol-
+           Based C2-Symmetric Inhibitor
+ Chain A, Hiv-1 Protease In Complex With Fluoro Substituted Diol-
+           Based C2-Symmetric Inhibitor
+ Chain B, Hiv-1 Protease In Complex With Fluoro Substituted Diol-
+           Based C2-Symmetric Inhibitor
+ Chain A, Hiv-1 Protease In Complex With Fluoro Substituted Diol-
+           Based C2-Symmetric Inhibitor
+ Chain B, Hiv-1 Protease In Complex With Fluoro Substituted Diol-
+           Based C2-Symmetric Inhibitor
+          Length = 110
+
+ Score =  191 bits (484), Expect = 8e-50,   Method: Compositional matrix adjust.
+ Identities = 94/99 (94%), Positives = 97/99 (97%)
+
+Query: 1   PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+           PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 12  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 71
+
+Query: 61  QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 72  QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 110
+
+
+>gi|90109335|pdb|2FDE|A Chain A, Wild Type Hiv Protease Bound With
+           Gw0385
+ Chain B, Wild Type Hiv Protease Bound With Gw0385
+          Length = 100
+
+ Score =  190 bits (483), Expect = 1e-49,   Method: Compositional matrix adjust.
+ Identities = 94/99 (94%), Positives = 97/99 (97%)
+
+Query: 1   PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+           PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 2   PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 61
+
+Query: 61  QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 62  QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 100
+
+
+>gi|443021|pdb|1HOS|A Chain A, Inhibition Of Human
+          Immunodeficiency Virus-1 Protease By A C2-Symmetric
+          Phosphinate Synthesis And Crystallographic Analysis
+ Chain B, Inhibition Of Human Immunodeficiency Virus-1 Protease By
+          A C2-Symmetric Phosphinate Synthesis And
+          Crystallographic Analysis
+ Chain A, X-Ray Crystallographic Studies Of A Series Of
+          Penicillin- Derived Asymmetric Inhibitors Of Hiv-1
+          Protease
+ Chain B, X-Ray Crystallographic Studies Of A Series Of
+          Penicillin- Derived Asymmetric Inhibitors Of Hiv-1
+          Protease
+ Chain A, X-Ray Crystallographic Studies Of A Series Of
+          Penicillin- Derived Asymmetric Inhibitors Of Hiv-1
+          Protease
+ Chain B, X-Ray Crystallographic Studies Of A Series Of
+          Penicillin- Derived Asymmetric Inhibitors Of Hiv-1
+          Protease
+ Chain A, X-Ray Crystallographic Studies Of A Series Of
+          Penicillin- Derived Asymmetric Inhibitors Of Hiv-1
+          Protease
+ Chain B, X-Ray Crystallographic Studies Of A Series Of
+          Penicillin- Derived Asymmetric Inhibitors Of Hiv-1
+          Protease
+ Chain A, Rational Design, Synthesis And Crystallographic Analysis
+          Of A Hydroxyethylene-Based Hiv-1 Protease Inhibitor
+          Containing A Heterocyclic P1'-P2' Amide Bond Isostere
+ Chain B, Rational Design, Synthesis And Crystallographic Analysis
+          Of A Hydroxyethylene-Based Hiv-1 Protease Inhibitor
+          Containing A Heterocyclic P1'-P2' Amide Bond Isostere
+ Chain A, Crystal Structure Of Hiv-1 Protease In Complex With
+          Vx-478, A Potent And Orally Bioavailable Inhibitor Of
+          The Enzyme
+ Chain B, Crystal Structure Of Hiv-1 Protease In Complex With
+          Vx-478, A Potent And Orally Bioavailable Inhibitor Of
+          The Enzyme
+ Chain A, A Check On Rational Drug Design. Crystal Structure Of A
+          Complex Of Hiv-1 Protease With A Novel Gamma-Turn
+          Mimetic
+ Chain B, A Check On Rational Drug Design. Crystal Structure Of A
+          Complex Of Hiv-1 Protease With A Novel Gamma-Turn
+          Mimetic
+ Chain A, Comparative Analysis Of The X-Ray Structures Of Hiv-1
+          And Hiv-2 Proteases In Complex With Cgp 53820, A Novel
+          Pseudosymmetric Inhibitor
+ Chain B, Comparative Analysis Of The X-Ray Structures Of Hiv-1
+          And Hiv-2 Proteases In Complex With Cgp 53820, A Novel
+          Pseudosymmetric Inhibitor
+ Chain A, Hiv-1 Protease Complexed With The Inhibitor Kni-272
+ Chain B, Hiv-1 Protease Complexed With The Inhibitor Kni-272
+ Chain A, Crystal Structure At 1.9 Angstroms Resolution Of Human
+          Immunodeficiency Virus (Hiv) Ii Protease Complexed With
+          L- 735,524, An Orally Bioavailable Inhibitor Of The Hiv
+          Proteases
+ Chain B, Crystal Structure At 1.9 Angstroms Resolution Of Human
+          Immunodeficiency Virus (Hiv) Ii Protease Complexed With
+          L- 735,524, An Orally Bioavailable Inhibitor Of The Hiv
+          Proteases
+ Chain A, Hiv-1 Protease Complex With U100313 ([3-[[3-[cyclopropyl
+          [4-
+          Hydroxy-2oxo-6-[1-(Phenylmethyl)propyl]-2h-Pyran-3-Yl]
+          Methyl]phenyl]amino]-3-Oxo-Propyl]carbamic Acid
+          Tert-Butyl Ester)
+ Chain B, Hiv-1 Protease Complex With U100313 ([3-[[3-[cyclopropyl
+          [4-
+          Hydroxy-2oxo-6-[1-(Phenylmethyl)propyl]-2h-Pyran-3-Yl]
+          Methyl]phenyl]amino]-3-Oxo-Propyl]carbamic Acid
+          Tert-Butyl Ester)
+ Chain A, Hiv-1 Protease (Wild Type) Complexed With U89360e
+          (Inhibitor)
+ Chain B, Hiv-1 Protease (Wild Type) Complexed With U89360e
+          (Inhibitor)
+ Chain A, Hiv-1 ProteaseU101935 COMPLEX
+ Chain B, Hiv-1 ProteaseU101935 COMPLEX
+ Chain A, Hiv-1 Protease In Complex With The Cyclic Sulfamide
+          Inhibitor Aha006
+ Chain B, Hiv-1 Protease In Complex With The Cyclic Sulfamide
+          Inhibitor Aha006
+ Chain A, Hiv-1 Protease In Complex With The Cyclic Urea Inhibitor
+          Aha001
+ Chain B, Hiv-1 Protease In Complex With The Cyclic Urea Inhibitor
+          Aha001
+ Chain A, Hiv-1 Protease-Inhibitor Complex
+ Chain B, Hiv-1 Protease-Inhibitor Complex
+ Chain A, Hiv-1 Protease-Inhibitor Complex
+ Chain B, Hiv-1 Protease-Inhibitor Complex
+ Chain A, Hiv-1 Protease-Inhibitor Complex
+ Chain B, Hiv-1 Protease-Inhibitor Complex
+ Chain A, Hiv-1 Protease-Inhibitor Complex
+ Chain B, Hiv-1 Protease-Inhibitor Complex
+ Chain A, Hiv-1 Protease-Inhibitor Complex
+ Chain B, Hiv-1 Protease-Inhibitor Complex
+ Chain A, Alternate Binding Site For The P1-P3 Group Of A Class Of
+          Potent Hiv-1 Protease Inhibitors As A Result Of
+          Concerted Structural Change In 80's Loop.
+ Chain B, Alternate Binding Site For The P1-P3 Group Of A Class Of
+          Potent Hiv-1 Protease Inhibitors As A Result Of
+          Concerted Structural Change In 80's Loop.
+ Chain A, Crystal Structure Of The Complex Of Hiv-1 Protease With
+          A Peptidomimetic Inhibitor
+ Chain B, Crystal Structure Of The Complex Of Hiv-1 Protease With
+          A Peptidomimetic Inhibitor
+ Chain A, Crystal Structure Of Hiv-1 Protease In Complex With
+          Inhibitor, Aha024
+ Chain B, Crystal Structure Of Hiv-1 Protease In Complex With
+          Inhibitor, Aha024
+ Chain A, Hiv-1 Protease With Cyclic Sulfamide Inhibitor, Aha047
+ Chain B, Hiv-1 Protease With Cyclic Sulfamide Inhibitor, Aha047
+ Chain A, Crystal Structure Of Hiv-1 Protease Complexed With A
+          Hydroxyethylamine Peptidomimetic Inhibitor
+ Chain B, Crystal Structure Of Hiv-1 Protease Complexed With A
+          Hydroxyethylamine Peptidomimetic Inhibitor
+ Chain A, Hiv-1 Protease In Complex With The Inhibitor Bea435
+ Chain B, Hiv-1 Protease In Complex With The Inhibitor Bea435
+ Chain A, Hiv-1 Protease In Complex With The Inhibitor Bea425
+ Chain B, Hiv-1 Protease In Complex With The Inhibitor Bea425
+ Chain A, Hiv-1 Protease In Complex With The Inhibitor Msl370
+ Chain B, Hiv-1 Protease In Complex With The Inhibitor Msl370
+ Chain A, Hiv-1 Protease In Complex With The Inhibitor Bea322
+ Chain B, Hiv-1 Protease In Complex With The Inhibitor Bea322
+ Chain A, Hiv-1 Protease In Complex With The Inhibitor Bea388
+ Chain B, Hiv-1 Protease In Complex With The Inhibitor Bea388
+ Chain A, Hiv-1 Protease In Complex With The Inhibitor Bea403
+ Chain B, Hiv-1 Protease In Complex With The Inhibitor Bea403
+ Chain A, Hiv-1 Protease In Complex With The Inhibitor Bea409
+ Chain B, Hiv-1 Protease In Complex With The Inhibitor Bea409
+ Chain A, Hiv-1 Protease In Complex With The Inhibitor Bea428
+ Chain B, Hiv-1 Protease In Complex With The Inhibitor Bea428
+ Chain A, Hiv-1 Protease In Complex With The Inhibitor Msa367
+ Chain B, Hiv-1 Protease In Complex With The Inhibitor Msa367
+ Chain B, Crystal Structure Of Hiv-1 Protease Complexed With
+          Lopinavir.
+ Chain A, Crystal Structure Of Hiv-1 Protease Complexed With
+          Lopinavir.
+ Chain A, Crystal Structure Of Hiv-1 Protease Complexed With
+          Ldc271
+ Chain B, Crystal Structure Of Hiv-1 Protease Complexed With
+          Ldc271
+ Chain A, Crystal Structure Of Hiv Protease Complexed With Lgz479
+ Chain B, Crystal Structure Of Hiv Protease Complexed With Lgz479
+ Chain A, Hiv-1 Protease In Complex With An Ethyleneamine
+          Inhibitor
+ Chain B, Hiv-1 Protease In Complex With An Ethyleneamine
+          Inhibitor
+ Chain A, Crystal Structure Of Hiv-1 Protease-Hup
+ Chain B, Crystal Structure Of Hiv-1 Protease-Hup
+ Chain A, 1.03 A Structure Of Hiv-1 Protease: Inhibitor Binding
+          Inside And Outside The Active Site
+ Chain B, 1.03 A Structure Of Hiv-1 Protease: Inhibitor Binding
+          Inside And Outside The Active Site
+ Chain A, Crystal Structure Of Hiv Protease Complexed With
+          Arylsulfonamide Azacyclic Urea
+ Chain B, Crystal Structure Of Hiv Protease Complexed With
+          Arylsulfonamide Azacyclic Urea
+ Chain A, Crystal Structure Of A Hiv-1 Protease In Complex With
+          Peptidomimetic Inhibitor Ki2-Phe-Glu-Glu-Nh2
+ Chain B, Crystal Structure Of A Hiv-1 Protease In Complex With
+          Peptidomimetic Inhibitor Ki2-Phe-Glu-Glu-Nh2
+ Chain A, Hiv-1 Protease In Complex With Asymmetric Inhibitor,
+          Bea568
+ Chain B, Hiv-1 Protease In Complex With Asymmetric Inhibitor,
+          Bea568
+ Chain A, Hiv-1 Protease In Complex With Symmetric Inhibitor,
+          Bea450
+ Chain B, Hiv-1 Protease In Complex With Symmetric Inhibitor,
+          Bea450
+ Chain A, Hiv Protease With Oximinoarylsulfonamide Bound
+ Chain B, Hiv Protease With Oximinoarylsulfonamide Bound
+ Chain A, Hiv-1 Protease In Complex With Pyrrolidinmethanamine
+ Chain B, Hiv-1 Protease In Complex With Pyrrolidinmethanamine
+ Chain A, Hiv-1 Protease In Complex With Amidhyroxysulfone
+ Chain B, Hiv-1 Protease In Complex With Amidhyroxysulfone
+ Chain A, Crystal Structure Of Hiv-1 Protease Complexed With A
+          Product Of Autoproteolysis
+ Chain B, Crystal Structure Of Hiv-1 Protease Complexed With A
+          Product Of Autoproteolysis
+ Chain A, Synthesis And Activity Of N-Axyl Azacyclic Urea Hiv-1
+          Protease Inhibitors With High Potency Against Multiple
+          Drug Resistant Viral Strains.
+ Chain B, Synthesis And Activity Of N-Axyl Azacyclic Urea Hiv-1
+          Protease Inhibitors With High Potency Against Multiple
+          Drug Resistant Viral Strains.
+ Chain A, Structure Of Hiv1 Protease And Akc4p_133a Complex.
+ Chain B, Structure Of Hiv1 Protease And Akc4p_133a Complex.
+ Chain A, Structure Of Hiv1 Protease And Hh1_173_3a Complex.
+ Chain B, Structure Of Hiv1 Protease And Hh1_173_3a Complex.
+ Chain A, Hiv-1 Protease In Complex With Inhibitor Aha455
+ Chain B, Hiv-1 Protease In Complex With Inhibitor Aha455
+ Chain A, Structure Of Hiv-1 Protease Bound To Atazanavir
+ Chain B, Structure Of Hiv-1 Protease Bound To Atazanavir
+ Chain A, P1' Extended Hiv-1 Protease Inhibitors Encompassing A
+          Tertiary Alcohol In The Transition-State Mimicking
+          Scaffold
+ Chain B, P1' Extended Hiv-1 Protease Inhibitors Encompassing A
+          Tertiary Alcohol In The Transition-State Mimicking
+          Scaffold
+ Chain A, P1' Extended Hiv-1 Protease Inhibitors Encompassing A
+          Tertiary Alcohol In The Transition-State Mimicking
+          Scaffold
+ Chain B, P1' Extended Hiv-1 Protease Inhibitors Encompassing A
+          Tertiary Alcohol In The Transition-State Mimicking
+          Scaffold
+ Chain A, P1' Extended Hiv-1 Protease Inhibitors Encompassing A
+          Tertiary Alcohol In The Transition-State Mimicking
+          Scaffold
+ Chain B, P1' Extended Hiv-1 Protease Inhibitors Encompassing A
+          Tertiary Alcohol In The Transition-State Mimicking
+          Scaffold
+ Chain A, The Three-Dimensional Structure Of The Aspartyl Protease
+          From The Hiv-1 Isolate Bru
+ Chain A, Hiv-1 Protease Complex With U095438
+          [3-[1-(4-Bromophenyl) Isobutyl]-4-Hydroxycoumarin
+ Chain A, X-Ray Analysis Of Hiv-1 Proteinase At 2.7 Angstroms
+          Resolution Confirms Structural Homology Among
+          Retroviral Enzymes
+ Chain A, Hiv-1 Protease In Complex With A Pyrrolidine-Based
+          Inhibitor
+ Chain B, Hiv-1 Protease In Complex With A Pyrrolidine-Based
+          Inhibitor
+ Chain A, Hiv-1 Protease In Complex With A Amino Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain B, Hiv-1 Protease In Complex With A Amino Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain A, Hiv-1 Protease In Complex With A Carbamoyl Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain B, Hiv-1 Protease In Complex With A Carbamoyl Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain A, Hiv-1 Protease In Complex With A Multiple Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain B, Hiv-1 Protease In Complex With A Multiple Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain A, Hiv-1 Protease In Complex With A Iodo Decorated
+          Pyrrolidine- Based Inhibitor
+ Chain B, Hiv-1 Protease In Complex With A Iodo Decorated
+          Pyrrolidine- Based Inhibitor
+ Chain A, Hiv-1 Protease In Complex With A Chloro Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain B, Hiv-1 Protease In Complex With A Chloro Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain A, Two-Carbon-Elongated Hiv-1 Protease Inhibitors With A
+          Tertiary-Alcohol-Containing Transition-State Mimic
+ Chain B, Two-Carbon-Elongated Hiv-1 Protease Inhibitors With A
+          Tertiary-Alcohol-Containing Transition-State Mimic
+ Chain A, Two-Carbon-Elongated Hiv-1 Protease Inhibitors With A
+          Tertiary-Alcohol-Containing Transition-State Mimic
+ Chain B, Two-Carbon-Elongated Hiv-1 Protease Inhibitors With A
+          Tertiary-Alcohol-Containing Transition-State Mimic
+ Chain A, Hiv-1 Protease In Complex With A Isobutyl Decorated
+          Oligoamine
+ Chain B, Hiv-1 Protease In Complex With A Isobutyl Decorated
+          Oligoamine
+ Chain A, Hiv-1 Protease In Complex With A Benzyl Decorated
+          Oligoamine
+ Chain B, Hiv-1 Protease In Complex With A Benzyl Decorated
+          Oligoamine
+ Chain A, Hiv-1 Protease In Complex With A Three Armed Pyrrolidine
+          Derivative
+ Chain B, Hiv-1 Protease In Complex With A Three Armed Pyrrolidine
+          Derivative
+ Chain A, Hiv-1 Protease In Complex With A Dimethylallyl Decorated
+          Pyrrolidine Based Inhibitor (Hexagonal Space Group)
+ Chain A, Hiv-1 Protease In Complex With A Dimethylallyl Decorated
+          Pyrrolidine Based Inhibitor (Orthorombic Space Group)
+ Chain B, Hiv-1 Protease In Complex With A Dimethylallyl Decorated
+          Pyrrolidine Based Inhibitor (Orthorombic Space Group)
+ Chain G, Hiv Protease Inhibitors With Pseudo-Symmetric Cores
+ Chain H, Hiv Protease Inhibitors With Pseudo-Symmetric Cores
+ Chain A, Hiv Protease Inhibitors With Pseudo-Symmetric Cores
+ Chain B, Hiv Protease Inhibitors With Pseudo-Symmetric Cores
+ Chain C, Hiv Protease Inhibitors With Pseudo-Symmetric Cores
+ Chain D, Hiv Protease Inhibitors With Pseudo-Symmetric Cores
+ Chain B, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain A, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain C, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain D, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain E, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain F, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain G, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain H, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain I, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain A, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain B, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain C, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain D, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain E, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain F, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain G, Hiv Protease, Pseudo-Symmetric Inhibitors
+ Chain H, Hiv Protease, Pseudo-Symmetric Inhibitors
+          Length = 99
+
+ Score =  190 bits (482), Expect = 1e-49,   Method: Compositional matrix adjust.
+ Identities = 94/99 (94%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|11513732|pdb|1G6L|A Chain A, 1.9a Crystal Structure Of Tethered
+           Hiv-1 Protease
+          Length = 203
+
+ Score =  189 bits (481), Expect = 1e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1   PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+           PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 105 PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 164
+
+Query: 61  QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 165 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 203
+
+
+
+ Score =  186 bits (471), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGMTLNF 99
+
+
+>gi|157831402|pdb|1HVC|A Chain A, Crystal Structure Of A Tethered
+           Dimer Of Hiv-1 Protease Complexed With An Inhibitor
+          Length = 203
+
+ Score =  189 bits (481), Expect = 2e-49,   Method: Compositional matrix adjust.
+ Identities = 94/99 (94%), Positives = 97/99 (97%)
+
+Query: 1   PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+           PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 105 PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 164
+
+Query: 61  QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 165 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 203
+
+
+
+ Score =  185 bits (469), Expect = 4e-48,   Method: Compositional matrix adjust.
+ Identities = 91/98 (92%), Positives = 97/98 (98%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          QITL+QRPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QITLWQRPLVTIRIGGQLKEALLDTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          ILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 62 ILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|197724931|pdb|2R38|A Chain A, I84v Hiv-1 Protease Mutant In
+          Complex With A Carbamoyl Decorated Pyrrolidine-Based
+          Inhibitor
+ Chain B, I84v Hiv-1 Protease Mutant In Complex With A Carbamoyl
+          Decorated Pyrrolidine-Based Inhibitor
+ Chain A, I84v Hiv-1 Protease In Complex With A Amino Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain B, I84v Hiv-1 Protease In Complex With A Amino Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain A, I84v Hiv-1 Protease In Complex With A Pyrrolidine
+          Diester
+          Length = 99
+
+ Score =  189 bits (481), Expect = 2e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVN++GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNVIGRNLLTQIGCTLNF 99
+
+
+>gi|197724933|pdb|2R3T|A Chain A, I50v Hiv-1 Protease Mutant In
+          Complex With A Carbamoyl Decorated Pyrrolidine-Based
+          Inhibitor
+ Chain B, I50v Hiv-1 Protease Mutant In Complex With A Carbamoyl
+          Decorated Pyrrolidine-Based Inhibitor
+ Chain A, I50v Hiv-1 Protease In Complex With An Amino Decorated
+          Pyrrolidine-Based Inhibitor
+ Chain B, I50v Hiv-1 Protease In Complex With An Amino Decorated
+          Pyrrolidine-Based Inhibitor
+          Length = 99
+
+ Score =  189 bits (481), Expect = 2e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGG+GGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGVGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|443017|pdb|1HIV|A Chain A, Crystal Structure Of A Complex Of
+          Hiv-1 Protease With A Dihydroethylene-Containing
+          Inhibitor: Comparisons With Molecular Modeling
+ Chain B, Crystal Structure Of A Complex Of Hiv-1 Protease With A
+          Dihydroethylene-Containing Inhibitor: Comparisons With
+          Molecular Modeling
+ Chain A, Hiv-1 Proteinase Complexed With Ro 31-8959
+ Chain B, Hiv-1 Proteinase Complexed With Ro 31-8959
+ Chain A, Native Hiv-1 Proteinase
+ Chain B, Native Hiv-1 Proteinase
+          Length = 99
+
+ Score =  189 bits (481), Expect = 2e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|4558173|pdb|1ODY|A Chain A, Hiv-1 Protease Complexed With An
+          Inhibitor Lp-130
+ Chain B, Hiv-1 Protease Complexed With An Inhibitor Lp-130
+          Length = 99
+
+ Score =  189 bits (481), Expect = 2e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGAWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|493788|pdb|1AAQ|A Chain A, Hydroxyethylene Isostere Inhibitors
+          Of Human Immunodeficiency Virus-1 Protease:
+          Structure-Activity Analysis Using Enzyme Kinetics,
+          X-Ray Crystallography, And Infected T-Cell Assays
+ Chain B, Hydroxyethylene Isostere Inhibitors Of Human
+          Immunodeficiency Virus-1 Protease: Structure-Activity
+          Analysis Using Enzyme Kinetics, X-Ray Crystallography,
+          And Infected T-Cell Assays
+          Length = 99
+
+ Score =  189 bits (480), Expect = 2e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIIIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|6980896|pdb|1BV9|A Chain A, Hiv-1 Protease (I84v) Complexed
+          With Xv638 Of Dupont Pharmaceuticals
+ Chain B, Hiv-1 Protease (I84v) Complexed With Xv638 Of Dupont
+          Pharmaceuticals
+          Length = 99
+
+ Score =  189 bits (480), Expect = 2e-49,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVN++GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNVIGRNLLTQIGCTLNF 99
+
+
+>gi|3114324|pdb|1AXA|A Chain A, Active-Site Mobility In Human
+          Immunodeficiency Virus Type 1 Protease As Demonstrated
+          By Crystal Structure Of A28s Mutant
+ Chain B, Active-Site Mobility In Human Immunodeficiency Virus
+          Type 1 Protease As Demonstrated By Crystal Structure Of
+          A28s Mutant
+          Length = 99
+
+ Score =  189 bits (479), Expect = 3e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TG+DDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGSDDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|126030406|pdb|2FLE|A Chain A, Structural Analysis Of
+          Asymmetric Inhibitor Bound To The Hiv-1 Protease V82a
+          Mutant
+ Chain B, Structural Analysis Of Asymmetric Inhibitor Bound To The
+          Hiv-1 Protease V82a Mutant
+          Length = 99
+
+ Score =  189 bits (479), Expect = 3e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPANIIGRNLLTQIGCTLNF 99
+
+
+>gi|66360070|pdb|1RL8|A Chain A, Crystal Structure Of The Complex
+          Of Resistant Strain Of Hiv- 1 Protease(V82a Mutant)
+          With Ritonavir
+ Chain B, Crystal Structure Of The Complex Of Resistant Strain Of
+          Hiv- 1 Protease(V82a Mutant) With Ritonavir
+          Length = 99
+
+ Score =  189 bits (479), Expect = 3e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGAWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPANIIGRNLLTQIGCTLNF 99
+
+
+>gi|231149|pdb|5HVP|A Chain A, Crystallographic Analysis Of A
+          Complex Between Human Immunodeficiency Virus Type 1
+          Protease And Acetyl- Pepstatin At 2.0-Angstroms
+          Resolution
+ Chain B, Crystallographic Analysis Of A Complex Between Human
+          Immunodeficiency Virus Type 1 Protease And Acetyl-
+          Pepstatin At 2.0-Angstroms Resolution
+ Chain A, Design, Activity And 2.8 Angstroms Crystal Structure Of
+          A C2 Symmetric Inhibitor Complexed To Hiv-1 Protease
+ Chain B, Design, Activity And 2.8 Angstroms Crystal Structure Of
+          A C2 Symmetric Inhibitor Complexed To Hiv-1 Protease
+ Chain A, X-Ray Crystal Structure Of The Hiv Protease Complex With
+          L- 700,417, An Inhibitor With Pseudo C2 Symmetry
+ Chain B, X-Ray Crystal Structure Of The Hiv Protease Complex With
+          L- 700,417, An Inhibitor With Pseudo C2 Symmetry
+ Chain A, An Orally-Bioavailable Hiv-1 Protease Inhibitor
+          Containing An Imidazole-Derived Peptide Bond
+          Replacement. Crystallographic And Pharmacokinetic
+          Analysis
+ Chain B, An Orally-Bioavailable Hiv-1 Protease Inhibitor
+          Containing An Imidazole-Derived Peptide Bond
+          Replacement. Crystallographic And Pharmacokinetic
+          Analysis
+ Chain A, Hiv-1 Protease Dimer Complexed With A-98881
+ Chain B, Hiv-1 Protease Dimer Complexed With A-98881
+ Chain A, Hiv-1 Protease In Complex With Sdz283-910
+ Chain B, Hiv-1 Protease In Complex With Sdz283-910
+ Chain A, Hiv-1 Protease Complexed With The Inhibitor HoeBAY 793
+          Orthorhombic Form
+ Chain B, Hiv-1 Protease Complexed With The Inhibitor HoeBAY 793
+          Orthorhombic Form
+ Chain A, Hiv-1 Protease Complexed With The Inhibitor HoeBAY 793
+          Hexagonal Form
+ Chain B, Hiv-1 Protease Complexed With The Inhibitor HoeBAY 793
+          Hexagonal Form
+ Chain A, Hiv-1 Protease In Complex With The Inhibitor Bea369
+ Chain B, Hiv-1 Protease In Complex With The Inhibitor Bea369
+ Chain A, Inhibitor Of Hiv Protease With Unusual Binding Mode
+          Potently Inhibiting Multi-Resistant Protease Mutants
+ Chain B, Inhibitor Of Hiv Protease With Unusual Binding Mode
+          Potently Inhibiting Multi-Resistant Protease Mutants
+ Chain A, Three-Dimensional Structure Of Aspartyl Protease From
+          Human Immunodeficiency Virus Hiv-1
+ Chain A, Crystal Structure Of Hiv-1 Protease Complexed With
+          Pl-100
+ Chain B, Crystal Structure Of Hiv-1 Protease Complexed With
+          Pl-100
+          Length = 99
+
+ Score =  188 bits (478), Expect = 3e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEM+LPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMNLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|6729844|pdb|3TLH|A Chain A, Structural Studies Of Hiv And Fiv
+          Proteases Complexed Withan Efficient Inhibitor Of Fiv
+          Pr
+ Chain A, Hiv Protease With Scripps Ab-3 Inhibitor
+ Chain A, Hiv Protease With Inhibitor Ab-2
+ Chain A, Crystal Structure Of Hiv-1 Protease (Q7k) In Complex
+          With Atazanavir
+ Chain B, Crystal Structure Of Hiv-1 Protease (Q7k) In Complex
+          With Atazanavir
+ Chain A, Crystal Structure Of Hiv-1 Protease (Q7k) In Complex
+          With Tipranavir
+ Chain B, Crystal Structure Of Hiv-1 Protease (Q7k) In Complex
+          With Tipranavir
+ Chain A, Crystal Structure Of Hiv-1 Protease (Q7k) In Complex
+          With Lopinavir
+ Chain B, Crystal Structure Of Hiv-1 Protease (Q7k) In Complex
+          With Lopinavir
+ Chain A, Crystal Structure Of The Subtype B Wild Type Hiv
+          Protease Complexed With Tl-3 Inhibitor
+          Length = 99
+
+ Score =  188 bits (478), Expect = 4e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|1942941|pdb|1TCX|A Chain A, Hiv Triple Mutant Protease
+          Complexed With Inhibitor Sb203386
+ Chain B, Hiv Triple Mutant Protease Complexed With Inhibitor
+          Sb203386
+          Length = 99
+
+ Score =  188 bits (478), Expect = 4e-49,   Method: Compositional matrix adjust.
+ Identities = 91/99 (91%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDT+LEEMSLPG WKPK++GGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTILEEMSLPGRWKPKMVGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP+NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPINIIGRNLLTQIGCTLNF 99
+
+
+>gi|168988684|pdb|2Q64|A Chain A, Hiv-1 Pr Mutant In Complex With
+          Nelfinavir
+ Chain B, Hiv-1 Pr Mutant In Complex With Nelfinavir
+          Length = 99
+
+ Score =  188 bits (478), Expect = 4e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGAD+TVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADNTVLEEMSLPGAWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|194368486|pdb|2QHC|A Chain A, The Influence Of I47a Mutation
+          On Reduced Susceptibility To The Protease Inhibitor
+          Lopinavir
+ Chain B, The Influence Of I47a Mutation On Reduced Susceptibility
+          To The Protease Inhibitor Lopinavir
+          Length = 99
+
+ Score =  188 bits (477), Expect = 4e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+ GGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMAGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|122921397|pdb|2O4L|A Chain A, Crystal Structure Of Hiv-1
+          Protease (Q7k, I50v) In Complex With Tipranavir
+ Chain B, Crystal Structure Of Hiv-1 Protease (Q7k, I50v) In
+          Complex With Tipranavir
+          Length = 99
+
+ Score =  188 bits (477), Expect = 5e-49,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGG+GGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGVGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|193506629|pdb|2Z54|A Chain A, The Influence Of I47a Mutation
+          On Reduced Susceptibility To The Protease Inhibitor
+          Lopinavir
+ Chain B, The Influence Of I47a Mutation On Reduced Susceptibility
+          To The Protease Inhibitor Lopinavir
+          Length = 99
+
+ Score =  188 bits (477), Expect = 5e-49,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+ GGIGGF+KVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMAGGIGGFVKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|6435759|pdb|1D4S|A Chain A, Hiv-1 Protease V82fI84V DOUBLE
+          MUTANTTIPRANAVIR COMPLEX
+ Chain B, Hiv-1 Protease V82fI84V DOUBLE MUTANTTIPRANAVIR COMPLEX
+          Length = 99
+
+ Score =  187 bits (476), Expect = 6e-49,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP N++GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPFNVIGRNLLTQIGCTLNF 99
+
+
+>gi|6980882|pdb|1BV7|A Chain A, Counteracting Hiv-1 Protease Drug
+          Resistance: Structural Analysis Of Mutant Proteases
+          Complexed With Xv638 And Sd146, Cyclic Urea Amides With
+          Broad Specificities
+ Chain B, Counteracting Hiv-1 Protease Drug Resistance: Structural
+          Analysis Of Mutant Proteases Complexed With Xv638 And
+          Sd146, Cyclic Urea Amides With Broad Specificities
+          Length = 99
+
+ Score =  187 bits (476), Expect = 6e-49,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPFNIIGRNLLTQIGCTLNF 99
+
+
+>gi|1421455|pdb|1DIF|A Chain A, Hiv-1 Protease In Complex With A
+          Difluoroketone Containing Inhibitor A79285
+ Chain B, Hiv-1 Protease In Complex With A Difluoroketone
+          Containing Inhibitor A79285
+ Chain A, Influence Of Stereochemistry On Activity And Binding
+          Modes For C2 Symmetry-Based Diol Inhibitors Of Hiv-1
+          Protease
+ Chain B, Influence Of Stereochemistry On Activity And Binding
+          Modes For C2 Symmetry-Based Diol Inhibitors Of Hiv-1
+          Protease
+ Chain A, Influence Of Stereochemistry On Activity And Binding
+          Modes For C2 Symmetry-Based Diol Inhibitors Of Hiv-1
+          Protease
+ Chain B, Influence Of Stereochemistry On Activity And Binding
+          Modes For C2 Symmetry-Based Diol Inhibitors Of Hiv-1
+          Protease
+ Chain A, Influence Of Stereochemistry On Activity And Binding
+          Modes For C2 Symmetry-Based Diol Inhibitors Of Hiv-1
+          Protease
+ Chain B, Influence Of Stereochemistry On Activity And Binding
+          Modes For C2 Symmetry-Based Diol Inhibitors Of Hiv-1
+          Protease
+ Chain A, Influence Of Stereochemistry On Activity And Binding
+          Modes For C2 Symmetry-Based Diol Inhibitors Of Hiv-1
+          Protease
+ Chain B, Influence Of Stereochemistry On Activity And Binding
+          Modes For C2 Symmetry-Based Diol Inhibitors Of Hiv-1
+          Protease
+ Chain A, Viracept (R) (Nelfinavir Mesylate, Ag1343): A Potent
+          Orally Bioavailable Inhibitor Of Hiv-1 Protease
+ Chain B, Viracept (R) (Nelfinavir Mesylate, Ag1343): A Potent
+          Orally Bioavailable Inhibitor Of Hiv-1 Protease
+          Length = 99
+
+ Score =  187 bits (476), Expect = 6e-49,   Method: Compositional matrix adjust.
+ Identities = 93/98 (94%), Positives = 96/98 (97%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          QITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          ILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 62 ILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|6980900|pdb|1BWA|A Chain A, Hiv-1 Protease (V82fI84V) DOUBLE
+          MUTANT COMPLEXED WITH Xv638 Of Dupont Pharmaceuticals
+ Chain B, Hiv-1 Protease (V82fI84V) DOUBLE MUTANT COMPLEXED WITH
+          Xv638 Of Dupont Pharmaceuticals
+          Length = 99
+
+ Score =  187 bits (476), Expect = 7e-49,   Method: Compositional matrix adjust.
+ Identities = 91/99 (91%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP N++GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPFNVIGRNLLTQIGCTLNF 99
+
+
+>gi|3318945|pdb|1A9M|A Chain A, G48h Mutant Of Hiv-1 Protease In
+          Complex With A Peptidic Inhibitor U-89360e
+ Chain B, G48h Mutant Of Hiv-1 Protease In Complex With A Peptidic
+          Inhibitor U-89360e
+          Length = 99
+
+ Score =  187 bits (476), Expect = 7e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+I GIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIHGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|1943546|pdb|1GNN|A Chain A, Hiv-1 Protease Mutant With Val 82
+          Replaced By Asn (V82n) Complexed With U89360e
+          (Inhibitor)
+ Chain B, Hiv-1 Protease Mutant With Val 82 Replaced By Asn (V82n)
+          Complexed With U89360e (Inhibitor)
+          Length = 99
+
+ Score =  187 bits (475), Expect = 8e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPNNIIGRNLLTQIGCTLNF 99
+
+
+>gi|1943544|pdb|1GNM|A Chain A, Hiv-1 Protease Mutant With Val 82
+          Replaced By Asp (V82d) Complexed With U89360e
+          (Inhibitor)
+ Chain B, Hiv-1 Protease Mutant With Val 82 Replaced By Asp (V82d)
+          Complexed With U89360e (Inhibitor)
+          Length = 99
+
+ Score =  187 bits (475), Expect = 8e-49,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPDNIIGRNLLTQIGCTLNF 99
+
+
+>gi|90108773|pdb|2AZ8|A Chain A, Hiv-1 Protease Nl4-3 In Complex
+          With Inhibitor, Tl-3
+ Chain A, Structure Of Hiv Protease Nl4-3 In An Unliganded State
+ Chain A, Apo Wild-Type Hiv Protease In The Open Conformation
+          Length = 99
+
+ Score =  187 bits (475), Expect = 9e-49,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTVLEEM+LPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVLEEMNLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|2098471|pdb|1ODX|A Chain A, Hiv-1 Proteinase Mutant A71t, V82a
+ Chain B, Hiv-1 Proteinase Mutant A71t, V82a
+          Length = 99
+
+ Score =  187 bits (474), Expect = 1e-48,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHK IGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKTIGTVLVGPTPANIIGRNLLTQIGCTLNF 99
+
+
+>gi|576147|pdb|1HEF|E Chain E, The Crystal Structures At 2.2
+          Angstroms Resolution Of Hydroxyethylene-Based
+          Inhibitors Bound To Human Immunodeficiency Virus Type 1
+          Protease Show That The Inhibitors Are Present In Two
+          Distinct Orientations
+ Chain E, The Crystal Structures At 2.2 Angstroms Resolution Of
+          Hydroxyethylene-Based Inhibitors Bound To Human
+          Immunodeficiency Virus Type 1 Protease Show That The
+          Inhibitors Are Present In Two Distinct Orientations
+          Length = 99
+
+ Score =  187 bits (474), Expect = 1e-48,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEE SLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEENSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|4139495|pdb|1HVH|A Chain A, Nonpeptide Cyclic Cyanoguanidines
+          As Hiv Protease Inhibitors
+ Chain B, Nonpeptide Cyclic Cyanoguanidines As Hiv Protease
+          Inhibitors
+          Length = 99
+
+ Score =  187 bits (474), Expect = 1e-48,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|21730861|pdb|1LV1|A Chain A, Crystal Structure Analysis Of The
+           Non-Active Site Mutant Of Tethered Hiv-1 Protease To
+           2.1a Resolution
+ Chain A, X-Ray Structure Of Hiv-1 Protease In Situ Product Complex
+          Length = 203
+
+ Score =  187 bits (474), Expect = 1e-48,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 96/99 (96%)
+
+Query: 1   PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+           PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 105 PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 164
+
+Query: 61  QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 165 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 203
+
+
+
+ Score =  186 bits (472), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGMTLNF 99
+
+
+>gi|3114315|pdb|1MER|A Chain A, Hiv-1 Mutant (I84v) Protease
+          Complexed With Dmp450
+ Chain B, Hiv-1 Mutant (I84v) Protease Complexed With Dmp450
+ Chain A, Hiv-1 Mutant (I84v) Protease Complexed With Dmp323
+ Chain B, Hiv-1 Mutant (I84v) Protease Complexed With Dmp323
+          Length = 99
+
+ Score =  187 bits (474), Expect = 1e-48,   Method: Compositional matrix adjust.
+ Identities = 91/98 (92%), Positives = 96/98 (97%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          Q+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          ILIEICGHKAIGTVLVGPTPVN++GRNLLTQIGCTLNF
+Sbjct: 62 ILIEICGHKAIGTVLVGPTPVNVIGRNLLTQIGCTLNF 99
+
+
+>gi|158428675|pdb|2I4U|A Chain A, Hiv-1 Protease With Tmc-126
+ Chain B, Hiv-1 Protease With Tmc-126
+ Chain A, Hiv-1 Protease Wt With Gs-8374
+ Chain B, Hiv-1 Protease Wt With Gs-8374
+ Chain A, Crystal Structure Of Wt Hiv-1 Protease With Gs-8373
+ Chain B, Crystal Structure Of Wt Hiv-1 Protease With Gs-8373
+          Length = 99
+
+ Score =  186 bits (473), Expect = 1e-48,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGMTLNF 99
+
+
+>gi|2098357|pdb|1HPO|A Chain A, Hiv-1 Protease Triple
+          MutantU103265 COMPLEX
+ Chain B, Hiv-1 Protease Triple MutantU103265 COMPLEX
+ Chain A, Hiv-1 Protease Complexed With A Tripeptide Inhibitor
+ Chain B, Hiv-1 Protease Complexed With A Tripeptide Inhibitor
+ Chain A, Crystallographic Analysis Of Human Immunodeficiency
+          Virus 1 Protease With An Analog Of The Conserved Ca-P2
+          Substrate: Interactions With Frequently Occurring
+          Glutamic Acid Residue At P2' Position Of Substrates
+ Chain B, Crystallographic Analysis Of Human Immunodeficiency
+          Virus 1 Protease With An Analog Of The Conserved Ca-P2
+          Substrate: Interactions With Frequently Occurring
+          Glutamic Acid Residue At P2' Position Of Substrates
+ Chain D, Crystallographic Analysis Of Human Immunodeficiency
+          Virus 1 Protease With An Analog Of The Conserved Ca-P2
+          Substrate: Interactions With Frequently Occurring
+          Glutamic Acid Residue At P2' Position Of Substrates
+ Chain E, Crystallographic Analysis Of Human Immunodeficiency
+          Virus 1 Protease With An Analog Of The Conserved Ca-P2
+          Substrate: Interactions With Frequently Occurring
+          Glutamic Acid Residue At P2' Position Of Substrates
+ Chain A, Hiv-1 Protease Triple MutantTIPRANAVIR COMPLEX
+ Chain B, Hiv-1 Protease Triple MutantTIPRANAVIR COMPLEX
+ Chain A, Structure Of Hiv Protease (Mutant Q7k L33i L63i)
+          Complexed With Kni-577
+ Chain B, Structure Of Hiv Protease (Mutant Q7k L33i L63i)
+          Complexed With Kni-577
+ Chain A, The Hiv Protease (Mutant Q7k L33i L63i) Complexed With
+          Kni- 764 (An Inhibitor)
+ Chain B, The Hiv Protease (Mutant Q7k L33i L63i) Complexed With
+          Kni- 764 (An Inhibitor)
+ Chain A, Crystal Structure Of Hiv Protease- Metallacarborane
+          Complex
+ Chain B, Crystal Structure Of Hiv Protease- Metallacarborane
+          Complex
+ Chain A, Crystal Structure Of Hiv-1 Protease (Q7k, L33i, L63i )
+          In Complex With Kni-10075
+ Chain B, Crystal Structure Of Hiv-1 Protease (Q7k, L33i, L63i )
+          In Complex With Kni-10075
+ Chain A, Crystal Structure Of Hiv-1 Protease (Q7k, L33i, L63i) In
+          Complex With Kni-10033
+ Chain B, Crystal Structure Of Hiv-1 Protease (Q7k, L33i, L63i) In
+          Complex With Kni-10033
+          Length = 99
+
+ Score =  186 bits (473), Expect = 1e-48,   Method: Compositional matrix adjust.
+ Identities = 91/99 (91%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIIIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|168988674|pdb|2PYM|A Chain A, Hiv-1 Pr Mutant In Complex With
+          Nelfinavir
+ Chain B, Hiv-1 Pr Mutant In Complex With Nelfinavir
+          Length = 99
+
+ Score =  186 bits (473), Expect = 1e-48,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGAD+TVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADNTVLEEMSLPGAWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GR+LLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRDLLTQIGCTLNF 99
+
+
+>gi|1421550|pdb|1HVS|A Chain A, Structural Basis Of Drug
+          Resistance For The V82a Mutant Of Hiv-1 Protease:
+          Backbone Flexibility And Subsite Repacking
+ Chain B, Structural Basis Of Drug Resistance For The V82a Mutant
+          Of Hiv-1 Protease: Backbone Flexibility And Subsite
+          Repacking
+          Length = 99
+
+ Score =  186 bits (473), Expect = 1e-48,   Method: Compositional matrix adjust.
+ Identities = 92/98 (93%), Positives = 95/98 (96%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          QITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          ILIEICGHKAIGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 62 ILIEICGHKAIGTVLVGPTPANIIGRNLLTQIGCTLNF 99
+
+
+>gi|99031740|pdb|1ZSF|A Chain A, Crystal Structure Of Complex Of A
+          Hydroxyethylamine Inhibitor With Hiv-1 Protease At 2.0a
+          Resolution
+ Chain B, Crystal Structure Of Complex Of A Hydroxyethylamine
+          Inhibitor With Hiv-1 Protease At 2.0a Resolution
+ Chain A, Crystal Structure Of Wild Type Hiv-1 Protease (Bru
+          Isolate) With A Hydroxyethylamine Peptidomimetic
+          Inhibitor Boc-Phe- Psi[s-Ch(Oh)ch2nh]-Phe-Glu-Phe-Nh2
+ Chain B, Crystal Structure Of Wild Type Hiv-1 Protease (Bru
+          Isolate) With A Hydroxyethylamine Peptidomimetic
+          Inhibitor Boc-Phe- Psi[s-Ch(Oh)ch2nh]-Phe-Glu-Phe-Nh2
+          Length = 99
+
+ Score =  186 bits (473), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 93/99 (93%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEI GHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|122920942|pdb|2NPH|A Chain A, Crystal Structure Of Hiv1
+          Protease In Situ Product Complex
+ Chain B, Crystal Structure Of Hiv1 Protease In Situ Product
+          Complex
+          Length = 99
+
+ Score =  186 bits (473), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGMTLNF 99
+
+
+>gi|168988676|pdb|2PYN|A Chain A, Hiv-1 Pr Mutant In Complex With
+          Nelfinavir
+ Chain B, Hiv-1 Pr Mutant In Complex With Nelfinavir
+          Length = 99
+
+ Score =  186 bits (472), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGAD+TVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADNTVLEEMSLPGAWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHK IGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKVIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|30749426|pdb|1LZQ|A Chain A, Crystal Structure Of The Complex
+          Of Mutant Hiv-1 Protease (A71v, V82t, I84v) With An
+          Ethylenamine Peptidomimetic Inhibitor
+          Boc-Phe-Psi[ch2ch2nh]-Phe-Glu-Phe-Nh2
+ Chain B, Crystal Structure Of The Complex Of Mutant Hiv-1
+          Protease (A71v, V82t, I84v) With An Ethylenamine
+          Peptidomimetic Inhibitor
+          Boc-Phe-Psi[ch2ch2nh]-Phe-Glu-Phe-Nh2
+ Chain A, Crystal Structure Of A Complex Of Mutant Hiv-1 Protease
+          (A71v, V82t, I84v) With A Hydroxyethylamine
+          Peptidomimetic Inhibitor
+ Chain B, Crystal Structure Of A Complex Of Mutant Hiv-1 Protease
+          (A71v, V82t, I84v) With A Hydroxyethylamine
+          Peptidomimetic Inhibitor
+ Chain A, Crystal Structure Of A Complex Of Mutant Hiv-1 Protease
+          (A71v, V82t, I84v) With A Hydroxyethylamine
+          Peptidomimetic Inhibitor
+          Boc-Phe-Psi[s-Ch(Oh)ch2nh]-Phe-Glu-Phe-Nh2
+          Length = 99
+
+ Score =  186 bits (472), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 91/99 (91%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHK IGTVLVGPTP N++GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKVIGTVLVGPTPTNVIGRNLLTQIGCTLNF 99
+
+
+>gi|168988682|pdb|2Q63|A Chain A, Hiv-1 Pr Mutant In Complex With
+          Nelfinavir
+ Chain B, Hiv-1 Pr Mutant In Complex With Nelfinavir
+ Chain A, Hiv-1 Pr Mutant In Complex With Nelfinavir
+ Chain B, Hiv-1 Pr Mutant In Complex With Nelfinavir
+          Length = 99
+
+ Score =  186 bits (472), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 91/99 (91%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGAD+TVLEEMSLPG WKPK+IGGIGGFI VRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADNTVLEEMSLPGRWKPKMIGGIGGFIAVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNL+TQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLMTQIGCTLNF 99
+
+
+>gi|2914186|pdb|1HXW|A Chain A, Hiv-1 Protease Dimer Complexed
+          With A-84538
+ Chain B, Hiv-1 Protease Dimer Complexed With A-84538
+          Length = 99
+
+ Score =  186 bits (472), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 92/98 (93%), Positives = 96/98 (97%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          QITL+QRPLVTIKIGGQLKEALL TGADDTVLEEM+LPG WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMNLPGRWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          ILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 62 ILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|12084485|pdb|1FB7|A Chain A, Crystal Structure Of An In Vivo
+          Hiv-1 Protease Mutant In Complex With Saquinavir:
+          Insights Into The Mechanisms Of Drug Resistance
+          Length = 99
+
+ Score =  186 bits (472), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 91/99 (91%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+I GIGGFIKVRQYD
+Sbjct: 1  PQVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIVGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNL+TQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLMTQIGCTLNF 99
+
+
+>gi|158428677|pdb|2I4V|A Chain A, Hiv-1 Protease I84v, L90m With
+          Tmc126
+ Chain B, Hiv-1 Protease I84v, L90m With Tmc126
+ Chain A, Hiv-1 Protease I84v, L90m With Gs-8374
+ Chain B, Hiv-1 Protease I84v, L90m With Gs-8374
+          Length = 99
+
+ Score =  186 bits (472), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 91/99 (91%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVN++GRNL+TQIG TLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNVIGRNLMTQIGMTLNF 99
+
+
+>gi|90108775|pdb|2AZ9|A Chain A, Hiv-1 Protease Nl4-3 1x Mutant
+          Length = 99
+
+ Score =  186 bits (471), Expect = 2e-48,   Method: Compositional matrix adjust.
+ Identities = 91/99 (91%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTVLEEM+LPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVLEEMNLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPANIIGRNLLTQIGCTLNF 99
+
+
+>gi|3114319|pdb|1MET|A Chain A, Hiv-1 Mutant (V82f) Protease
+          Complexed With Dmp323
+ Chain B, Hiv-1 Mutant (V82f) Protease Complexed With Dmp323
+          Length = 99
+
+ Score =  185 bits (470), Expect = 3e-48,   Method: Compositional matrix adjust.
+ Identities = 91/98 (92%), Positives = 95/98 (96%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          Q+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          ILIEICGHKAIGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 62 ILIEICGHKAIGTVLVGPTPFNIIGRNLLTQIGCTLNF 99
+
+
+>gi|3114321|pdb|1MEU|A Chain A, Hiv-1 Mutant (V82f, I84v) Protease
+          Complexed With Dmp323
+ Chain B, Hiv-1 Mutant (V82f, I84v) Protease Complexed With Dmp323
+ Chain A, Hiv-1 Protease (V82fI84V) DOUBLE MUTANT COMPLEXED WITH
+          Sd146 Of Dupont Pharmaceuticals
+ Chain B, Hiv-1 Protease (V82fI84V) DOUBLE MUTANT COMPLEXED WITH
+          Sd146 Of Dupont Pharmaceuticals
+          Length = 99
+
+ Score =  185 bits (469), Expect = 4e-48,   Method: Compositional matrix adjust.
+ Identities = 90/98 (91%), Positives = 95/98 (96%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          Q+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          ILIEICGHKAIGTVLVGPTP N++GRNLLTQIGCTLNF
+Sbjct: 62 ILIEICGHKAIGTVLVGPTPFNVIGRNLLTQIGCTLNF 99
+
+
+>gi|146387074|pdb|2P3B|B Chain B, Crystal Structure Of The Subtype
+          B Wild Type Hiv Protease Complexed With Tl-3 Inhibitor
+          Length = 99
+
+ Score =  185 bits (469), Expect = 4e-48,   Method: Compositional matrix adjust.
+ Identities = 92/99 (92%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEI GHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|28373793|pdb|1MTB|A Chain A, Viability Of A Drug-Resistant
+          Hiv-1 Protease Mutant: Structural Insights For Better
+          Antiviral Therapy
+ Chain B, Viability Of A Drug-Resistant Hiv-1 Protease Mutant:
+          Structural Insights For Better Antiviral Therapy
+          Length = 99
+
+ Score =  184 bits (468), Expect = 5e-48,   Method: Compositional matrix adjust.
+ Identities = 90/99 (90%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIRIGGQLKEALLNTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPVEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|27573665|pdb|1IZI|A Chain A, Inhibitor Of Hiv Protease With
+          Unusual Binding Mode Potently Inhibiting
+          Multi-Resistant Protease Mutants
+ Chain B, Inhibitor Of Hiv Protease With Unusual Binding Mode
+          Potently Inhibiting Multi-Resistant Protease Mutants
+          Length = 99
+
+ Score =  184 bits (468), Expect = 6e-48,   Method: Compositional matrix adjust.
+ Identities = 90/99 (90%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEM+LPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMNLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHK IGTVLVGPTP N++GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKVIGTVLVGPTPTNVIGRNLLTQIGCTLNF 99
+
+
+>gi|38492434|pdb|1MRX|A Chain A, Structure Of Hiv Protease (Mutant
+          Q7k L33i L63i V82f I84v ) Complexed With Kni-577
+ Chain B, Structure Of Hiv Protease (Mutant Q7k L33i L63i V82f
+          I84v ) Complexed With Kni-577
+ Chain A, The Hiv Protease (Mutant Q7k L33i L63i V82f I84v)
+          Complexed With Kni-764 (An Inhibitor)
+ Chain B, The Hiv Protease (Mutant Q7k L33i L63i V82f I84v)
+          Complexed With Kni-764 (An Inhibitor)
+          Length = 99
+
+ Score =  184 bits (468), Expect = 6e-48,   Method: Compositional matrix adjust.
+ Identities = 89/99 (89%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEICGHKAIGTVLVGPTP N++GRNLLTQIGCTLNF
+Sbjct: 61 QIIIEICGHKAIGTVLVGPTPFNVIGRNLLTQIGCTLNF 99
+
+
+>gi|1421543|pdb|1HVR|A Chain A, Rational Design Of Potent,
+          Bioavailable, Nonpeptide Cyclic Ureas As Hiv Protease
+          Inhibitors
+ Chain B, Rational Design Of Potent, Bioavailable, Nonpeptide
+          Cyclic Ureas As Hiv Protease Inhibitors
+ Chain A, Hiv-1 Protease-Dmp323 Complex In Solution, Nmr Minimized
+          Average Structure
+ Chain B, Hiv-1 Protease-Dmp323 Complex In Solution, Nmr Minimized
+          Average Structure
+ Chain A, Hiv-1 Protease-Dmp323 Complex In Solution, Nmr, 28
+          Structures
+ Chain B, Hiv-1 Protease-Dmp323 Complex In Solution, Nmr, 28
+          Structures
+ Chain A, Hiv-1 Protease Inhibitors Wiih Low Nanomolar Potency
+ Chain B, Hiv-1 Protease Inhibitors Wiih Low Nanomolar Potency
+ Chain A, Hiv-1 Protease Inhibitors Wiih Low Nanomolar Potency
+ Chain B, Hiv-1 Protease Inhibitors Wiih Low Nanomolar Potency
+ Chain A, Hiv-1 Protease Inhibitors Wiih Low Nanomolar Potency
+ Chain B, Hiv-1 Protease Inhibitors Wiih Low Nanomolar Potency
+ Chain A, Molecular Recognition Of Cyclic Urea Hiv Protease
+          Inhibitors
+ Chain B, Molecular Recognition Of Cyclic Urea Hiv Protease
+          Inhibitors
+          Length = 99
+
+ Score =  184 bits (468), Expect = 6e-48,   Method: Compositional matrix adjust.
+ Identities = 91/98 (92%), Positives = 95/98 (96%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          Q+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          ILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 62 ILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|2624873|pdb|1AID|A Chain A, Structure Of A Non-Peptide
+          Inhibitor Complexed With Hiv-1 Protease: Developing A
+          Cycle Of Structure-Based Drug Design
+ Chain B, Structure Of A Non-Peptide Inhibitor Complexed With
+          Hiv-1 Protease: Developing A Cycle Of Structure-Based
+          Drug Design
+          Length = 99
+
+ Score =  184 bits (467), Expect = 6e-48,   Method: Compositional matrix adjust.
+ Identities = 90/99 (90%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIRIGGQLKEALLDTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPVEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|158429165|pdb|2NXD|A Chain A, Structure Of Hiv-1 Protease D25n
+          Complexed With Rt-Rh Analogue Peptide
+          Gly-Ala-Asp-Ile-PheTyr-Leu-Asp-Gly-Ala
+ Chain B, Structure Of Hiv-1 Protease D25n Complexed With Rt-Rh
+          Analogue Peptide Gly-Ala-Asp-Ile-PheTyr-Leu-Asp-Gly-Ala
+ Chain A, Structure Of Hiv-1 Protease D25n Complexed With The
+          Rt-Rh Analogue Peptide
+          Gly-Ala-Glu-Val-PheTyr-Val-Asp-Gly-Ala
+ Chain B, Structure Of Hiv-1 Protease D25n Complexed With The
+          Rt-Rh Analogue Peptide
+          Gly-Ala-Glu-Val-PheTyr-Val-Asp-Gly-Ala
+ Chain A, Structure Of Hiv-1 Protease D25n Complexed With The
+          Rt-Rh Analogue Peptide
+          Gly-Ala-Gln-Thr-PheTyr-Val-Asp-Gly-Ala
+ Chain B, Structure Of Hiv-1 Protease D25n Complexed With The
+          Rt-Rh Analogue Peptide
+          Gly-Ala-Gln-Thr-PheTyr-Val-Asp-Gly-Ala
+          Length = 99
+
+ Score =  183 bits (465), Expect = 1e-47,   Method: Compositional matrix adjust.
+ Identities = 90/99 (90%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLNTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI IEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|119389416|pdb|2F3K|A Chain A, Substrate Envelope And Drug
+          Resistance: Crystal Structure Of R01 In Complex With
+          Wild-Type Hiv-1 Protease
+ Chain B, Substrate Envelope And Drug Resistance: Crystal
+          Structure Of R01 In Complex With Wild-Type Hiv-1
+          Protease
+ Chain A, Crystal Structure Of Kb-19 Complexed With Wild Type
+          Hiv-1 Protease
+ Chain B, Crystal Structure Of Kb-19 Complexed With Wild Type
+          Hiv-1 Protease
+ Chain A, Crystal Structure Of Ad-81 Complexed With Wild Type
+          Hiv-1 Protease
+ Chain B, Crystal Structure Of Ad-81 Complexed With Wild Type
+          Hiv-1 Protease
+ Chain A, Crystal Structure Of Wild Type Hiv-1 Protease In Complex
+          With Carb-Ad37
+ Chain B, Crystal Structure Of Wild Type Hiv-1 Protease In Complex
+          With Carb-Ad37
+ Chain A, Crystal Structure Of Wild Type Hiv-1 Protease In Complex
+          With Carb-Kb45
+ Chain B, Crystal Structure Of Wild Type Hiv-1 Protease In Complex
+          With Carb-Kb45
+ Chain A, Crystal Structure Of Kb73 Bound To Hiv-1 Protease
+ Chain B, Crystal Structure Of Kb73 Bound To Hiv-1 Protease
+ Chain A, Crystal Structure Of Kk44 Bound To Hiv-1 Protease
+ Chain B, Crystal Structure Of Kk44 Bound To Hiv-1 Protease
+ Chain A, Crystal Structure Of Lopinavir Bound To Wild Type Hiv-1
+          Protease
+ Chain B, Crystal Structure Of Lopinavir Bound To Wild Type Hiv-1
+          Protease
+ Chain A, Crystal Structure Of Lysine Sulfonamide Inhibitor
+          Reveals The Displacement Of The Conserved Flap Water
+          Molecule In Hiv-1 Protease
+ Chain B, Crystal Structure Of Lysine Sulfonamide Inhibitor
+          Reveals The Displacement Of The Conserved Flap Water
+          Molecule In Hiv-1 Protease
+ Chain A, Crystal Structure Of Protease Inhibitor, Mit-1-Ac86 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain B, Crystal Structure Of Protease Inhibitor, Mit-1-Ac86 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain A, Crystal Structure Of Protease Inhibitor, Mit-1-Ac87 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain B, Crystal Structure Of Protease Inhibitor, Mit-1-Ac87 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain A, Crystal Structure Of Protease Inhibitor, Mit-1-Kk80 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain B, Crystal Structure Of Protease Inhibitor, Mit-1-Kk80 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain A, Crystal Structure Of Protease Inhibitor, Mit-1-Kk81 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain B, Crystal Structure Of Protease Inhibitor, Mit-1-Kk81 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain A, Crystal Structure Of Protease Inhibitor, Mit-2-Ad94 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain B, Crystal Structure Of Protease Inhibitor, Mit-2-Ad94 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain A, Crystal Structure Of Protease Inhibitor, Mit-2-Ad93 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain B, Crystal Structure Of Protease Inhibitor, Mit-2-Ad93 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain A, Crystal Structure Of Protease Inhibitor, Mit-2-Kc08 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain B, Crystal Structure Of Protease Inhibitor, Mit-2-Kc08 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain A, Crystal Structure Of Protease Inhibitor, Mit-2-Kb98 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain B, Crystal Structure Of Protease Inhibitor, Mit-2-Kb98 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain A, Crystal Structure Of Protease Inhibitor, Mit-2-Ad86 In
+          Complex With Wild Type Hiv-1 Protease
+ Chain B, Crystal Structure Of Protease Inhibitor, Mit-2-Ad86 In
+          Complex With Wild Type Hiv-1 Protease
+          Length = 99
+
+ Score =  183 bits (465), Expect = 1e-47,   Method: Compositional matrix adjust.
+ Identities = 90/99 (90%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLDTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI IEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|14719532|pdb|1F7A|A Chain A, How Does A Symmetric Dimer
+          Recognize An Asymmetric Substrate? A Substrate Complex
+          Of Hiv-1 Protease.
+ Chain B, How Does A Symmetric Dimer Recognize An Asymmetric
+          Substrate? A Substrate Complex Of Hiv-1 Protease.
+ Chain A, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain B, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain C, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain D, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain A, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain B, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain A, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain B, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain A, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain B, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain A, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain B, Substrate Shape Determines Specificity Of Recognition
+          Recognition For Hiv-1 Protease: Analysis Of Crystal
+          Structures Of Six Substrate Complexes
+ Chain A, Crystal Structure Of Decamer Ncp1 Substrate Peptide In
+          Complex With Wild-Type D25n Hiv-1 Protease Variant
+ Chain B, Crystal Structure Of Decamer Ncp1 Substrate Peptide In
+          Complex With Wild-Type D25n Hiv-1 Protease Variant
+ Chain A, Crystal Structure Of Wild-Type Inactive (D25n) Hiv-1
+          Protease Complexed With Wild-Type Hiv-1 Nc-P1
+          Substrate.
+ Chain B, Crystal Structure Of Wild-Type Inactive (D25n) Hiv-1
+          Protease Complexed With Wild-Type Hiv-1 Nc-P1 Substrate
+          Length = 99
+
+ Score =  183 bits (465), Expect = 1e-47,   Method: Compositional matrix adjust.
+ Identities = 89/99 (89%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLNTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPVEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|1942083|pdb|1YTG|A Chain A, Siv Protease Crystallized With
+          Peptide Product
+ Chain B, Siv Protease Crystallized With Peptide Product
+ Chain A, Siv Protease Crystallized With Peptide Product
+ Chain B, Siv Protease Crystallized With Peptide Product
+ Chain A, Structure Of A Non-Peptide Inhibitor Complexed With
+          Hiv-1 Protease: Developing A Cycle Of Structure-Based
+          Drug Design
+ Chain B, Structure Of A Non-Peptide Inhibitor Complexed With
+          Hiv-1 Protease: Developing A Cycle Of Structure-Based
+          Drug Design
+ Chain A, Hiv Protease Wild-Type In Complex With Tmc114 Inhibitor
+ Chain B, Hiv Protease Wild-Type In Complex With Tmc114 Inhibitor
+ Chain A, Je-2147-Hiv Protease Complex
+ Chain B, Je-2147-Hiv Protease Complex
+          Length = 99
+
+ Score =  183 bits (464), Expect = 2e-47,   Method: Compositional matrix adjust.
+ Identities = 89/99 (89%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLDTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPVEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|99031669|pdb|1ZBG|A Chain A, Crystal Structure Of A Complex Of
+          Mutant Hiv-1 Protease (A71v, V82t, I84v) With A
+          Hydroxyethylamine Peptidomimetic Inhibitor
+          Boc-Phe-Psi[r-Ch(Oh)ch2nh]-Phe-Glu-Phe-Nh2
+ Chain B, Crystal Structure Of A Complex Of Mutant Hiv-1 Protease
+          (A71v, V82t, I84v) With A Hydroxyethylamine
+          Peptidomimetic Inhibitor
+          Boc-Phe-Psi[r-Ch(Oh)ch2nh]-Phe-Glu-Phe-Nh2
+ Chain A, Crystal Structure Of The Complex Of Mutant Hiv-1
+          Protease (A71v, V82t, I84v) With A Hydroxyethylamine
+          Peptidomimetic Inhibitor
+          Boc-Phe-Psi[r-Ch(Oh)ch2nh]-Phe-Glu-Phe-Nh2
+ Chain B, Crystal Structure Of The Complex Of Mutant Hiv-1
+          Protease (A71v, V82t, I84v) With A Hydroxyethylamine
+          Peptidomimetic Inhibitor
+          Boc-Phe-Psi[r-Ch(Oh)ch2nh]-Phe-Glu-Phe-Nh2
+          Length = 99
+
+ Score =  182 bits (463), Expect = 2e-47,   Method: Compositional matrix adjust.
+ Identities = 90/99 (90%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEI GHK IGTVLVGPTP N++GRNLLTQIGCTLNF
+Sbjct: 61 QILIEIXGHKVIGTVLVGPTPTNVIGRNLLTQIGCTLNF 99
+
+
+>gi|28373784|pdb|1MT7|A Chain A, Viability Of A Drug-Resistant
+          Hiv-1 Protease Mutant: Structural Insights For Better
+          Antiviral Therapy
+ Chain B, Viability Of A Drug-Resistant Hiv-1 Protease Mutant:
+          Structural Insights For Better Antiviral Therapy
+ Chain A, Viability Of A Drug-Resistant Hiv-1 Protease Mutant:
+          Structural Insights For Better Antiviral Therapy
+ Chain B, Viability Of A Drug-Resistant Hiv-1 Protease Mutant:
+          Structural Insights For Better Antiviral Therapy
+ Chain A, Viability Of A Drug-Resistant Hiv-1 Protease Mutant:
+          Structural Insights For Better Antiviral Therapy
+ Chain B, Viability Of A Drug-Resistant Hiv-1 Protease Mutant:
+          Structural Insights For Better Antiviral Therapy
+ Chain A, Viability Of A Drug-Resistant Hiv-1 Protease Variant:
+          Structural Insights For Better Anti-Viral Therapy
+ Chain B, Viability Of A Drug-Resistant Hiv-1 Protease Variant:
+          Structural Insights For Better Anti-Viral Therapy
+ Chain C, Viability Of A Drug-Resistant Hiv-1 Protease Variant:
+          Structural Insights For Better Anti-Viral Therapy
+ Chain D, Viability Of A Drug-Resistant Hiv-1 Protease Variant:
+          Structural Insights For Better Anti-Viral Therapy
+ Chain A, Crystal Structure Of Ap2v Substrate Variant Of Nc-P1
+          Decamer Peptide In Complex With V82aD25N HIV-1 Protease
+          Mutant
+ Chain B, Crystal Structure Of Ap2v Substrate Variant Of Nc-P1
+          Decamer Peptide In Complex With V82aD25N HIV-1 Protease
+          Mutant
+ Chain A, Crystal Structure Of A Drug-Resistant (V82a) Inactive
+          (D25n) Hiv-1 Protease Complexed With Ap2v Variant Of
+          Hiv-1 Nc-P1 Substrate.
+ Chain B, Crystal Structure Of A Drug-Resistant (V82a) Inactive
+          (D25n) Hiv-1 Protease Complexed With Ap2v Variant Of
+          Hiv-1 Nc-P1 Substrate
+          Length = 99
+
+ Score =  182 bits (462), Expect = 3e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLNTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EICGHKAIGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPVEICGHKAIGTVLVGPTPANIIGRNLLTQIGCTLNF 99
+
+
+>gi|119389478|pdb|2FGU|A Chain A, X-Ray Crystal Structure Of Hiv-1
+          Protease T80s Variant In Complex With The Inhibitor
+          Saquinavir Used To Explore The Role Of Invariant Thr80
+          In Hiv-1 Protease Structure, Function, And Viral
+          Infectivity.
+ Chain B, X-Ray Crystal Structure Of Hiv-1 Protease T80s Variant
+          In Complex With The Inhibitor Saquinavir Used To
+          Explore The Role Of Invariant Thr80 In Hiv-1 Protease
+          Structure, Function, And Viral Infectivity
+          Length = 99
+
+ Score =  182 bits (462), Expect = 3e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLDTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EICGHKAIGTVLVGP+PVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPVEICGHKAIGTVLVGPSPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|116667812|pdb|2HS2|A Chain A, Crystal Structure Of M46l Mutant
+          Of Hiv-1 Protease Complexed With Tmc114 (Darunavir)
+ Chain B, Crystal Structure Of M46l Mutant Of Hiv-1 Protease
+          Complexed With Tmc114 (Darunavir)
+          Length = 99
+
+ Score =  182 bits (462), Expect = 3e-47,   Method: Compositional matrix adjust.
+ Identities = 90/99 (90%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPKLIGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKLIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|171849052|pdb|3BVA|A Chain A, Cystal Structure Of Hiv-1 Active
+          Site Mutant D25n And P2-Nc Analog Inhibitor
+ Chain B, Cystal Structure Of Hiv-1 Active Site Mutant D25n And
+          P2-Nc Analog Inhibitor
+ Chain A, Cystal Structure Of Hiv-1 Active Site Mutant D25n And
+          Inhibitor Darunavir
+ Chain B, Cystal Structure Of Hiv-1 Active Site Mutant D25n And
+          Inhibitor Darunavir
+          Length = 99
+
+ Score =  182 bits (462), Expect = 3e-47,   Method: Compositional matrix adjust.
+ Identities = 89/99 (89%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLNTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|14488620|pdb|1FGC|C Chain C, Structural Implications Of Drug
+          Resistant Mutants Of Hiv-1 Protease: High Resolution
+          Crystal Structures Of The Mutant ProteaseSUBSTRATE
+          ANALOG COMPLEXES
+ Chain D, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease: High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES
+ Chain A, Crystal Structures Of Hiv Protease V82a And L90m Mutants
+          Reveal Changes In Indinavir Binding Site.
+ Chain B, Crystal Structures Of Hiv Protease V82a And L90m Mutants
+          Reveal Changes In Indinavir Binding Site.
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease With A
+          Substrate Analog P2-Nc
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease With A
+          Substrate Analog P2-Nc
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease With A
+          Substrate Analog P1-P6
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease With A
+          Substrate Analog P1-P6
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease With A
+          Substrate Analog P6-Pr
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease With A
+          Substrate Analog P6-Pr
+ Chain A, Wild-Type Hiv-1 Protease In Complex With Potent
+          Inhibitor Grl06579
+ Chain B, Wild-Type Hiv-1 Protease In Complex With Potent
+          Inhibitor Grl06579
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease With A
+          Potent Non-Peptide Inhibitor (Uic-94017)
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease With A
+          Potent Non-Peptide Inhibitor (Uic-94017)
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease With A
+          Inhibitor Saquinavir
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease With A
+          Inhibitor Saquinavir
+ Chain A, Hiv-1 Protease Complexed With Gem-Diol-Amine Tetrahedral
+          Intermediate Nlltqi
+ Chain B, Hiv-1 Protease Complexed With Gem-Diol-Amine Tetrahedral
+          Intermediate Nlltqi
+ Chain A, Wild Type Hiv-1 Protease With Potent Antiviral Inhibitor
+          Grl-98065
+ Chain B, Wild Type Hiv-1 Protease With Potent Antiviral Inhibitor
+          Grl-98065
+ Chain A, Wild Type Hiv-1 Protease With Potent Antiviral Inhibitor
+          Grl-0255a
+ Chain B, Wild Type Hiv-1 Protease With Potent Antiviral Inhibitor
+          Grl-0255a
+ Chain A, Structure Of Hiv-1 Protease In Complex With Potent
+          Inhibitor Kni-272 Determined By High Resolution X-Ray
+          Crystallography
+ Chain B, Structure Of Hiv-1 Protease In Complex With Potent
+          Inhibitor Kni-272 Determined By High Resolution X-Ray
+          Crystallography
+ Chain A, Wild Type Hiv-1 Protease With Potent Antiviral Inhibitor
+          Grl-0105a
+ Chain B, Wild Type Hiv-1 Protease With Potent Antiviral Inhibitor
+          Grl-0105a
+ Chain A, Crystal Structure Of Wild Type Hiv-1 Protease With Novel
+          P1'-Ligand Grl-02031
+ Chain B, Crystal Structure Of Wild Type Hiv-1 Protease With Novel
+          P1'-Ligand Grl-02031
+          Length = 99
+
+ Score =  182 bits (461), Expect = 3e-47,   Method: Compositional matrix adjust.
+ Identities = 89/99 (89%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|9955095|pdb|1DW6|C Chain C, Structural And Kinetic Analysis Of
+          Drug Resistant Mutants Of Hiv-1 Protease
+ Chain D, Structural And Kinetic Analysis Of Drug Resistant
+          Mutants Of Hiv-1 Protease
+ Chain C, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease: High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES
+ Chain D, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease: High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES
+ Chain A, Crystal Structures Of Hiv Protease V82a And L90m Mutants
+          Reveal Changes In Indinavir Binding Site.
+ Chain B, Crystal Structures Of Hiv Protease V82a And L90m Mutants
+          Reveal Changes In Indinavir Binding Site.
+ Chain A, Hiv-1 Protease Mutant L90m Complexed With Inhibitor
+          Tmc114
+ Chain B, Hiv-1 Protease Mutant L90m Complexed With Inhibitor
+          Tmc114
+          Length = 99
+
+ Score =  181 bits (460), Expect = 4e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNL+TQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLMTQIGATLNF 99
+
+
+>gi|163311028|pdb|3B80|A Chain A, Hiv-1 Protease Mutant I54v
+          Complexed With Gem-Diol-Amine Intermediate Nlltqi
+ Chain B, Hiv-1 Protease Mutant I54v Complexed With Gem-Diol-Amine
+          Intermediate Nlltqi
+ Chain A, Crystal Structure Of Hiv-1 Mutant I54v And Inhibitor
+          Saquina
+ Chain B, Crystal Structure Of Hiv-1 Mutant I54v And Inhibitor
+          Saquina
+ Chain A, Crystal Structure Of Hiv-1 Mutant I54v And Inhibitor
+          Darunavia
+ Chain B, Crystal Structure Of Hiv-1 Mutant I54v And Inhibitor
+          Darunavia
+          Length = 99
+
+ Score =  181 bits (460), Expect = 5e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGF+KVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFVKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|88192086|pdb|2AOC|A Chain A, Crystal Structure Analysis Of
+          Hiv-1 Protease Mutant I84v With A Substrate Analog
+          P2-Nc
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant I84v
+          With A Substrate Analog P2-Nc
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease Mutant I84v
+          With A Potent Non-Peptide Inhibitor (Uic-94017)
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant I84v
+          With A Potent Non-Peptide Inhibitor (Uic-94017)
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease Mutant I84v
+          With A Inhibitor Saquinavir
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant I84v
+          With A Inhibitor Saquinavir
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease Mutant I84v
+          With A Inhibitor Saquinavir
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant I84v
+          With A Inhibitor Saquinavir
+ Chain A, Hiv-1 Protease Mutant I84v With Potent Antiviral
+          Inhibitor Grl-98065
+ Chain B, Hiv-1 Protease Mutant I84v With Potent Antiviral
+          Inhibitor Grl-98065
+          Length = 99
+
+ Score =  181 bits (460), Expect = 5e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVN++GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNVIGRNLLTQIGATLNF 99
+
+
+>gi|88192162|pdb|2AVQ|A Chain A, Kinetics, Stability, And
+          Structural Changes In High Resolution Crystal
+          Structures Of Hiv-1 Protease With Drug Resistant
+          Mutations L24i, I50v, And G73s
+ Chain B, Kinetics, Stability, And Structural Changes In High
+          Resolution Crystal Structures Of Hiv-1 Protease With
+          Drug Resistant Mutations L24i, I50v, And G73s
+ Chain A, Kinetics, Stability, And Structural Changes In High
+          Resolution Crystal Structures Of Hiv-1 Protease With
+          Drug Resistant Mutations L24i, I50v, And G73s
+ Chain B, Kinetics, Stability, And Structural Changes In High
+          Resolution Crystal Structures Of Hiv-1 Protease With
+          Drug Resistant Mutations L24i, I50v, And G73s
+ Chain A, Hiv-1 Protease Mutant I50v Complexed With Inhibitor
+          Tmc114
+ Chain B, Hiv-1 Protease Mutant I50v Complexed With Inhibitor
+          Tmc114
+ Chain A, Hiv-1 Protease Mutant I50v With Potent Antiviral
+          Inhibitor Grl-98065
+ Chain B, Hiv-1 Protease Mutant I50v With Potent Antiviral
+          Inhibitor Grl-98065
+ Chain A, Crystal Structure Of Hiv-1 Mutant I50v And Inhibitor
+          Saquinavira
+ Chain B, Crystal Structure Of Hiv-1 Mutant I50v And Inhibitor
+          Saquinavira
+          Length = 99
+
+ Score =  181 bits (460), Expect = 5e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGG+GGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGVGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|18655473|pdb|1K6C|A Chain A, Lack Of Synergy For Inhibitors
+          Targeting A Multi-Drug Resistant Hiv-1 Protease
+ Chain B, Lack Of Synergy For Inhibitors Targeting A Multi-Drug
+          Resistant Hiv-1 Protease
+ Chain A, Lack Of Synergy For Inhibitors Targeting A Multi-Drug
+          Resistant Hiv-1 Protease
+ Chain B, Lack Of Synergy For Inhibitors Targeting A Multi-Drug
+          Resistant Hiv-1 Protease
+ Chain A, Lack Of Synergy For Inhibitors Targeting A Multi-Drug
+          Resistant Hiv-1 Protease
+ Chain B, Lack Of Synergy For Inhibitors Targeting A Multi-Drug
+          Resistant Hiv-1 Protease
+ Chain A, Lack Of Synergy For Inhibitors Targeting A Multi-Drug
+          Resistant Hiv-1 Protease
+ Chain B, Lack Of Synergy For Inhibitors Targeting A Multi-Drug
+          Resistant Hiv-1 Protease
+ Chain A, The Structural And Thermodynamic Basis For The Binding
+          Of Tmc114, A Next-Generation Hiv-1 Protease Inhibitor.
+ Chain B, The Structural And Thermodynamic Basis For The Binding
+          Of Tmc114, A Next-Generation Hiv-1 Protease Inhibitor.
+ Chain A, Crystal Structure Of Inhibitor Amprenavir In Complex
+          With A Multi-Drug Resistant Variant Of Hiv-1 Protease
+          (L63pV82TI84V)
+ Chain B, Crystal Structure Of Inhibitor Amprenavir In Complex
+          With A Multi-Drug Resistant Variant Of Hiv-1 Protease
+          (L63pV82TI84V)
+          Length = 99
+
+ Score =  181 bits (460), Expect = 5e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTVLEEM+LPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLDTGADDTVLEEMNLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI IEICGHKAIGTVLVGPTP N++GRNLLTQIGCTLNF
+Sbjct: 61 QIPIEICGHKAIGTVLVGPTPTNVIGRNLLTQIGCTLNF 99
+
+
+>gi|2624506|pdb|1DMP|A Chain A, Structure Of Hiv-1 Protease
+          Complex
+ Chain B, Structure Of Hiv-1 Protease Complex
+ Chain A, Hiv-1 Protease Inhibitors Wiih Low Nanomolar Potency
+ Chain B, Hiv-1 Protease Inhibitors Wiih Low Nanomolar Potency
+          Length = 99
+
+ Score =  181 bits (460), Expect = 5e-47,   Method: Compositional matrix adjust.
+ Identities = 90/98 (91%), Positives = 94/98 (95%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          Q+TL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QVTLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          ILIEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 62 ILIEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|119389480|pdb|2FGV|A Chain A, X-Ray Crystal Structure Of Hiv-1
+          Protease T80n Variant In Complex With The Inhibitor
+          Saquinavir Used To Explore The Role Of Invariant Thr80
+          In Hiv-1 Protease Structure, Function, And Viral
+          Infectivity.
+ Chain B, X-Ray Crystal Structure Of Hiv-1 Protease T80n Variant
+          In Complex With The Inhibitor Saquinavir Used To
+          Explore The Role Of Invariant Thr80 In Hiv-1 Protease
+          Structure, Function, And Viral Infectivity
+          Length = 99
+
+ Score =  181 bits (460), Expect = 5e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLDTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EICGHKAIGTVLVGP PVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPVEICGHKAIGTVLVGPNPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|116667810|pdb|2HS1|A Chain A, Ultra-High Resolution X-Ray
+          Crystal Structure Of Hiv-1 Protease V32i Mutant With
+          Tmc114 (Darunavir) Inhibitor
+ Chain B, Ultra-High Resolution X-Ray Crystal Structure Of Hiv-1
+          Protease V32i Mutant With Tmc114 (Darunavir) Inhibitor
+          Length = 99
+
+ Score =  181 bits (459), Expect = 6e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDT++EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTIIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|189096255|pdb|3D1Z|A Chain A, Crystal Structure Of Hiv-1
+          Mutant I54m And Inhibitor Darunavir
+ Chain B, Crystal Structure Of Hiv-1 Mutant I54m And Inhibitor
+          Darunavir
+ Chain A, Crystal Structure Of Hiv-1 Mutant I54m And Inhibitor
+          Saquinavir
+ Chain B, Crystal Structure Of Hiv-1 Mutant I54m And Inhibitor
+          Saquinavir
+          Length = 99
+
+ Score =  181 bits (459), Expect = 6e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGF+KVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFMKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|88192157|pdb|2AVM|A Chain A, Kinetics, Stability, And
+          Structural Changes In High Resolution Crystal
+          Structures Of Hiv-1 Protease With Drug Resistant
+          Mutations L24i, I50v, And G73s
+ Chain B, Kinetics, Stability, And Structural Changes In High
+          Resolution Crystal Structures Of Hiv-1 Protease With
+          Drug Resistant Mutations L24i, I50v, And G73s
+ Chain A, Kinetics, Stability, And Structural Changes In High
+          Resolution Crystal Structures Of Hiv-1 Protease With
+          Drug Resistant Mutations L24i, I50v, And G73s
+ Chain B, Kinetics, Stability, And Structural Changes In High
+          Resolution Crystal Structures Of Hiv-1 Protease With
+          Drug Resistant Mutations L24i, I50v, And G73s
+          Length = 99
+
+ Score =  181 bits (459), Expect = 7e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEAL+ TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALIDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|49258965|pdb|1SDV|A Chain A, Crystal Structures Of Hiv
+          Protease V82a And L90m Mutants Reveal Changes In
+          Indinavir Binding Site.
+ Chain B, Crystal Structures Of Hiv Protease V82a And L90m Mutants
+          Reveal Changes In Indinavir Binding Site.
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Substrate Analog Ca-P2
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Substrate Analog Ca-P2
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Substrate Analog P1-P6
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Substrate Analog P1-P6
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Substrate Analog P2-Nc
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Substrate Analog P2-Nc
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Substrate Analog P6-Pr
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Substrate Analog P6-Pr
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Potent Non-Peptide Inhibitor (Uic-94017)
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Potent Non-Peptide Inhibitor (Uic-94017)
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Inhibitor Saquinavir
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Inhibitor Saquinavir
+ Chain A, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Inhibitor Saquinavir
+ Chain B, Crystal Structure Analysis Of Hiv-1 Protease Mutant V82a
+          With A Inhibitor Saquinavir
+ Chain A, Hiv-1 Protease Mutant V82a With Potent Antiviral
+          Inhibitor Grl-98065
+ Chain B, Hiv-1 Protease Mutant V82a With Potent Antiviral
+          Inhibitor Grl-98065
+          Length = 99
+
+ Score =  181 bits (458), Expect = 8e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTP NI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPANIIGRNLLTQIGATLNF 99
+
+
+>gi|88192169|pdb|2AVV|A Chain A, Kinetics, Stability, And
+          Structural Changes In High Resolution Crystal
+          Structures Of Hiv-1 Protease With Drug Resistant
+          Mutations L24i, I50v, And G73s
+ Chain B, Kinetics, Stability, And Structural Changes In High
+          Resolution Crystal Structures Of Hiv-1 Protease With
+          Drug Resistant Mutations L24i, I50v, And G73s
+ Chain D, Kinetics, Stability, And Structural Changes In High
+          Resolution Crystal Structures Of Hiv-1 Protease With
+          Drug Resistant Mutations L24i, I50v, And G73s
+ Chain E, Kinetics, Stability, And Structural Changes In High
+          Resolution Crystal Structures Of Hiv-1 Protease With
+          Drug Resistant Mutations L24i, I50v, And G73s
+          Length = 99
+
+ Score =  181 bits (458), Expect = 8e-47,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAI TVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAISTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|2554747|pdb|3AID|A Chain A, A New Class Of Hiv-1 Protease
+          Inhibitor: The Crystallographic Structure, Inhibition
+          And Chemical Synthesis Of An Aminimide Peptide Isostere
+          Length = 99
+
+ Score =  180 bits (457), Expect = 9e-47,   Method: Compositional matrix adjust.
+ Identities = 88/98 (89%), Positives = 96/98 (97%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          QITL++RPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QITLWKRPLVTIRIGGQLKEALLDTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          I +EICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 62 IPVEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|193885421|pdb|3D3T|A Chain A, Crystal Structure Of Hiv-1
+          Crf01_ae In Complex With The Substrate P1-P6
+ Chain B, Crystal Structure Of Hiv-1 Crf01_ae In Complex With The
+          Substrate P1-P6
+          Length = 99
+
+ Score =  180 bits (457), Expect = 1e-46,   Method: Compositional matrix adjust.
+ Identities = 87/99 (87%), Positives = 97/99 (97%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQL+EALL TGADDTVLE+++LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLREALLNTGADDTVLEDINLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICG KAIGTVLVGPTPVNI+GRN+LTQ+GCTLNF
+Sbjct: 61 QILIEICGKKAIGTVLVGPTPVNIIGRNMLTQLGCTLNF 99
+
+
+>gi|4389373|pdb|1A94|A Chain A, Structural Basis For Specificity
+          Of Retroviral Proteases
+ Chain B, Structural Basis For Specificity Of Retroviral Proteases
+ Chain D, Structural Basis For Specificity Of Retroviral Proteases
+ Chain E, Structural Basis For Specificity Of Retroviral Proteases
+          Length = 99
+
+ Score =  180 bits (457), Expect = 1e-46,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG W+PK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWEPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|14488614|pdb|1FG6|C Chain C, Structural Implications Of Drug
+          Resistant Mutants Of Hiv-1 Protease: High Resolution
+          Crystal Structures Of The Mutant ProteaseSUBSTRATE
+          ANALOG COMPLEXES
+ Chain D, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease: High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES
+ Chain C, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease: High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES
+ Chain D, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease: High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES
+          Length = 99
+
+ Score =  180 bits (456), Expect = 1e-46,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GR+LLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRDLLTQIGATLNF 99
+
+
+>gi|14488608|pdb|1FFF|C Chain C, Structural Implications Of Drug
+          Resistant Mutants Of Hiv-1 Protease : High Resolution
+          Crystal Structures Of The Mutant ProteaseSUBSTRATE
+          ANALOG COMPLEXES.
+ Chain D, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease : High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES.
+ Chain C, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease: High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES
+ Chain D, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease: High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES
+ Chain A, Hiv-1 Protease Mutant D30n Complexed With Inhibitor
+          Tmc114
+ Chain B, Hiv-1 Protease Mutant D30n Complexed With Inhibitor
+          Tmc114
+ Chain A, Hiv-1 Protease Mutant D30n With Potent Antiviral
+          Inhibitor Grl-98065
+ Chain B, Hiv-1 Protease Mutant D30n With Potent Antiviral
+          Inhibitor Grl-98065
+          Length = 99
+
+ Score =  180 bits (456), Expect = 1e-46,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGAD+TV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADNTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|22218898|pdb|1K2B|A Chain A, Combining Mutations In Hiv-1
+          Protease To Understand Mechanisms Of Resistance
+ Chain B, Combining Mutations In Hiv-1 Protease To Understand
+          Mechanisms Of Resistance
+          Length = 99
+
+ Score =  180 bits (456), Expect = 1e-46,   Method: Compositional matrix adjust.
+ Identities = 87/99 (87%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GR+L+TQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRDLMTQIGATLNF 99
+
+
+>gi|9955098|pdb|1EBK|C Chain C, Structural And Kinetic Analysis Of
+          Drug Resistant Mutants Of Hiv-1 Protease
+ Chain D, Structural And Kinetic Analysis Of Drug Resistant
+          Mutants Of Hiv-1 Protease
+ Chain E, Structural And Kinetic Analysis Of Drug Resistant
+          Mutants Of Hiv-1 Protease
+ Chain F, Structural And Kinetic Analysis Of Drug Resistant
+          Mutants Of Hiv-1 Protease
+          Length = 99
+
+ Score =  180 bits (456), Expect = 1e-46,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+++PLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKQPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|93278539|pdb|1Z8C|A Chain A, Crystal Structure Of The Complex
+          Of Mutant Hiv-1 Protease (L63p, A71v, V82t, I84v) With
+          A Hydroxyethylamine Peptidomimetic Inhibitor
+          Boc-Phe-Psi[r-Ch(Oh)ch2nh]-Phe- Glu-Phe-Nh2
+ Chain B, Crystal Structure Of The Complex Of Mutant Hiv-1
+          Protease (L63p, A71v, V82t, I84v) With A
+          Hydroxyethylamine Peptidomimetic Inhibitor
+          Boc-Phe-Psi[r-Ch(Oh)ch2nh]-Phe- Glu-Phe-Nh2
+          Length = 99
+
+ Score =  179 bits (455), Expect = 2e-46,   Method: Compositional matrix adjust.
+ Identities = 89/99 (89%), Positives = 93/99 (93%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADDTVLEEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDTVLEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI IEI GHK IGTVLVGPTP N++GRNLLTQIGCTLNF
+Sbjct: 61 QIPIEIXGHKVIGTVLVGPTPTNVIGRNLLTQIGCTLNF 99
+
+
+>gi|109157787|pdb|2G69|A Chain A, Structure Of Unliganded Hiv-1
+          Protease F53l Mutant
+          Length = 99
+
+ Score =  179 bits (455), Expect = 2e-46,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGG IKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGLIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|90108667|pdb|2A1E|A Chain A, High Resolution Structure Of
+          Hiv-1 Pr With Ts-126
+ Chain B, High Resolution Structure Of Hiv-1 Pr With Ts-126
+ Chain A, Structure Of Hiv-1 Protease In Complex With Potent
+          Inhibitor Kni-272 Determined By Neutron Crystallography
+ Chain B, Structure Of Hiv-1 Protease In Complex With Potent
+          Inhibitor Kni-272 Determined By Neutron Crystallography
+          Length = 99
+
+ Score =  179 bits (455), Expect = 2e-46,   Method: Compositional matrix adjust.
+ Identities = 88/98 (89%), Positives = 94/98 (95%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          QITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          I+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 62 IIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|134104295|pdb|2FXE|A Chain A, X-Ray Crystal Structure Of Hiv-1
+          Protease Crm Mutant Complexed With Atazanavir
+          (Bms-232632)
+ Chain B, X-Ray Crystal Structure Of Hiv-1 Protease Crm Mutant
+          Complexed With Atazanavir (Bms-232632)
+          Length = 99
+
+ Score =  179 bits (455), Expect = 2e-46,   Method: Compositional matrix adjust.
+ Identities = 86/99 (86%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RP+VT+KIGGQLKEALL TGADDTV+EEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPIVTVKIGGQLKEALLDTGADDTVIEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|3891944|pdb|1BDR|A Chain A, Hiv-1 (2: 31, 33-37) Protease
+          Complexed With Inhibitor Sb203386
+ Chain B, Hiv-1 (2: 31, 33-37) Protease Complexed With Inhibitor
+          Sb203386
+          Length = 99
+
+ Score =  179 bits (454), Expect = 2e-46,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADD+V+  + LPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDSVVAGIELPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|189096246|pdb|3CYW|A Chain A, Effect Of Flap Mutations On
+          Structure Of Hiv-1 Protease And Inhibition By
+          Saquinavir And Darunavir
+ Chain B, Effect Of Flap Mutations On Structure Of Hiv-1 Protease
+          And Inhibition By Saquinavir And Darunavir
+          Length = 99
+
+ Score =  179 bits (454), Expect = 3e-46,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+I GIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIVGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|119389008|pdb|2B60|A Chain A, Structure Of Hiv-1 Protease
+          Mutant Bound To Ritonavir
+ Chain B, Structure Of Hiv-1 Protease Mutant Bound To Ritonavir
+          Length = 99
+
+ Score =  179 bits (453), Expect = 3e-46,   Method: Compositional matrix adjust.
+ Identities = 86/99 (86%), Positives = 93/99 (93%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQL+EALL TGADDT+ EE+SLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLREALLDTGADDTIFEEISLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI IEICGHK IGTVLVGPTP NI+GRNL+TQIGCTLNF
+Sbjct: 61 QIPIEICGHKVIGTVLVGPTPANIIGRNLMTQIGCTLNF 99
+
+
+>gi|58176641|pdb|1RPI|A Chain A, Crystal Structures Of A
+          Multidrug-Resistant Hiv-1 Protease Reveal An Expanded
+          Active Site Cavity
+ Chain B, Crystal Structures Of A Multidrug-Resistant Hiv-1
+          Protease Reveal An Expanded Active Site Cavity
+ Chain A, Crystal Structures Of A Multidrug-Resistant Hiv-1
+          Protease Reveal An Expanded Active Site Cavity
+ Chain B, Crystal Structures Of A Multidrug-Resistant Hiv-1
+          Protease Reveal An Expanded Active Site Cavity
+ Chain A, Crystal Structures Of A Multidrug-Resistant Hiv-1
+          Protease Reveal An Expanded Active Site Cavity
+ Chain B, Crystal Structures Of A Multidrug-Resistant Hiv-1
+          Protease Reveal An Expanded Active Site Cavity
+ Chain A, Wide Open 1.3a Structure Of A Multi-Drug Resistant Hiv-1
+          Protease Represents A Novel Drug Target
+ Chain B, Wide Open 1.3a Structure Of A Multi-Drug Resistant Hiv-1
+          Protease Represents A Novel Drug Target
+          Length = 99
+
+ Score =  179 bits (453), Expect = 3e-46,   Method: Compositional matrix adjust.
+ Identities = 85/99 (85%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRP+VTIKIGGQLKEALL TGADDTVLEE++LPG WKPKLIGGIGGF+KVRQYD
+Sbjct: 1  PQITLWQRPIVTIKIGGQLKEALLNTGADDTVLEEVNLPGRWKPKLIGGIGGFVKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          Q+ IEICGHK IGTVLVGPTP N++GRNL+TQIGCTLNF
+Sbjct: 61 QVPIEICGHKVIGTVLVGPTPANVIGRNLMTQIGCTLNF 99
+
+
+>gi|3659988|pdb|1BDL|A Chain A, Hiv-1 (2:31-37) Protease Complexed
+          With Inhibitor Sb203386
+ Chain B, Hiv-1 (2:31-37) Protease Complexed With Inhibitor
+          Sb203386
+          Length = 99
+
+ Score =  178 bits (452), Expect = 4e-46,   Method: Compositional matrix adjust.
+ Identities = 87/99 (87%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADD+++  + LPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDSIVAGIELPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|22218901|pdb|1K2C|A Chain A, Combining Mutations In Hiv-1
+          Protease To Understand Mechanisms Of Resistance
+ Chain B, Combining Mutations In Hiv-1 Protease To Understand
+          Mechanisms Of Resistance
+          Length = 99
+
+ Score =  178 bits (452), Expect = 4e-46,   Method: Compositional matrix adjust.
+ Identities = 87/99 (87%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGAD+TV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADNTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTP NI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPSNIIGRNLLTQIGATLNF 99
+
+
+>gi|55669731|pdb|1SGU|A Chain A, Comparing The Accumulation Of
+          Active Site And Non-Active Site Mutations In The Hiv-1
+          Protease
+ Chain B, Comparing The Accumulation Of Active Site And Non-Active
+          Site Mutations In The Hiv-1 Protease
+ Chain A, Comparing The Accumulation Of Active Site And Non-Active
+          Site Mutations In The Hiv-1 Protease
+ Chain B, Comparing The Accumulation Of Active Site And Non-Active
+          Site Mutations In The Hiv-1 Protease
+          Length = 99
+
+ Score =  178 bits (451), Expect = 5e-46,   Method: Compositional matrix adjust.
+ Identities = 84/99 (84%), Positives = 93/99 (93%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQL+EALL TGADDT+ EE+SLPG WKPK+IGGIGGF+KVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLREALLDTGADDTIFEEISLPGRWKPKMIGGIGGFVKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI IEICGHK IGTVLVGPTP N++GRNL+TQIGCTLNF
+Sbjct: 61 QIPIEICGHKVIGTVLVGPTPANVIGRNLMTQIGCTLNF 99
+
+
+>gi|2554748|pdb|3AID|B Chain B, A New Class Of Hiv-1 Protease
+          Inhibitor: The Crystallographic Structure, Inhibition
+          And Chemical Synthesis Of An Aminimide Peptide Isostere
+          Length = 99
+
+ Score =  177 bits (450), Expect = 6e-46,   Method: Compositional matrix adjust.
+ Identities = 87/97 (89%), Positives = 95/97 (97%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          QITL++RPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYDQ
+Sbjct: 2  QITLWKRPLVTIRIGGQLKEALLDTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYDQ 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLN 98
+          I +EICGHKAIGTVLVGPTPVNI+GRNLLTQIGCTLN
+Sbjct: 62 IPVEICGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLN 98
+
+
+>gi|231033|pdb|4HVP|A Chain A, Structure Of Complex Of Synthetic
+          Hiv-1 Protease With A Stubtrate-Based Inhibitor At 2.3
+          Angstroms Resolution
+ Chain B, Structure Of Complex Of Synthetic Hiv-1 Protease With A
+          Stubtrate-Based Inhibitor At 2.3 Angstroms Resolution
+ Chain A, X-Ray Crystallographic Structure Of A Complex Between A
+          Synthetic Protease Of Human Immunodeficiency Virus 1
+          And A Substrate-Based Hydroxyethylamine Inhibitor
+ Chain B, X-Ray Crystallographic Structure Of A Complex Between A
+          Synthetic Protease Of Human Immunodeficiency Virus 1
+          And A Substrate-Based Hydroxyethylamine Inhibitor
+ Chain A, Structure At 2.5-Angstroms Resolution Of Chemically
+          Synthesized Human Immunodeficiency Virus Type 1
+          Protease Complexed With A Hydroxyethylene-Based
+          Inhibitor
+ Chain B, Structure At 2.5-Angstroms Resolution Of Chemically
+          Synthesized Human Immunodeficiency Virus Type 1
+          Protease Complexed With A Hydroxyethylene-Based
+          Inhibitor
+ Chain A, Regioselective Structural And Functional Mimicry Of
+          Peptides. Design Of Hydrolytically Stable Cyclic
+          Peptidomimetic Inhibitors Of Hiv-1 Protease
+ Chain B, Regioselective Structural And Functional Mimicry Of
+          Peptides. Design Of Hydrolytically Stable Cyclic
+          Peptidomimetic Inhibitors Of Hiv-1 Protease
+ Chain A, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 1
+ Chain B, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 1
+ Chain A, Conserved Folding In Retroviral Proteases. Crystal
+          Structure Of A Synthetic Hiv-1 Protease
+          Length = 99
+
+ Score =  177 bits (450), Expect = 6e-46,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTI+IGGQLKEALL TGADDTVLEEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIRIGGQLKEALLDTGADDTVLEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIPVEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGXTLNF 99
+
+
+>gi|3659990|pdb|1BDQ|A Chain A, Hiv-1 (2:31-37, 47, 82) Protease
+          Complexed With Inhibitor Sb203386
+ Chain B, Hiv-1 (2:31-37, 47, 82) Protease Complexed With
+          Inhibitor Sb203386
+          Length = 99
+
+ Score =  177 bits (449), Expect = 8e-46,   Method: Compositional matrix adjust.
+ Identities = 85/99 (85%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQLKEALL TGADD+++  + LPG WKPK++GGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLKEALLDTGADDSIVAGIELPGRWKPKMVGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP+NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPINIIGRNLLTQIGCTLNF 99
+
+
+>gi|195927280|pdb|2RKF|A Chain A, Hiv-1 Pr Resistant Mutant + Lpv
+ Chain B, Hiv-1 Pr Resistant Mutant + Lpv
+          Length = 99
+
+ Score =  177 bits (448), Expect = 1e-45,   Method: Compositional matrix adjust.
+ Identities = 83/99 (83%), Positives = 91/99 (91%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRP VT+KI GQL EALL TGADDT+LEEMSLPG W PK++GGIGGF+KVRQYD
+Sbjct: 1  PQITLWQRPFVTVKIAGQLMEALLDTGADDTILEEMSLPGRWTPKVVGGIGGFMKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QIL+EICGHK IGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILVEICGHKVIGTVLVGPTPANIIGRNLLTQIGCTLNF 99
+
+
+>gi|12084156|pdb|1C6X|A Chain A, Alternate Binding Site For The
+          P1-P3 Group Of A Class Of Potent Hiv-1 Protease
+          Inhibitors As A Result Of Concerted Structural Change
+          In 80's Loop.
+ Chain B, Alternate Binding Site For The P1-P3 Group Of A Class Of
+          Potent Hiv-1 Protease Inhibitors As A Result Of
+          Concerted Structural Change In 80's Loop.
+ Chain A, Alternate Binding Site For The P1-P3 Group Of A Class Of
+          Potent Hiv-1 Protease Inhibitors As A Result Of
+          Concerted Structural Change In 80's Loop.
+ Chain B, Alternate Binding Site For The P1-P3 Group Of A Class Of
+          Potent Hiv-1 Protease Inhibitors As A Result Of
+          Concerted Structural Change In 80's Loop.
+ Chain A, Alternate Binding Site For The P1-P3 Group Of A Class Of
+          Potent Hiv-1 Protease Inhibitors As A Result Of
+          Concerted Structural Change In 80's Loop.
+ Chain B, Alternate Binding Site For The P1-P3 Group Of A Class Of
+          Potent Hiv-1 Protease Inhibitors As A Result Of
+          Concerted Structural Change In 80's Loop
+          Length = 99
+
+ Score =  177 bits (448), Expect = 1e-45,   Method: Compositional matrix adjust.
+ Identities = 86/99 (86%), Positives = 92/99 (92%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRP+VTIKIGGQL EAL+ TGADDTVLEEM LPG WKPK+IGGIGGF+KVRQYD
+Sbjct: 1  PQITLWQRPVVTIKIGGQLMEALIDTGADDTVLEEMDLPGRWKPKIIGGIGGFVKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI IEICGHK IGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPIEICGHKVIGTVLVGPTPTNIIGRNLLTQIGCTLNF 99
+
+
+>gi|160877756|pdb|2R5P|A Chain A, Crystal Structure Analysis Of
+          Hiv-1 Subtype C Protease Complexed With Indinavir
+ Chain B, Crystal Structure Analysis Of Hiv-1 Subtype C Protease
+          Complexed With Indinavir
+ Chain C, Crystal Structure Analysis Of Hiv-1 Subtype C Protease
+          Complexed With Indinavir
+ Chain D, Crystal Structure Analysis Of Hiv-1 Subtype C Protease
+          Complexed With Indinavir
+ Chain A, Crystal Structure Analysis Of Hiv-1 Subtype C Protease
+          Complexed With Nelfinavir
+ Chain B, Crystal Structure Analysis Of Hiv-1 Subtype C Protease
+          Complexed With Nelfinavir
+ Chain C, Crystal Structure Analysis Of Hiv-1 Subtype C Protease
+          Complexed With Nelfinavir
+ Chain D, Crystal Structure Analysis Of Hiv-1 Subtype C Protease
+          Complexed With Nelfinavir
+ Chain A, Structural Analysis Of The Unbound Form Of Hiv-1 Subtype
+          C Protease
+          Length = 99
+
+ Score =  177 bits (448), Expect = 1e-45,   Method: Compositional matrix adjust.
+ Identities = 83/99 (83%), Positives = 96/99 (96%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLV+IK+GGQ+KEALL TGADDTV+EE++LPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVSIKVGGQIKEALLDTGADDTVIEEIALPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEICG KAIGTVLVGPTPVNI+GRN+LTQ+GCTLNF
+Sbjct: 61 QIIIEICGKKAIGTVLVGPTPVNIIGRNMLTQLGCTLNF 99
+
+
+>gi|146387071|pdb|2P3A|A Chain A, Crystal Structure Of The
+          Multi-Drug Resistant Mutant Subtype B Hiv Protease
+          Complexed With Tl-3 Inhibitor
+ Chain B, Crystal Structure Of The Multi-Drug Resistant Mutant
+          Subtype B Hiv Protease Complexed With Tl-3 Inhibitor
+          Length = 99
+
+ Score =  176 bits (446), Expect = 2e-45,   Method: Compositional matrix adjust.
+ Identities = 85/99 (85%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTVLEEM+LPG+WKP++IGGIGGF+KVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVLEEMALPGKWKPRMIGGIGGFVKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI IEI GHK IGTVLVGPTP NI+GRNL+TQIGCTLNF
+Sbjct: 61 QIPIEIXGHKVIGTVLVGPTPANIIGRNLMTQIGCTLNF 99
+
+
+>gi|170785196|pdb|3BXR|A Chain A, Crystal Structures Of Highly
+          Constrained Substrate And Hydrolysis Products Bound To
+          Hiv-1 Protease. Implications For Catalytic Mechanism
+ Chain B, Crystal Structures Of Highly Constrained Substrate And
+          Hydrolysis Products Bound To Hiv-1 Protease.
+          Implications For Catalytic Mechanism
+          Length = 99
+
+ Score =  176 bits (445), Expect = 3e-45,   Method: Compositional matrix adjust.
+ Identities = 86/99 (86%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTV+EEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLNTGADDTVIEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIPVEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGXTLNF 99
+
+
+>gi|1827895|pdb|1MTR|A Chain A, Hiv-1 Protease Complexed With A
+          Cyclic Phe-Ile-Val Peptidomimetic Inhibitor
+ Chain B, Hiv-1 Protease Complexed With A Cyclic Phe-Ile-Val
+          Peptidomimetic Inhibitor
+ Chain A, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 5
+ Chain B, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 5
+ Chain A, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 4
+ Chain B, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 4
+ Chain A, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 6
+ Chain B, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 6
+ Chain A, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 7
+ Chain B, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 7
+ Chain A, Hiv-1 Protease Complexed With A Macrocyclic
+          Peptidomimetic Inhibitor
+ Chain B, Hiv-1 Protease Complexed With A Macrocyclic
+          Peptidomimetic Inhibitor
+ Chain A, Hiv-1 Protease Complexed With A Macrocyclic
+          Peptidomimetic Inhibitor
+ Chain B, Hiv-1 Protease Complexed With A Macrocyclic
+          Peptidomimetic Inhibitor
+ Chain A, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 3
+ Chain B, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 3
+ Chain A, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 2
+ Chain B, Hiv-1 Protease Complexed With Macrocyclic Peptidomimetic
+          Inhibitor 2
+ Chain A, Crystal Structures Of Highly Constrained Substrate And
+          Hydrolysis Products Bound To Hiv-1 Protease.
+          Implications For Catalytic Mechanism
+ Chain B, Crystal Structures Of Highly Constrained Substrate And
+          Hydrolysis Products Bound To Hiv-1 Protease.
+          Implications For Catalytic Mechanism
+          Length = 99
+
+ Score =  175 bits (444), Expect = 3e-45,   Method: Compositional matrix adjust.
+ Identities = 86/99 (86%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTV+EEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLDTGADDTVIEEMNLPGKWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIPVEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGXTLNF 99
+
+
+>gi|90109333|pdb|2FDD|A Chain A, Crystal Structure Of Hiv Protease
+           D545701 Bound With Gw0385
+ Chain B, Crystal Structure Of Hiv Protease D545701 Bound With
+           Gw0385
+          Length = 100
+
+ Score =  173 bits (439), Expect = 1e-44,   Method: Compositional matrix adjust.
+ Identities = 81/99 (81%), Positives = 93/99 (93%)
+
+Query: 1   PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+           PQITL+QRP+VTIKIGGQ +EALL TGADDTVLE+++LPG WKPK+IGG+GGF+KVRQYD
+Sbjct: 2   PQITLWQRPIVTIKIGGQQREALLDTGADDTVLEDINLPGRWKPKIIGGVGGFVKVRQYD 61
+
+Query: 61  QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           Q+ IEICGHK IGTVLVGPTP NI+GRNL+TQIGCTLNF
+Sbjct: 62  QVPIEICGHKVIGTVLVGPTPANIIGRNLMTQIGCTLNF 100
+
+
+>gi|169791925|pdb|1Q9P|A Chain A, Solution Structure Of The Mature
+          Hiv-1 Protease Monomer
+          Length = 95
+
+ Score =  173 bits (438), Expect = 1e-44,   Method: Compositional matrix adjust.
+ Identities = 85/95 (89%), Positives = 91/95 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPKMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGC 95
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG 
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGA 95
+
+
+>gi|195927282|pdb|2RKG|A Chain A, Hiv-1 Pr Resistant Mutant + Lpv
+ Chain B, Hiv-1 Pr Resistant Mutant + Lpv
+          Length = 100
+
+ Score =  172 bits (436), Expect = 3e-44,   Method: Compositional matrix adjust.
+ Identities = 83/100 (83%), Positives = 91/100 (91%), Gaps = 1/100 (1%)
+
+Query: 1   PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEE-MSLPGEWKPKLIGGIGGFIKVRQY 59
+           PQITL+QRP VT+KI GQL EALL TGADDT+LEE MSLPG W PK++GGIGGF+KVRQY
+Sbjct: 1   PQITLWQRPFVTVKIAGQLMEALLDTGADDTILEEEMSLPGRWTPKVVGGIGGFMKVRQY 60
+
+Query: 60  DQILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           DQIL+EICGHK IGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61  DQILVEICGHKVIGTVLVGPTPANIIGRNLLTQIGCTLNF 100
+
+
+>gi|146387075|pdb|2P3C|A Chain A, Crystal Structure Of The Subtype
+          F Wild Type Hiv Protease Complexed With Tl-3 Inhibitor
+ Chain B, Crystal Structure Of The Subtype F Wild Type Hiv
+          Protease Complexed With Tl-3 Inhibitor
+          Length = 99
+
+ Score =  171 bits (434), Expect = 4e-44,   Method: Compositional matrix adjust.
+ Identities = 81/99 (81%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIK+GGQLKEALL TGADDTVLE+++LPG+WKPK+IGGIGGFIKV+QY+
+Sbjct: 1  PQITLWKRPLVTIKVGGQLKEALLDTGADDTVLEDIALPGKWKPKMIGGIGGFIKVKQYE 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           + +EI GHKAIGTVLVGPTPVNI+GRN+LTQIGCTLNF
+Sbjct: 61 NVSLEIXGHKAIGTVLVGPTPVNIIGRNMLTQIGCTLNF 99
+
+
+>gi|90108777|pdb|2AZB|A Chain A, Hiv-1 Protease Nl4-3 3x Mutant In
+          Complex With Inhibitor, Tl-3
+          Length = 99
+
+ Score =  166 bits (421), Expect = 2e-42,   Method: Compositional matrix adjust.
+ Identities = 90/99 (90%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTVLEEM+LPG WKPK+IGGIGG IKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVLEEMNLPGRWKPKIIGGIGGLIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPANIIGRNLLTQIGCTLNF 99
+
+
+>gi|146387077|pdb|2P3D|A Chain A, Crystal Structure Of The
+          Multi-Drug Resistant Mutant Subtype F Hiv Protease
+          Complexed With Tl-3 Inhibitor
+ Chain B, Crystal Structure Of The Multi-Drug Resistant Mutant
+          Subtype F Hiv Protease Complexed With Tl-3 Inhibitor
+          Length = 99
+
+ Score =  164 bits (415), Expect = 8e-42,   Method: Compositional matrix adjust.
+ Identities = 75/99 (75%), Positives = 92/99 (92%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RP+VTIK+ GQL+EALL TGADDTVLE+++L G+WKPK+IGGI GF+KV+QY+
+Sbjct: 1  PQITLWKRPIVTIKVEGQLREALLDTGADDTVLEDINLSGKWKPKIIGGIRGFVKVKQYE 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           ILIEICGH+A+G VLVGPTP NI+GRN+LTQIGCTLNF
+Sbjct: 61 DILIEICGHRAVGAVLVGPTPANIIGRNMLTQIGCTLNF 99
+
+
+>gi|122921400|pdb|2O4N|A Chain A, Crystal Structure Of Hiv-1
+          Protease (Trm Mutant) In Complex With Tipranavir
+ Chain B, Crystal Structure Of Hiv-1 Protease (Trm Mutant) In
+          Complex With Tipranavir
+          Length = 99
+
+ Score =  163 bits (412), Expect = 2e-41,   Method: Compositional matrix adjust.
+ Identities = 87/99 (87%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVT+KIGGQLKEALL TGADDT+ EEMSLPG WKP +IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTVKIGGQLKEALLDTGADDTIFEEMSLPGRWKPIMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QILIEICGHKAIGTVLVGPTP+N++GRNLLTQIGCTLNF
+Sbjct: 61 QILIEICGHKAIGTVLVGPTPLNVIGRNLLTQIGCTLNF 99
+
+
+>gi|90108779|pdb|2AZC|A Chain A, Hiv-1 Protease Nl4-3 6x Mutant
+ Chain B, Hiv-1 Protease Nl4-3 6x Mutant
+ Chain A, Structure Of Hiv Protease 6x Mutant In Apo Form
+ Chain A, Structure Of Hiv Protease 6x Mutant In Complex With
+          Ab-2.
+ Chain B, Structure Of Hiv Protease 6x Mutant In Complex With Ab-2
+          Length = 99
+
+ Score =  162 bits (409), Expect = 3e-41,   Method: Compositional matrix adjust.
+ Identities = 87/99 (87%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEAL+ TGADDTVLEEM+LPG WKPK+IGGIGG IKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALIDTGADDTVLEEMNLPGRWKPKIIGGIGGLIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI IEICGHKAIGTVL+GPTP NI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPIEICGHKAIGTVLIGPTPANIIGRNLLTQIGCTLNF 99
+
+
+>gi|158428963|pdb|2JE4|A Chain A, Atomic-Resolution Crystal
+          Structure Of Chemically- Synthesized Hiv-1 Protease In
+          Complex With Jg-365
+ Chain B, Atomic-Resolution Crystal Structure Of Chemically-
+          Synthesized Hiv-1 Protease In Complex With Jg-365
+          Length = 99
+
+ Score =  161 bits (408), Expect = 5e-41,   Method: Compositional matrix adjust.
+ Identities = 86/99 (86%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTV+EE +LPG+WKPK IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLDTGADDTVIEEXNLPGKWKPKXIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EI GHKAIGTVLVGPTPVNI+GRNLLTQIGCTLNF
+Sbjct: 61 QIPVEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGCTLNF 99
+
+
+>gi|7766825|pdb|1DAZ|C Chain C, Structural And Kinetic Analysis Of
+          Drug Resistant Mutants Of Hiv-1 Protease
+ Chain D, Structural And Kinetic Analysis Of Drug Resistant
+          Mutants Of Hiv-1 Protease
+ Chain C, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease: High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES.
+ Chain D, Structural Implications Of Drug Resistant Mutants Of
+          Hiv-1 Protease: High Resolution Crystal Structures Of
+          The Mutant ProteaseSUBSTRATE ANALOG COMPLEXES
+          Length = 99
+
+ Score =  160 bits (404), Expect = 1e-40,   Method: Compositional matrix adjust.
+ Identities = 88/99 (88%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKP +IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPIMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLLTQIGATLNF 99
+
+
+>gi|22218895|pdb|1K1U|A Chain A, Combining Mutations In Hiv-1
+          Protease To Understand Mechanisms Of Resistance
+ Chain B, Combining Mutations In Hiv-1 Protease To Understand
+          Mechanisms Of Resistance
+          Length = 99
+
+ Score =  159 bits (403), Expect = 2e-40,   Method: Compositional matrix adjust.
+ Identities = 87/99 (87%), Positives = 94/99 (94%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKP +IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPIMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTPVNI+GRNL+TQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPVNIIGRNLMTQIGATLNF 99
+
+
+>gi|119389010|pdb|2B7Z|B Chain B, Structure Of Hiv-1 Protease
+          Mutant Bound To Indinavir
+ Chain A, Structure Of Hiv-1 Protease Mutant Bound To Indinavir
+          Length = 99
+
+ Score =  159 bits (402), Expect = 2e-40,   Method: Compositional matrix adjust.
+ Identities = 85/99 (85%), Positives = 93/99 (93%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL+QRPLVTIKIGGQL+EALL TGADDT+ EE+SLPG WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWQRPLVTIKIGGQLREALLDTGADDTIFEEISLPGRWKPKIIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI IEICGHK IGTVLVGPTP N++GRNL+TQIGCTLNF
+Sbjct: 61 QIPIEICGHKVIGTVLVGPTPANVIGRNLMTQIGCTLNF 99
+
+
+>gi|22218892|pdb|1K1T|A Chain A, Combining Mutations In Hiv-1
+          Protease To Understand Mechanisms Of Resistance
+ Chain B, Combining Mutations In Hiv-1 Protease To Understand
+          Mechanisms Of Resistance
+          Length = 99
+
+ Score =  158 bits (400), Expect = 4e-40,   Method: Compositional matrix adjust.
+ Identities = 87/99 (87%), Positives = 93/99 (93%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTIKIGGQLKEALL TGADDTV+EEMSLPG WKP +IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIKIGGQLKEALLDTGADDTVIEEMSLPGRWKPIMIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTP NI+GRNLLTQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPSNIIGRNLLTQIGATLNF 99
+
+
+>gi|197107260|pdb|3DCK|A Chain A, X-Ray Structure Of D25n Chemical
+          Analogue Of Hiv-1 Protease Complexed With Ketomethylene
+          Isostere Inhibitor
+ Chain B, X-Ray Structure Of D25n Chemical Analogue Of Hiv-1
+          Protease Complexed With Ketomethylene Isostere
+          Inhibitor
+          Length = 99
+
+ Score =  157 bits (398), Expect = 8e-40,   Method: Compositional matrix adjust.
+ Identities = 85/99 (85%), Positives = 92/99 (92%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTV+EE +LPG WKPK IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLNTGADDTVIEEXNLPGXWKPKXIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIPVEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGXTLNF 99
+
+
+>gi|158428936|pdb|2J9J|A Chain A, Atomic-Resolution Crystal
+          Structure Of Chemically- Synthesized Hiv-1 Protease
+          Complexed With Inhibitor Jg-365
+ Chain A, Atomic-Resolution Crystal Structure Of Chemically-
+          Synthesized Hiv-1 Protease Complexed With Inhibitor
+          Mvt- 101
+ Chain B, Atomic-Resolution Crystal Structure Of Chemically-
+          Synthesized Hiv-1 Protease Complexed With Inhibitor
+          Mvt- 101
+ Chain A, X-Ray Structure Of Hiv-1 Protease And Hydrated Form Of
+          Ketomethylene Isostere Inhibitor
+ Chain B, X-Ray Structure Of Hiv-1 Protease And Hydrated Form Of
+          Ketomethylene Isostere Inhibitor
+          Length = 99
+
+ Score =  157 bits (397), Expect = 9e-40,   Method: Compositional matrix adjust.
+ Identities = 85/99 (85%), Positives = 92/99 (92%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTV+EE +LPG WKPK IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLDTGADDTVIEEXNLPGXWKPKXIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIPVEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGXTLNF 99
+
+
+>gi|134104293|pdb|2FXD|A Chain A, X-Ray Crystal Structure Of Hiv-1
+          Protease Irm Mutant Complexed With Atazanavir
+          (Bms-232632)
+ Chain B, X-Ray Crystal Structure Of Hiv-1 Protease Irm Mutant
+          Complexed With Atazanavir (Bms-232632)
+          Length = 99
+
+ Score =  157 bits (397), Expect = 1e-39,   Method: Compositional matrix adjust.
+ Identities = 83/99 (83%), Positives = 95/99 (95%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RP+VT+KIGGQLKEALL TGADDTV+EEM+LPG+WKPK+IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPIVTVKIGGQLKEALLDTGADDTVIEEMNLPGKWKPKIIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI+IEI GHKAIGTVLVGPTP N++GRNL+TQIG TLNF
+Sbjct: 61 QIIIEIAGHKAIGTVLVGPTPFNVIGRNLMTQIGATLNF 99
+
+
+>gi|122921392|pdb|2O40|A Chain A, Crystal Structure Of A
+          Chemically Synthesized 203 Amino Acid 'covalent Dimer'
+          Hiv-1 Protease Molecule
+          Length = 203
+
+ Score =  156 bits (395), Expect = 1e-39,   Method: Compositional matrix adjust.
+ Identities = 85/99 (85%), Positives = 92/99 (92%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGGQLKEALL TGADDTV+EE +LPG WKPK IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGQLKEALLDTGADDTVIEEXNLPGXWKPKXIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIPVEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGXTLNF 99
+
+
+
+ Score =  156 bits (395), Expect = 1e-39,   Method: Compositional matrix adjust.
+ Identities = 85/99 (85%), Positives = 92/99 (92%)
+
+Query: 1   PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+           PQITL++RPLVTI+IGGQLKEALL TGADDTV+EE +LPG WKPK IGGIGGFIKVRQYD
+Sbjct: 105 PQITLWKRPLVTIRIGGQLKEALLDTGADDTVIEEXNLPGXWKPKXIGGIGGFIKVRQYD 164
+
+Query: 61  QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           QI +EI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 165 QIPVEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGXTLNF 203
+
+
+>gi|158428937|pdb|2J9J|B Chain B, Atomic-Resolution Crystal
+          Structure Of Chemically- Synthesized Hiv-1 Protease
+          Complexed With Inhibitor Jg-365
+          Length = 99
+
+ Score =  155 bits (393), Expect = 3e-39,   Method: Compositional matrix adjust.
+ Identities = 84/99 (84%), Positives = 91/99 (91%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQITL++RPLVTI+IGG LKEALL TGADDTV+EE +LPG WKPK IGGIGGFIKVRQYD
+Sbjct: 1  PQITLWKRPLVTIRIGGNLKEALLDTGADDTVIEEXNLPGXWKPKXIGGIGGFIKVRQYD 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          QI +EI GHKAIGTVLVGPTPVNI+GRNLLTQIG TLNF
+Sbjct: 61 QIPVEIXGHKAIGTVLVGPTPVNIIGRNLLTQIGXTLNF 99
+
+
+>gi|157833815|pdb|1SIP|A Chain A, Alternative Native Flap
+          Conformation Revealed By 2.3 Angstroms Resolution
+          Structure Of Siv Proteinase
+          Length = 99
+
+ Score =  107 bits (266), Expect = 1e-24,   Method: Compositional matrix adjust.
+ Identities = 49/99 (49%), Positives = 70/99 (70%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ +L++RP+VT  I GQ  E LL TGADD+++  + L   + PK++GGIGGFI  ++Y 
+Sbjct: 1  PQFSLWRRPVVTAHIEGQPVEVLLDTGADDSIVTGIELGPHYTPKIVGGIGGFINTKEYK 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           + IE+ G +  GT++ G TP+NI GRNLLT +G +LNF
+Sbjct: 61 NVEIEVLGKRIRGTIMTGDTPINIFGRNLLTALGMSLNF 99
+
+
+>gi|157836348|pdb|2SAM|A Chain A, Structure Of The Protease From
+          Simian Immunodeficiency Virus: Complex With An
+          Irreversible Non-Peptide Inhibitor
+          Length = 99
+
+ Score =  105 bits (263), Expect = 3e-24,   Method: Compositional matrix adjust.
+ Identities = 49/99 (49%), Positives = 69/99 (69%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ  L++RP+VT  I GQ  E LL TGADD+++  + L   + PK++GGIGGFI  ++Y 
+Sbjct: 1  PQFHLWKRPVVTAHIEGQPVEVLLDTGADDSIVTGIELGPHYTPKIVGGIGGFINTKEYK 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           + IE+ G +  GT++ G TP+NI GRNLLT +G +LNF
+Sbjct: 61 NVEIEVLGKRIKGTIMTGDTPINIFGRNLLTALGMSLNF 99
+
+
+>gi|1942089|pdb|1YTI|A Chain A, Siv Protease Crystallized With
+          Peptide Product
+ Chain A, Siv Protease Crystallized With Peptide Product
+          Length = 99
+
+ Score =  105 bits (262), Expect = 4e-24,   Method: Compositional matrix adjust.
+ Identities = 48/99 (48%), Positives = 69/99 (69%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ  L++RP+VT  I GQ  E LL TGADD+++  + L   + PK++GGIGGFI  ++Y 
+Sbjct: 1  PQFHLWKRPVVTAHIEGQPVEVLLDTGADDSIVTGIELGPHYTPKIVGGIGGFINTKEYK 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           + +E+ G +  GT++ G TP+NI GRNLLT +G +LNF
+Sbjct: 61 NVEVEVLGKRIKGTIMTGDTPINIFGRNLLTALGMSLNF 99
+
+
+>gi|494588|pdb|1SIV|A Chain A, Three-Dimensional Structure Of A
+          Siv Protease(Slash) Inhibitor Complex. Implications For
+          The Design Of Hiv-1 And Hiv-2 Protease Inhibitors
+ Chain B, Three-Dimensional Structure Of A Siv Protease(Slash)
+          Inhibitor Complex. Implications For The Design Of Hiv-1
+          And Hiv-2 Protease Inhibitors
+ Chain A, Siv Protease Complexed With Inhibitor Sb203386
+ Chain B, Siv Protease Complexed With Inhibitor Sb203386
+          Length = 99
+
+ Score =  104 bits (260), Expect = 7e-24,   Method: Compositional matrix adjust.
+ Identities = 48/99 (48%), Positives = 69/99 (69%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ +L++RP+VT  I GQ  E LL TGADD+++  + L   + PK++GGIGGFI  ++Y 
+Sbjct: 1  PQFSLWRRPVVTAHIEGQPVEVLLDTGADDSIVTGIELGPHYTPKIVGGIGGFINTKEYK 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           + IE+ G +  GT++ G TP+NI GRNLLT +G +LN 
+Sbjct: 61 NVKIEVLGKRIKGTIMTGDTPINIFGRNLLTALGMSLNL 99
+
+
+>gi|443402|pdb|2MIP|A Chain A, Crystal Structure Of Human
+          Immunodeficiency Virus (Hiv) Type 2 Protease In Complex
+          With A Reduced Amide Inhibitor And Comparison With
+          Hiv-1 Protease Structures
+ Chain B, Crystal Structure Of Human Immunodeficiency Virus (Hiv)
+          Type 2 Protease In Complex With A Reduced Amide
+          Inhibitor And Comparison With Hiv-1 Protease Structures
+ Chain C, Crystal Structure Of Human Immunodeficiency Virus (Hiv)
+          Type 2 Protease In Complex With A Reduced Amide
+          Inhibitor And Comparison With Hiv-1 Protease Structures
+ Chain D, Crystal Structure Of Human Immunodeficiency Virus (Hiv)
+          Type 2 Protease In Complex With A Reduced Amide
+          Inhibitor And Comparison With Hiv-1 Protease Structures
+ Chain A, Crystal Structures Of Hiv-2 Protease In Complex With
+          Inhibitors Containing The Hydroxyethylamine Dipeptide
+          Isostere
+ Chain B, Crystal Structures Of Hiv-2 Protease In Complex With
+          Inhibitors Containing The Hydroxyethylamine Dipeptide
+          Isostere
+ Chain A, Crystal Structures Of Hiv-2 Protease In Complex With
+          Inhibitors Containing The Hydroxyethylamine Dipeptide
+          Isostere
+ Chain B, Crystal Structures Of Hiv-2 Protease In Complex With
+          Inhibitors Containing The Hydroxyethylamine Dipeptide
+          Isostere
+ Chain A, Comparative Analysis Of The X-Ray Structures Of Hiv-1
+          And Hiv-2 Proteases In Complex With Cgp 53820, A Novel
+          Pseudosymmetric Inhibitor
+ Chain B, Comparative Analysis Of The X-Ray Structures Of Hiv-1
+          And Hiv-2 Proteases In Complex With Cgp 53820, A Novel
+          Pseudosymmetric Inhibitor
+ Chain A, Crystal Structure At 1.9 Angstroms Resolution Of Human
+          Immunodeficiency Virus (Hiv) Ii Protease Complexed With
+          L- 735,524, An Orally Bioavailable Inhibitor Of The Hiv
+          Proteases
+ Chain B, Crystal Structure At 1.9 Angstroms Resolution Of Human
+          Immunodeficiency Virus (Hiv) Ii Protease Complexed With
+          L- 735,524, An Orally Bioavailable Inhibitor Of The Hiv
+          Proteases
+ Chain C, Crystal Structure At 1.9 Angstroms Resolution Of Human
+          Immunodeficiency Virus (Hiv) Ii Protease Complexed With
+          L- 735,524, An Orally Bioavailable Inhibitor Of The Hiv
+          Proteases
+ Chain D, Crystal Structure At 1.9 Angstroms Resolution Of Human
+          Immunodeficiency Virus (Hiv) Ii Protease Complexed With
+          L- 735,524, An Orally Bioavailable Inhibitor Of The Hiv
+          Proteases
+ Chain A, Crystal Structure At 1.9 Angstroms Resolution Of Human
+          Immunodeficiency Virus (Hiv) Ii Protease Complexed With
+          L- 735,524, An Orally Bioavailable Inhibitor Of The Hiv
+          Proteases
+ Chain B, Crystal Structure At 1.9 Angstroms Resolution Of Human
+          Immunodeficiency Virus (Hiv) Ii Protease Complexed With
+          L- 735,524, An Orally Bioavailable Inhibitor Of The Hiv
+          Proteases
+ Chain A, Potent Hiv Protease Inhibitors Containing A Novel
+          (Hydroxyethyl)amide Isostere
+ Chain B, Potent Hiv Protease Inhibitors Containing A Novel
+          (Hydroxyethyl)amide Isostere
+ Chain A, High Resolution Hiv-2 Protease Structure In Complex With
+          Clinical Drug Darunavir
+ Chain B, High Resolution Hiv-2 Protease Structure In Complex With
+          Clinical Drug Darunavir
+ Chain A, High Resolution Hiv-2 Protease Structure In Complex With
+          Antiviral Inhibitor Grl-06579a
+ Chain B, High Resolution Hiv-2 Protease Structure In Complex With
+          Antiviral Inhibitor Grl-06579a
+ Chain A, High Resolution Hiv-2 Protease Structure In Complex With
+          Antiviral Inhibitor Grl-98065
+ Chain B, High Resolution Hiv-2 Protease Structure In Complex With
+          Antiviral Inhibitor Grl-98065
+          Length = 99
+
+ Score =  102 bits (255), Expect = 2e-23,   Method: Compositional matrix adjust.
+ Identities = 46/99 (46%), Positives = 67/99 (67%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ +L++RP+VT  I GQ  E LL TGADD+++  + L   + PK++GGIGGFI  ++Y 
+Sbjct: 1  PQFSLWKRPVVTAYIEGQPVEVLLDTGADDSIVAGIELGNNYSPKIVGGIGGFINTKEYK 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           + IE+   K   T++ G TP+NI GRN+LT +G +LN 
+Sbjct: 61 NVEIEVLNKKVRATIMTGDTPINIFGRNILTALGMSLNL 99
+
+
+>gi|157830152|pdb|1AZ5|A Chain A, Unliganded Siv Protease
+          Structure In An "open" Conformation
+          Length = 99
+
+ Score =  102 bits (255), Expect = 3e-23,   Method: Compositional matrix adjust.
+ Identities = 47/98 (47%), Positives = 68/98 (69%)
+
+Query: 2  QITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYDQ 61
+          Q  L++RP+VT  I GQ  E LL TGADD+++  + L   + PK++GGIGGFI  ++Y  
+Sbjct: 2  QFHLWKRPVVTAHIEGQPVEVLLDTGADDSIVTGIELGPHYTPKIVGGIGGFINTKEYKN 61
+
+Query: 62 ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+          + +E+ G +  GT++ G TP+NI GRNLLT +G +LNF
+Sbjct: 62 VEVEVLGKRIKGTIMTGDTPINIFGRNLLTALGMSLNF 99
+
+
+>gi|443054|pdb|1IVP|A Chain A, The Crystallographic Structure Of
+          The Protease From Human Immunodeficiency Virus Type 2
+          With Two Synthetic Peptidic Transition State Analog
+          Inhibitors
+ Chain B, The Crystallographic Structure Of The Protease From
+          Human Immunodeficiency Virus Type 2 With Two Synthetic
+          Peptidic Transition State Analog Inhibitors
+ Chain A, The Crystallographic Structure Of The Protease From
+          Human Immunodeficiency Virus Type 2 With Two Synthetic
+          Peptidic Transition State Analog Inhibitors
+ Chain B, The Crystallographic Structure Of The Protease From
+          Human Immunodeficiency Virus Type 2 With Two Synthetic
+          Peptidic Transition State Analog Inhibitors
+ Chain A, Comparison Of The Structures Of Hiv-2 Protease Complexes
+          In Three Crystal Space Groups With An Hiv-1 Protease
+          Complex Structure
+ Chain B, Comparison Of The Structures Of Hiv-2 Protease Complexes
+          In Three Crystal Space Groups With An Hiv-1 Protease
+          Complex Structure
+ Chain A, Comparison Of The Structures Of Hiv-2 Protease Complexes
+          In Three Crystal Space Groups With An Hiv-1 Protease
+          Complex Structure
+ Chain B, Comparison Of The Structures Of Hiv-2 Protease Complexes
+          In Three Crystal Space Groups With An Hiv-1 Protease
+          Complex Structure
+ Chain A, Human Immunodeficiency Virus Type 2 Protease Mutant With
+          Lys 57 Replaced By Leu (K57l) Complex With U097410 [4-
+          Hydroxy-3-[1-[3-[[[[(Tert-Butyloxycarbonyl)
+          Aminomethyl]carbonyl]amino]phenyl]propyl]coumarin
+ Chain B, Human Immunodeficiency Virus Type 2 Protease Mutant With
+          Lys 57 Replaced By Leu (K57l) Complex With U097410 [4-
+          Hydroxy-3-[1-[3-[[[[(Tert-Butyloxycarbonyl)
+          Aminomethyl]carbonyl]amino]phenyl]propyl]coumarin
+ Chain A, Human Immunodeficiency Virus Type 2 Protease Mutant With
+          Lys 57 Replaced By Leu (K57l) Complex With U096333 [4-
+          Hydroxy-3-[1-(Phenyl)propyl]-7-Methoxycoumarin]
+ Chain B, Human Immunodeficiency Virus Type 2 Protease Mutant With
+          Lys 57 Replaced By Leu (K57l) Complex With U096333 [4-
+          Hydroxy-3-[1-(Phenyl)propyl]-7-Methoxycoumarin]
+ Chain A, Hiv-2 ProteaseU99294 COMPLEX
+ Chain B, Hiv-2 ProteaseU99294 COMPLEX
+ Chain A, Hiv-2 ProteaseU99283 COMPLEX
+ Chain B, Hiv-2 ProteaseU99283 COMPLEX
+          Length = 99
+
+ Score =  100 bits (250), Expect = 9e-23,   Method: Compositional matrix adjust.
+ Identities = 46/99 (46%), Positives = 66/99 (66%)
+
+Query: 1  PQITLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEWKPKLIGGIGGFIKVRQYD 60
+          PQ +L++RP+VT  I GQ  E LL TGADD+++  + L   + PK++GGIGGFI   +Y 
+Sbjct: 1  PQFSLWKRPVVTAYIEGQPVEVLLDTGADDSIVAGIELGNNYSPKIVGGIGGFINTLEYK 60
+
+Query: 61 QILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTLNF 99
+           + IE+   K   T++ G TP+NI GRN+LT +G +LN 
+Sbjct: 61 NVEIEVLNKKVRATIMTGDTPINIFGRNILTALGMSLNL 99
+
+
+>gi|4389337|pdb|1BAI|A Chain A, Structural Basis For Specificity Of
+           Retroviral Proteases
+ Chain B, Structural Basis For Specificity Of Retroviral Proteases
+          Length = 124
+
+ Score = 47.8 bits (112), Expect = 1e-06,   Method: Compositional matrix adjust.
+ Identities = 38/90 (42%), Positives = 49/90 (54%), Gaps = 16/90 (17%)
+
+Query: 22  ALLKTGADDTVLEEMSLPGEW------KPKLIGGIGGFIKVRQYDQILIEICGHKAIGTV 75
+           ALL TGADDTV+ E   P +W       P+ I GIGG I VR+  + +IE+      G++
+Sbjct: 34  ALLDTGADDTVISEEDWPTDWPVMEAANPQ-IHGIGGGIPVRK-SRDMIELGVINRDGSL 91
+
+Query: 76  --------LVGPTPVNILGRNLLTQIGCTL 97
+                   LV  TPVNILGR+ L  +G  L
+Sbjct: 92  ERPLLLFPLVAMTPVNILGRDCLQGLGLRL 121
+
+
+>gi|159162755|pdb|1NSO|A Chain A, Folded Monomer Of Protease From
+           Mason-Pfizer Monkey Virus
+          Length = 107
+
+ Score = 34.3 bits (77), Expect = 0.011,   Method: Compositional matrix adjust.
+ Identities = 27/94 (28%), Positives = 45/94 (47%), Gaps = 7/94 (7%)
+
+Query: 7   QRPLVTIKIGGQLKEALLKTGADDTVLEEMSLPGEW----KPKLIGGIGGFIKVRQYDQI 62
+           Q+P +T+ +  ++   L+ TGAD T+++    P  W        + GIG     +Q  + 
+Sbjct: 8   QKPSLTLWLDDKMFTGLINTGADVTIIKLEDWPPNWPITDTLTNLRGIGQSNNPKQSSKY 67
+
+Query: 63  LIEICGHKAIGTV--LVGPT-PVNILGRNLLTQI 93
+           L         G +   V P  PVN+ GR+LL+Q+
+Sbjct: 68  LTWRDKENNSGLIKPFVIPNLPVNLWGRDLLSQM 101
+
+
+>gi|134104445|pdb|2HAH|A Chain A, The Structure Of Fiv 12s Protease
+           In Complex With Tl-3
+          Length = 116
+
+ Score = 30.4 bits (67), Expect = 0.18,   Method: Compositional matrix adjust.
+ Identities = 39/106 (36%), Positives = 51/106 (48%), Gaps = 12/106 (11%)
+
+Query: 4   TLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSL----PGEWKPKLIGGIGGFIKVRQY 59
+           TL +RP + I + G   + LL TGAD TVL           E   ++IGGIGGFI+   Y
+Sbjct: 9   TLEKRPEILIFVNGYPIKFLLDTGADITVLNRRDFQVKNSIENGRQMIGGIGGFIRGTNY 68
+
+Query: 60  DQILIEICGHKA-----IGTVLV---GPTPVNILGRNLLTQIGCTL 97
+             + +EI           G V V     TPVNILGR+ + +    L
+Sbjct: 69  INVHLEIRDENYKTQCIFGNVCVLEDNSTPVNILGRDNMIKFNIRL 114
+
+
+>gi|230182|pdb|1MVP|A Chain A, Structural Studies Of The
+          Retroviral Proteinase From Avian Myeloblastosis
+          Associated Virus
+ Chain B, Structural Studies Of The Retroviral Proteinase From
+          Avian Myeloblastosis Associated Virus
+          Length = 124
+
+ Score = 29.6 bits (65), Expect = 0.26,   Method: Compositional matrix adjust.
+ Identities = 18/48 (37%), Positives = 27/48 (56%), Gaps = 7/48 (14%)
+
+Query: 22 ALLKTGADDTVLEEMSLPGEW------KPKLIGGIGGFIKVRQYDQIL 63
+          ALL +GAD T++ E   P +W       P+ I GIGG I +R+   ++
+Sbjct: 34 ALLDSGADITIISEEDWPTDWPVMEAANPQ-IHGIGGGIPMRKSRDMI 80
+
+
+>gi|230722|pdb|2RSP|A Chain A, Structure Of The Aspartic Protease
+          From Rous Sarcoma Retrovirus Refined At 2 Angstroms
+          Resolution
+ Chain B, Structure Of The Aspartic Protease From Rous Sarcoma
+          Retrovirus Refined At 2 Angstroms Resolution
+          Length = 124
+
+ Score = 29.6 bits (65), Expect = 0.27,   Method: Compositional matrix adjust.
+ Identities = 18/48 (37%), Positives = 27/48 (56%), Gaps = 7/48 (14%)
+
+Query: 22 ALLKTGADDTVLEEMSLPGEW------KPKLIGGIGGFIKVRQYDQIL 63
+          ALL +GAD T++ E   P +W       P+ I GIGG I +R+   ++
+Sbjct: 34 ALLDSGADITIISEEDWPTDWPVMEAANPQ-IHGIGGGIPMRKSRDMI 80
+
+
+>gi|157831103|pdb|1FMB|A Chain A, Eiav Protease Complexed With The
+           Inhibitor Hby-793
+ Chain A, Eiav Protease Complexed With An Inhibitor Lp-130
+          Length = 104
+
+ Score = 28.1 bits (61), Expect = 0.87,   Method: Compositional matrix adjust.
+ Identities = 30/99 (30%), Positives = 42/99 (42%), Gaps = 7/99 (7%)
+
+Query: 5   LYQRPLVTIKIGGQLKEALLKTGADDTVL-----EEMSLPGEWKPKLIGGIGGFIKVRQY 59
+           L +RP   + I       LL TGAD +VL       +   G  K +  G  G    V  +
+Sbjct: 5   LEKRPTTIVLINDTPLNVLLDTGADTSVLTTAHYNRLKYRGR-KYQGTGIGGVGGNVETF 63
+
+Query: 60  DQ-ILIEICGHKAIGTVLVGPTPVNILGRNLLTQIGCTL 97
+              + I+  G      +LV   PV ILGR++L  +G  L
+Sbjct: 64  STPVTIKKKGRHIKTRMLVADIPVTILGRDILQDLGAKL 102
+
+
+>gi|213424552|pdb|3F1C|A Chain A, Crystal Structure Of
+           2-C-Methyl-D-Erythritol 4-Phosphate Cytidylyltransferase
+           From Listeria Monocytogenes
+ Chain B, Crystal Structure Of 2-C-Methyl-D-Erythritol 4-Phosphate
+           Cytidylyltransferase From Listeria Monocytogenes
+          Length = 246
+
+ Score = 26.6 bits (57), Expect = 2.4,   Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 20/30 (66%)
+
+Query: 8   RPLVTIKIGGQLKEALLKTGADDTVLEEMS 37
+           RP +T +I  +  +A L+TGA DTV+E + 
+Sbjct: 115 RPFLTHRIIEENIDAALETGAVDTVIEALD 144
+
+
+>gi|6730067|pdb|5FIV|A Chain A, Structural Studies Of Hiv And Fiv
+          Proteases Complexed With An Efficient Inhibitor Of Fiv
+          Pr
+          Length = 113
+
+ Score = 26.6 bits (57), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 22/67 (32%), Positives = 32/67 (47%), Gaps = 4/67 (5%)
+
+Query: 4  TLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSL----PGEWKPKLIGGIGGFIKVRQY 59
+          TL +RP + I + G   + LL TGAD T+L           E   + + GIGG  +   Y
+Sbjct: 6  TLEKRPEILIFVNGYPIKFLLDTGADITILNRRDFQVKNSIENGRQNMIGIGGGKRGTNY 65
+
+Query: 60 DQILIEI 66
+            + +EI
+Sbjct: 66 INVHLEI 72
+
+
+>gi|2624458|pdb|2FIV|A Chain A, Crystal Structure Of Feline
+          Immunodeficiency Virus Protease Complexed With A
+          Substrate
+ Chain B, Crystal Structure Of Feline Immunodeficiency Virus
+          Protease Complexed With A Substrate
+          Length = 116
+
+ Score = 26.6 bits (57), Expect = 2.7,   Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 19/35 (54%)
+
+Query: 4  TLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSL 38
+          TL +RP + I + G   + LL TGAD T+L     
+Sbjct: 9  TLEKRPEILIFVNGYPIKFLLNTGADITILNRRDF 43
+
+
+>gi|2624481|pdb|3FIV|A Chain A, Crystal Structure Of Feline
+          Immunodeficiency Virus Protease Complexed With A
+          Substrate
+ Chain B, Crystal Structure Of Feline Immunodeficiency Virus
+          Protease Complexed With A Substrate
+          Length = 116
+
+ Score = 26.6 bits (57), Expect = 2.8,   Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 19/35 (54%)
+
+Query: 4  TLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSL 38
+          TL +RP + I + G   + LL TGAD T+L     
+Sbjct: 9  TLEKRPEILIFVNGYPIKFLLNTGADITILNRRDF 43
+
+
+>gi|6730050|pdb|6FIV|A Chain A, Structural Studies Of Hiv And Fiv
+          Proteases Complexed With An Efficient Inhibitor Of Fiv
+          Pr
+          Length = 113
+
+ Score = 26.2 bits (56), Expect = 3.0,   Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 19/35 (54%)
+
+Query: 4  TLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSL 38
+          TL +RP + I + G   + LL TGAD T+L     
+Sbjct: 6  TLEKRPEILIFVNGYPIKFLLDTGADITILNRRDF 40
+
+
+>gi|1127270|pdb|1FIV|A Chain A, Structure Of An Inhibitor Complex
+          Of Proteinase From Feline Immunodeficiency Virus
+ Chain A, Structure Of Feline Immunodeficiency Virus Protease
+          Complexed With Tl-3-093
+ Chain A, Fiv Protease Complexed With An Inhibitor Lp-130
+          Length = 113
+
+ Score = 26.2 bits (56), Expect = 3.3,   Method: Compositional matrix adjust.
+ Identities = 14/35 (40%), Positives = 19/35 (54%)
+
+Query: 4  TLYQRPLVTIKIGGQLKEALLKTGADDTVLEEMSL 38
+          TL +RP + I + G   + LL TGAD T+L     
+Sbjct: 6  TLEKRPEILIFVNGYPIKFLLDTGADITILNRRDF 40
+
+
+>gi|159164133|pdb|2DIV|A Chain A, Solution Structure Of The Rrm
+          Domain Of Trna Selenocysteine Associated Protein
+          Length = 99
+
+ Score = 26.2 bits (56), Expect = 3.6,   Method: Compositional matrix adjust.
+ Identities = 17/52 (32%), Positives = 20/52 (38%)
+
+Query: 43 KPKLIGGIGGFIKVRQYDQILIEICGHKAIGTVLVGPTPVNILGRNLLTQIG 94
+          + +L G   G+  V   D    E C HK  G  L G TP      N  T  G
+Sbjct: 44 RNRLTGIPAGYCFVEFADLATAEKCLHKINGKPLPGATPAKRFKLNYATYSG 95
+
+
+>gi|159163504|pdb|1X2L|A Chain A, Solution Structure Of The Cut
+          Domain Of Human Homeobox Protein Cux-2 (Cut-Like 2)
+          Length = 101
+
+ Score = 25.8 bits (55), Expect = 4.0,   Method: Compositional matrix adjust.
+ Identities = 18/63 (28%), Positives = 29/63 (46%), Gaps = 13/63 (20%)
+
+Query: 10 LVTIKIGGQLKEALLKTG-------------ADDTVLEEMSLPGEWKPKLIGGIGGFIKV 56
+          L T +I  Q+KE LLK               +  +V E ++ P  W+   + G   FIK+
+Sbjct: 17 LDTAEIAFQVKEQLLKHNIGQRVFGHYVLGLSQGSVSEILARPKPWRKLTVKGKEPFIKM 76
+
+Query: 57 RQY 59
+          +Q+
+Sbjct: 77 KQF 79
+
+
+>gi|114793631|pdb|2CU9|A Chain A, Crystal Structure Of Histone
+          Chaperone Cia1
+ Chain A, Crystal Structure Of Histone Chaperone Asf1 In Complex
+          With A C-Terminus Of Histone H3
+ Chain B, Crystal Structure Of Histone Chaperone Asf1 In Complex
+          With A C-Terminus Of Histone H3
+ Chain A, Crystal Structure Of Spcia1ASF1 COMPLEX WITH HIP1
+ Chain B, Crystal Structure Of Spcia1ASF1 COMPLEX WITH HIP1
+ Chain A, Crystal Structure Of Spcia1ASF1 COMPLEXED WITH CAC2
+          PEPTIDE
+ Chain B, Crystal Structure Of Spcia1ASF1 COMPLEXED WITH CAC2
+          PEPTIDE
+ Chain C, Crystal Structure Of Spcia1ASF1 COMPLEXED WITH CAC2
+          PEPTIDE
+ Chain D, Crystal Structure Of Spcia1ASF1 COMPLEXED WITH CAC2
+          PEPTIDE
+ Chain E, Crystal Structure Of Spcia1ASF1 COMPLEXED WITH CAC2
+          PEPTIDE
+ Chain F, Crystal Structure Of Spcia1ASF1 COMPLEXED WITH CAC2
+          PEPTIDE
+ Chain G, Crystal Structure Of Spcia1ASF1 COMPLEXED WITH CAC2
+          PEPTIDE
+ Chain H, Crystal Structure Of Spcia1ASF1 COMPLEXED WITH CAC2
+          PEPTIDE
+          Length = 161
+
+ Score = 25.4 bits (54), Expect = 4.8,   Method: Compositional matrix adjust.
+ Identities = 18/52 (34%), Positives = 23/52 (44%), Gaps = 13/52 (25%)
+
+Query: 33 LEEMSLPGEWKPKLIGGIGGFIKVRQYDQILIEICGHKAIGTVLVGPTPVNI 84
+          LE +    EWK   +G        + YDQIL          T+LVGP P+ I
+Sbjct: 31 LEPLKSDLEWKLTYVGSATS----QSYDQIL---------DTLLVGPIPIGI 69
+
+
+>gi|2780904|pdb|2HRP|P Chain P, Antigen-Antibody Complex
+ Chain Q, Antigen-Antibody Complex
+          Length = 10
+
+ Score = 25.0 bits (53), Expect = 6.9,   Method: Composition-based stats.
+ Identities = 9/10 (90%), Positives = 9/10 (90%)
+
+Query: 36 MSLPGEWKPK 45
+          MSLPG WKPK
+Sbjct: 1  MSLPGRWKPK 10
+
+
+>gi|178847337|pdb|2VNU|D Chain D, Crystal Structure Of Sc Rrp44
+          Length = 760
+
+ Score = 25.0 bits (53), Expect = 7.2,   Method: Composition-based stats.
+ Identities = 19/60 (31%), Positives = 30/60 (50%), Gaps = 5/60 (8%)
+
+Query: 12 TIKIGGQLKEALLKTG----ADDTVLE-EMSLPGEWKPKLIGGIGGFIKVRQYDQILIEI 66
+          T ++ G LK  +L  G    ++   LE  +SLP   KP LI G     +    DQ+++E+
+Sbjct: 20 TARVXGGLKNGVLYQGNIQISEYNFLEGSVSLPRFSKPVLIVGQKNLNRAFNGDQVIVEL 79
+
+
+  Database: pdb.fasta
+    Posted date:  Jul 15, 2009  3:54 PM
+  Number of letters in database: 9,620,218
+  Number of sequences in database:  42,001
+  
+Lambda     K      H
+   0.321    0.145    0.436 
+
+Gapped
+Lambda     K      H
+   0.267   0.0410    0.140 
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Number of Sequences: 42001
+Number of Hits to DB: 1,952,975
+Number of extensions: 70799
+Number of successful extensions: 315
+Number of sequences better than 10.0: 150
+Number of HSP's gapped: 309
+Number of HSP's successfully gapped: 154
+Length of query: 99
+Length of database: 9,620,218
+Length adjustment: 64
+Effective length of query: 35
+Effective length of database: 6,932,154
+Effective search space: 242625390
+Effective search space used: 242625390
+Neighboring words threshold: 11
+Window for multiple hits: 40
+X1: 16 ( 7.4 bits)
+X2: 38 (14.6 bits)
+X3: 64 (24.7 bits)
+S1: 41 (21.8 bits)
+S2: 52 (24.6 bits)

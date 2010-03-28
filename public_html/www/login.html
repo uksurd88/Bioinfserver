@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>BugPan Interface Authentication Page</title>
+</head>
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<script language="JavaScript" src="/jsfile.js"></script>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+<meta name="author" content="Erwin Aligam - styleshout.com" />
+<meta name="description" content="Site Description Here" />
+<meta name="keywords" content="keywords, here" />
+<meta name="robots" content="index, follow, noarchive" />
+<meta name="googlebot" content="noarchive" />
+
+<link rel="stylesheet" type="text/css" media="screen" href="css/screen.css" />
+
+<!-- wrap starts here -->
+<div id="wrap">
+
+	<!--header -->
+	<div id="header">			
+				
+		<h1 id="logo-text"><a href="login.cgi" title="">BUGPAN Interface</a></h1>		
+		<p id="slogan" >  A user friendly interface for BugPan Experiments on Locust. </p>	
+		
+		<div id="header-image"></div>
+						
+	<!--header ends-->					
+	</div>
+<center>
+<form action="/cgi-bin/login.cgi" method="post">
+<table id="usertable">
+<tr id="login">
+<td>Login</td>
+<td><input type="text" name="username"></input></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="password" onChange=''></input></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<input type="submit" name="loginbutton" value="Login"></input></td>
+</tr>
+</form>
+</center>
+</body>
+</html>
+

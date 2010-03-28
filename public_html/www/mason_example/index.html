@@ -1,0 +1,24 @@
+<& lib/hourglass.mhtml, op => "show" &>
+
+<menu>
+% my $dir = $m->current_comp->source_dir;
+% opendir(DIR, $dir) or die "Unable to read directory \"$dir\": $!\n";
+% for my $filename (sort readdir(DIR)) {
+%  next if ($filename =~ /^\./ || $filename =~ /~$/ || $filename =~ /^(index.html|lib|autohandler)$/);
+%  my $entry = $m->fetch_comp($filename) or next;
+%  next if ($entry->attr_exists('requires_mod_perl') && !$ENV{MOD_PERL});
+
+<li> <a href="<%$filename%>"><%$filename%></a> <% $entry->attr_exists("title") ? $entry->attr("title") : "<untitled>" |h%>
+
+% }
+% closedir(DIR);
+</menu>
+
+<& lib/hourglass.mhtml, op => "hide" &>
+<%attr>
+title => "Index"
+</%attr>
+<%init>
+# Let's try and make the show-cookies demo interesting
+$r->headers_out->{"Set-Cookie"} = "ExampleCookie=This_is_an_example_cookie" unless ($r->headers_in->{Cookie});
+</%init>

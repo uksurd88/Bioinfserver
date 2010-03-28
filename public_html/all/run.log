@@ -1,0 +1,72 @@
+
+                         MODELLER 9v4, 2008/05/09, r6267
+
+     PROTEIN STRUCTURE MODELLING BY SATISFACTION OF SPATIAL RESTRAINTS
+
+
+                     Copyright(c) 1989-2008 Andrej Sali
+                            All Rights Reserved
+
+                             Written by A. Sali
+                               with help from
+           B. Webb, M.S. Madhusudhan, M-Y. Shen, M.A. Marti-Renom,
+                N. Eswar, F. Alber, M. Topf, B. Oliva, A. Fiser,
+                    R. Sanchez, B. Yerkovich, A. Badretdinov,
+                      F. Melo, J.P. Overington, E. Feyfant
+                 University of California, San Francisco, USA
+                    Rockefeller University, New York, USA
+                      Harvard University, Cambridge, USA
+                   Imperial Cancer Research Fund, London, UK
+              Birkbeck College, University of London, London, UK
+
+
+Kind, OS, HostName, Kernel, Processor: 4, Linux bioinf3.bioc.le.ac.uk 2.6.27.24-170.2.68.fc10.x86_64 x86_64
+Date and time of compilation         : 2008/05/09 14:35:17
+MODELLER executable type             : x86_64-intel8
+Job starting time (YY/MM/DD HH:MM:SS): 2009/07/15 21:41:03
+
+openf___224_> Open           $(LIB)/restyp.lib
+openf___224_> Open           ${MODINSTALL9v4}/modlib/resgrp.lib
+rdresgr_266_> Number of residue groups:        2
+openf___224_> Open           ${MODINSTALL9v4}/modlib/sstruc.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:      3234074    3158.275     3.084
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:      3234602    3158.791     3.085
+openf___224_> Open           ${MODINSTALL9v4}/modlib/resdih.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:      3283202    3206.252     3.131
+rdrdih__263_> Number of dihedral angle types         :        9
+              Maximal number of dihedral angle optima:        3
+              Dihedral angle names                   :  Alph Phi Psi Omeg chi1 chi2 chi3 chi4 chi5
+openf___224_> Open           ${MODINSTALL9v4}/modlib/radii.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:      3292178    3215.018     3.140
+openf___224_> Open           ${MODINSTALL9v4}/modlib/radii14.lib
+openf___224_> Open           ${MODINSTALL9v4}/modlib/af_mnchdef.lib
+rdwilmo_274_> Mainchain residue conformation classes:  APBLE
+openf___224_> Open           ${MODINSTALL9v4}/modlib/mnch.lib
+rdclass_257_> Number of classes:        5
+openf___224_> Open           ${MODINSTALL9v4}/modlib/mnch1.lib
+openf___224_> Open           ${MODINSTALL9v4}/modlib/mnch2.lib
+openf___224_> Open           ${MODINSTALL9v4}/modlib/mnch3.lib
+openf___224_> Open           ${MODINSTALL9v4}/modlib/xs4.mat
+rdrrwgh_268_> Number of residue types:       21
+openf___224_> Open           alignment.ali
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3303637    3226.208     3.151
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3305087    3227.624     3.152
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3307987    3230.456     3.155
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3313787    3236.120     3.160
+openf___224_> Open           template.pdb
+get_ran_648E> Alignment sequence not found in PDB file:        1  template.pdb
+              (You didn't specify the starting and ending residue numbers and
+              chain IDs in the alignment, so Modeller tried to guess these from
+              the PDB file.)
+              Suggestion: put in the residue numbers and chain IDs (see the
+              manual) and run again for more detailed diagnostics.
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3317563    3239.808     3.164

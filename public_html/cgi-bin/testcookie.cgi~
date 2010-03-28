@@ -1,0 +1,48 @@
+#!/usr/bin/perl
+
+# file: cookie.pl
+
+use CGI qw(:standard :html3);
+
+
+# Create the form
+print hr,
+    start_form,
+    
+    "Your first name: ",
+    textfield(-name=>'name',
+              -default=>$preferences{'name'},
+              -size=>30),br,
+    
+    table(
+	  TR(
+	     td("Preferred"),
+	     td("Page color:"),
+	     td(popup_menu(-name=>'background',
+			   -values=>\@colors,
+			   -default=>$preferences{'background'})
+		),
+	     ),
+	  TR(
+	     td(''),
+	     td("Text color:"),
+	     td(popup_menu(-name=>'text',
+			   -values=>\@colors,
+			   -default=>$preferences{'text'})
+		)
+	     ),
+	  TR(
+	     td(''),
+	     td("Font size:"),
+	     td(popup_menu(-name=>'size',
+			   -values=>\@sizes,
+			   -default=>$preferences{'size'})
+		)
+	     )
+	  ),
+
+    submit(-label=>'Set preferences'),
+    end_form,
+    hr;
+   
+print a({HREF=>"../source.html"},'Code examples');

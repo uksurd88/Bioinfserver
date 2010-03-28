@@ -1,0 +1,136 @@
+#! /usr/bin/perl;
+
+# loading usual development settings
+use warnings;
+use strict;
+
+# declaring variables
+my @i;
+my $i;
+my $filename = "/home/ss533/public_html/all/model.txt";
+my $templateseq;
+my $templateseq1;
+my $templateseq2;
+my $templatename;
+my $firstresidue;
+my $lastresidue;
+my $lastresidue1;
+my $lastresidue2;
+my $firstnumber;
+my $lastnumber;
+my $lastnumber1;
+my $lastnumber2;
+my $HETATM;
+
+# opening filename or printing error messsage
+open(FH,$filename) or die "Cannot open $filename :$! ";
+
+# putting filedata into array and pinting it on screen
+while ($_=<FH>) {
+@i=$_;
+print @i;
+}
+
+# running blast on local server
+system ("blastall -p blastp -i model.txt -d pdb.fasta -o r.txt");
+
+# storing the result of blast in local variable
+my $blastoutput = "/home/ss533/public_html/all/r.txt";
+
+
+open (FH,$blastoutput);
+while ($_=<FH>) {
+if($_ =~ /^gi\|\d+\|pdb\|(\w\w\w\w)\|/){
+print "$1\n";
+$templatename=$1;
+last;
+}
+}
+# protein name is changed from uppercase to lowercase to fetch correct sequence from ftp.
+$templatename=lc($templatename);
+open (FH,$blastoutput);
+while ($_=<FH>) {
+if($_ =~ /^Sbjct: 12\s\s(\w*)/){
+$templateseq1=$1;
+last;
+}
+}
+
+while ($_=<FH>) {
+if($_ =~ /^Sbjct: 72\s\s(\w*)/){
+$templateseq2=$1;
+last;
+}
+}
+$templateseq = $templateseq1.$templateseq2;
+print $templateseq;
+
+my $pdb= "ftp://ftp.wwpdb.org/pub/pdb/data/structures/all/pdb/pdb"."$templatename".".ent.gz";
+#my $pdb= "ftp://ftp.wwpdb.org/pub/pdb/data/structures/all/pdb/pdb1w5y.ent.gz";
+
+# gettting the pdb file of selected template
+#system("firefox ftp://ftp.wwpdb.org/pub/pdb/data/structures/all/pdb/pdb1w5y.ent.gz");
+system("wget $pdb");
+
+# gunzipping the pdb file
+system("gunzip /home/ss533/public_html/all/*.ent.gz");
+# renaming the file to template for modeler
+system("mv /home/ss533/public_html/all/*.ent template.pdb");
+
+my $temp = "/home/ss533/public_html/all/template.pdb";
+while ($_=<TEMP>) {
+if($_=~ /^ATOM\s+\d+\s+\w+\s+\w+\s(\w)\s+(\d)/){
+print "$1\n";
+$firstresidue = $1;
+$firstnumber = $2;
+last;
+}
+}
+while ($_=<TEMP>) {
+if($_=~ /^ATOM\s+\d+\s+\w+\s+\w+\s(\w)\s+(\d+)/){
+#print "$1\n";
+$lastresidue1 = $1;
+$lastnumber1 = $2;
+}
+}
+
+
+while ($_=<TEMP>) {
+if($_=~ /^(HETATM)\s+\d+\s+\w+\d+\s+\w+\s+(\w)(\d+)/){
+#print "$1\n";
+$HETATM=$1;
+$lastresidue2 = $2;
+$lastnumber2= $3;
+last;
+}
+}
+if (defined($HETATM) && $HETATM ne ""){
+$lastresidue=$lastresidue2;
+$lastnumber=$lastnumber2;
+}
+else {
+$lastresidue=$lastresidue1;
+$lastnumber=$lastnumber1;
+}
+print $lastresidue;
+print $lastnumber;
+close(TEMP);
+
+# making ali file for modeler
+my $fastafile ="alignment.ali";
+open(FILE,">alignment.ali");
+# printing the template sequence in ali file
+print FILE ">P1;template\nstructureX:template:$firstnumber:$firstresidue:$lastnumber:$lastresidue:.:.:.:.\n$templateseq\/$templateseq\./\n*\n\n";
+# printing the model sequence in the ali file
+print FILE ">P1;model \nsequence:model:.:.:.:.:.:.:.:.\n@i\/@i.\/*";
+# opening of template.pdb so as to check the number of hetatm enteries and for the deletion of waters
+#system("gedit template.pdb");
+system("nano alignment.ali");
+#system("mod9v4 run.py");
+# viewing log in terminal for selecting the best model
+#system("tail -35 run.log");
+# opening and viewing the best model in pymol
+#system("pymol /home/ss533/public_html/all/model.B99990005.pdb");
+#print <FH>;
+
+

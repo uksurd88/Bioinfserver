@@ -1,0 +1,71 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// extract floats from colNumber'th column, return as array for floats 
+// extracting values from the sheets which are the results generated for the user querries and storing them as mean values
+function extractvalues(colNumber) {
+var meanvalues=[];
+for (var i=0;i<numberofRows;i++)
+{
+var useroutput=$("qvry"+i+'_'+colNumber).innerHTML;
+meanvalues[i]=parseFloat(useroutput);
+}
+return meanvalues;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//calculate the mean for an array of floats for the data stores in meanvalues of extractvalues functions and returns mean
+
+function avgArray(theArray) {
+var mean=0;
+for (var i=0;i<theArray.length;i++)
+{
+mean=mean+theArray[i]; 
+}
+mean = (mean/theArray.length);
+return mean;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Calculates mean and standard deviation of all columns (where possible), and displays the results in respective columns.
+function recalcStats() {
+  // loop over columns
+  for (var i=1;i<=colcount;i++)
+  {
+var result=avgArray(extractvalues(i));
+$("mean-"+i).update(result);
+var arr = extractvalues(i);
+var stdev=std(arr);
+$("stdv-"+i).update(stdev);
+  }
+// Checking if the data is in numeric form or not
+if (isNaN(result))
+{
+}
+else
+  return result;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Function calculating the standard deviation for the data retrieved from the sheets for the userquery
+
+function std(myArray) {
+var myarr =myArray;
+var mean=0;
+var stda=[];
+var stdb=0;
+for (var i=0;i<myarr.length;i++)
+{
+mean = mean +myarr[i];
+}
+mean = mean/myarr.length;
+for (i=0;i<myarr.length;i++)
+{
+stda[i]=myarr[i]-mean;
+stda[i]=stda[i]*stda[i];
+stdb=stdb+stda[i];
+}
+stdb=(stdb/(myarr.length-1));
+stdb=Math.sqrt(stdb);
+return stdb;
+}
+
+

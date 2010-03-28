@@ -1,0 +1,13 @@
+<p> Called from <% $m->callers(1)->path %> </p>
+
+<& .content &>
+
+<%def .content>
+% for ($m->callers) {
+<b><% $_->title |h%></b> <% "$_" |h %> <% $_->can('owner') ? "owner=".$_->owner->name : "no_owner" |h%> <br>
+% }
+</%def>
+
+<%attr>
+title => "Caller stack"
+</%attr>

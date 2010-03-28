@@ -1,0 +1,211 @@
+body {	/* top-level container */
+	background: #c0c0c0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 10pt;
+	padding-right: 16px;	/* accomodate Internet Explorer scrollbar */
+}
+html>body {	/* top-level container, hidden from IE */
+	padding-right: 0px;	/* reverse the action taken above */
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+}
+a:link { color: #36c }
+a:active { color: #300 }
+a:visited { color: #36c }
+h1 {
+	margin-bottom: 0px;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 50%;
+	padding-bottom: 1px;
+	border-bottom: 1px solid black;
+}
+.error {
+	color: red;
+}
+#menu span.sort {	/* link to toggle sort style */
+	display: block;
+	white-space: nowrap;
+	/*
+	padding: .25em;
+	background: #ddf;
+	*/
+	text-align: center;
+	font-size: 85%;
+}
+#menu ul {	/* all menu lists */
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#menu #groups {	/* top-level list with grouped applications */
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#menu #apps {	/* top-level list with ungrouped applications */
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-right: .5em;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	border-right: 2px solid #ddf;
+	text-align: right;
+}
+#menu li.group {	/* surrounding box for each group (title and list) */
+	border: 2px solid black;
+	text-align: left;
+}
+#menu span.group {	/* surrounding box for each group title */
+	display: block;
+	padding: 4px 6px 6px 6px;
+	background: black;
+	color: white;
+	text-align: center;
+	font-family: "Tahoma", sans-serif;
+	font-weight: bold;
+}
+#menu ul.group {	/* surrounding box for each group list */
+	background: #ccc;
+	padding: 2px;
+}
+#menu a {	/* link to individual application */
+}
+
+#input h2 {	/* application title */
+	margin-bottom: 0px;
+	font-family: "Tahoma", sans-serif;
+	font-weight: bold;
+	font-size: 200%;
+}
+#input p.documentation {	/* application description */
+	margin-top: 0px;
+	padding-bottom: .25em;
+	border-bottom: 1px solid black;
+	font-family: serif;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 100%;
+}
+#input #legend {	/* required/optional legend */
+	margin-top: .5em;
+}
+#input form {	/* input form */
+	margin-top: 2em;
+}
+#input fieldset {	/* surrounding box for each section */
+	margin-top: 1em;
+	border: 2px solid black;
+	background: #ccc;
+	padding: 0px;
+}
+#input legend {	/* section title text */
+}
+#input div {	/* all input fields */
+}
+#input div.required {	/* required input fields */
+	padding: .25em;
+}
+#input div.additional {	/* non-required input fields */
+	padding: .25em;
+	background: #abc;
+}
+#input #submit {	/* surrounding box for submit button */
+	text-align: center;
+}
+#input #email span.description {
+	display: block;
+}
+#input p {	/* input field group text */
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+#input ol {	/* input field group list */
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+#input ol li { /* input field group item */
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#input span.label {	/* input field label text */
+}
+#input span.field {	/* input field itself */
+}
+#input span.description {	/* input field description */
+	font-style: italic;
+}
+#input ol.sequence span.field {
+	display: block;
+	margin: .5em;
+}
+
+#horizon {	/* horizon div for vertical centering */
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	text-align: center;
+}
+#running {	/* EMBOSS is running div */
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	width: 450px;
+	height: 60px;
+	margin-left: -225px;
+	text-align: center;
+	border: 2px solid black;
+	background: white;
+	padding: 5px;
+}
+#running img {	/* EMBOSS is running image */
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+#running p {	/* EMBOSS is running text */
+	margin-top: 1em;
+	text-align: center;
+}
+
+#output span.item {
+	display: block;
+	margin-top: 1em;
+	border: 2px solid black;
+	background: #ccc;
+}
+#output dt {
+	padding: 2px;
+	background: black;
+	color: white;
+	font-weight: bold;
+}
+#output dt span.type {
+	text-transform: uppercase;
+}
+#output dd {
+	margin-left: 0px;
+	padding: .5em;
+}
+#output dt.inline {	/* inline output file label */
+}
+#output dt.inline {	/* inline output file contents */
+}
+#output dt.outfile {	/* output file label */
+}
+#output dd.outfile {	/* output file contents */
+}
+#output dt.image {	/* output image label */
+}
+#output dd.image {	/* output image */
+}
+#output pre {	/* inline output */
+	font-size: 110%;
+}
+html>#output pre {	/* inline output, hidden from IE */
+	font-size: 100%;
+}

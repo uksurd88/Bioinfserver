@@ -1,0 +1,18 @@
+tStart
+tStop
+
+approachLoV
+plotManySigs $ take 5 ecVoltage
+tStart
+
+approachLoV
+tStop
+tStop
+tStart
+tStart
+
+approachLoV
+tStart
+approachLoV
+test
+tStart

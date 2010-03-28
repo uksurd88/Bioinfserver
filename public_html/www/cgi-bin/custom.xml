@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<header_vars>
+		<text_color>FFFFFF</text_color>		
+		<text_header_1 x_pos="110" y_pos="88.5" size="29" letter_spacing="0">MY COMPANY NAME</text_header_1>	
+		<text_header_2 x_pos="110" y_pos="145" size="12" letter_spacing="5.5">MY WEBSITE SLOGAN</text_header_2>	
+		<music_file play_music="yes">custom_files/mymusic.mp3</music_file>
+		<image_header_1>custom_files/your_image.jpg</image_header_1>
+</header_vars>

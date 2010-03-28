@@ -1,0 +1,19 @@
+
+use strict;
+use warnings;
+use CGI;
+use Time::HiRes qw/gettimeofday tv_interval/;
+use CGI::Carp qw(fatalsToBrowser);
+
+my $q= new CGI;
+print <<END_HTML;
+  <html>
+  <head><title>Form Validation</title></head>
+  <body>
+print "<a href="multipleseq.aln"> <b>ClustalW alignmnet file <br></b></a>";
+print "<a href="multipleseq.dnd"> <b><br>ClustalW tree file  </b></a>";
+</form> 
+</body></html>
+END_HTML
+
+

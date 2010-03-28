@@ -1,0 +1,12 @@
+Start time: Thu Aug 20 16:30:18 BST 2009
+Modules run: displacedLoom(230)
+Values:
+	ecVoltage :: Signal Real
+	tStop :: Event ()
+	collision :: Event ()
+	tStart :: Event ()
+	displacedLoom :: Duration ()
+	program :: Duration String
+	moduleName :: Duration String
+	approachLoV :: Duration Real
+	displacedAngle :: Duration Real

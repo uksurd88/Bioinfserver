@@ -1,0 +1,18 @@
+%# -*- perl -*-
+
+<& lib/hourglass.mhtml, op => "show" &>
+
+% for my $i (1..5) {
+<p> (<%$i%>) This is some content that takes a while to produce </p>
+%  sleep(1);
+% }
+
+<& lib/hourglass.mhtml, op => "hide" &>
+
+</body>
+</html>
+
+<%attr>
+title => "Hourglass demonstration"
+requires_mod_perl => 1
+</%attr>

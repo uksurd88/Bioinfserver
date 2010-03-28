@@ -1,0 +1,349 @@
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   <title>Jmol Developer's Guide</title><meta name="generator" content="DocBook XSL Stylesheets V1.74.0"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="book" lang="en"><div class="titlepage"><div><div><h1 class="title"><a name="jmol-devel-guide"></a>Jmol Developer's Guide</h1></div><div><div class="author"><h3 class="author"><span class="othername">The Jmol Development Team</span></h3><div class="affiliation"><div class="address"><p><br>
+				<code class="email">&lt;<a class="email" href="mailto:jmol-developers@lists.sourceforge.net">jmol-developers@lists.sourceforge.net</a>&gt;</code><br>
+			</p></div></div></div></div><div><p class="copyright">Copyright &copy; 2005, 2006 The Jmol Development Team</p></div></div><hr></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="chapter"><a href="#Prerequisites">1. Prerequisites</a></span></dt><dt><span class="chapter"><a href="#CheckingOutJmol">2. Checking Out Jmol from SVN</a></span></dt><dt><span class="chapter"><a href="#BuildingJmol">3. Building Jmol</a></span></dt><dt><span class="chapter"><a href="#RunningJmol">4. Running Jmol</a></span></dt><dt><span class="chapter"><a href="#CodingStandard">5. Coding Standard</a></span></dt><dt><span class="chapter"><a href="#Releasing">6. Making a release</a></span></dt><dt><span class="chapter"><a href="#Packaging">7. Packaging</a></span></dt><dt><span class="chapter"><a href="#CVS">8. DEPRECATED - Working with Jmol's CVS</a></span></dt><dd><dl><dt><span class="sect1"><a href="#tagging">Tagging CVS</a></span></dt><dt><span class="sect1"><a href="#branching">CVS Branches</a></span></dt><dd><dl><dt><span class="sect2"><a href="#branch_access">Accessing a branch</a></span></dt><dt><span class="sect2"><a href="#branch_creating">Creating a branch</a></span></dt><dt><span class="sect2"><a href="#branch_merging">Merging branches</a></span></dt></dl></dd></dl></dd><dt><span class="chapter"><a href="#Eclipse">9. Using Eclipse</a></span></dt><dd><dl><dt><span class="sect1"><a href="#Eclipse_prerequisites">Eclipse prerequisites</a></span></dt><dt><span class="sect1"><a href="#Eclipse_CVSConfig">CVS Repository configuration</a></span></dt><dt><span class="sect1"><a href="#Eclipse_CheckingOut">Checking Out Jmol from CVS</a></span></dt><dt><span class="sect1"><a href="#Eclipse_Configuring">Configuring Eclipse to build Jmol</a></span></dt><dd><dl><dt><span class="sect2"><a href="#JavaExeLocation">Identifying the location of the Java executables</a></span></dt><dt><span class="sect2"><a href="#JavaLibLocation">Identifying the location of the Java library</a></span></dt><dt><span class="sect2"><a href="#MatchingJavaCompiler">Matching the Java compiler to the Java Runtime Environment</a></span></dt></dl></dd><dt><span class="sect1"><a href="#Eclipse_Running">Running and Debugging Jmol</a></span></dt><dt><span class="sect1"><a href="#Eclipse_Building">Building Jmol</a></span></dt></dl></dd></dl></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="Prerequisites"></a>Chapter&nbsp;1.&nbsp;Prerequisites</h2></div></div></div><div class="itemizedlist"><p>
+			The following package are necessary:
+		</p><ul type="disc"><li><p>
+				<span class="package">Java 2 JDK 1.4</span> or  <span class="package">Java 5 JDK 1.5</span>
+				(<a class="ulink" href="http://java.sun.com/" target="_top">http://java.sun.com/</a>).
+			</p></li><li><p>
+				<span class="package">Apache Ant</span>
+				(<a class="ulink" href="http://jakarta.apache.org/ant" target="_top">http://jakarta.apache.org/ant</a>) - not necessary if you
+				are using Eclipse with a Windows PC
+				(see <a class="link" href="#Eclipse" title="Chapter&nbsp;9.&nbsp;Using Eclipse">below</a>).
+			</p><p>
+				On Linux/Unix/OSX try to install <span class="package">Apache Ant</span> using
+				a package installer.
+			</p></li><li><p>
+				<span class="package">Subversion</span>
+				- The definitive svn documentation is at
+				<a class="ulink" href="http://svnbook.red-bean.com/" target="_top">http://svnbook.red-bean.com/</a>.
+			</p></li></ul></div></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="CheckingOutJmol"></a>Chapter&nbsp;2.&nbsp;Checking Out Jmol from SVN</h2></div></div></div><p>
+		If you are using Eclipse, see <a class="xref" href="#Eclipse" title="Chapter&nbsp;9.&nbsp;Using Eclipse">Chapter&nbsp;9, <i>Using Eclipse</i></a>.
+	</p><p>
+		In February 2006 Jmol converted to the <span class="command"><strong>subversion</strong></span> version control
+		system for our source code repository, frequently referred to as
+		<span class="command"><strong>svn</strong></span>. The <span class="command"><strong>svn</strong></span> repository is still hosted by SourceForge.
+	</p><p>
+		The current development version of the Jmol source code can be checked out using:
+		</p><pre class="screen">
+			<code class="prompt">~/workspace$</code>
+			svn checkout https://jmol.svn.sourceforge.net/svnroot/jmol/trunk/Jmol
+		</pre><p>
+	</p><p>
+		This creates a directory called <code class="filename">Jmol</code>
+		where we work on the source code:
+		</p><pre class="screen"><code class="prompt">~/workspace$</code> cd Jmol</pre><p>
+	</p><p>
+		To know the status of your workspace relative to the current
+		repository you can say:
+		</p><pre class="screen"><code class="prompt">~/workspace/Jmol$</code> svn status</pre><p>
+	</p><p>
+		To update your workspace to the current repository revision
+		use the update command
+		</p><pre class="screen"><code class="prompt">~/workspace/Jmol$</code> svn update</pre><p>
+	</p><p>
+		After modifying local files for testing, you can throw away
+		your local changes and revert your changes back to your
+		checkout revision:
+		</p><pre class="screen"><code class="prompt">~/workspace/Jmol$</code> svn revert</pre><p>
+	</p><p>
+		After developing, compiling, and testing changes locally,
+		you can commit your changes by saying:
+		</p><pre class="screen"><code class="prompt">~/workspace/Jmol$</code> svn commit</pre><p>
+	</p><p>
+		<span class="orgname">Sourceforge.net</span> provides basic instructions how to use
+		<span class="command"><strong>svn</strong></span> at this page <a class="ulink" href="http://sourceforge.net/docman/display_doc.php?docid=31070&amp;group_id=1" target="_top">http://sourceforge.net/docman/display_doc.php?docid=31070&amp;group_id=1</a>
+	</p><p>
+		The definitive documentation for <span class="command"><strong>subversion</strong></span> is at
+		<a class="ulink" href="http://svnbook.red-bean.com/" target="_top">http://svnbook.red-bean.com/</a>
+	</p><p>
+		The home page for subversion is at <a class="ulink" href="http://subversion.tigris.org/" target="_top">http://subversion.tigris.org/</a>.
+	</p></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="BuildingJmol"></a>Chapter&nbsp;3.&nbsp;Building Jmol</h2></div></div></div><p>
+		If you are using Eclipse, see <a class="xref" href="#Eclipse" title="Chapter&nbsp;9.&nbsp;Using Eclipse">Chapter&nbsp;9, <i>Using Eclipse</i></a>. Otherwise read this
+		section carefully. In additon to the prerequisites mentioned
+		in <a class="xref" href="#Prerequisites" title="Chapter&nbsp;1.&nbsp;Prerequisites">Chapter&nbsp;1, <i>Prerequisites</i></a> you will of course need the Jmol source
+		code. It can be checked out from the <span class="command"><strong>subversion</strong></span>
+		repository as described above.
+	</p><p>
+		Once you have all the prerequisites, Jmol can be built from the top source
+		directory with the <span class="command"><strong>ant</strong></span> command.
+	</p><p>
+		On Linux/Unix/OSX type:
+		</p><pre class="screen"><code class="prompt">~/workspace/Jmol$</code> ant</pre><p>
+	</p><p>
+		Windows users not using Eclipse type:
+		</p><pre class="screen"><code class="prompt">C:\workspace\Jmol&gt;</code> ant</pre><p>
+	</p></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="RunningJmol"></a>Chapter&nbsp;4.&nbsp;Running Jmol</h2></div></div></div><p>
+		The development version of the Jmol application is normally run by simply
+		executing the jmol script in the Jmol development directory. 
+	</p><p>
+		The development version of the Jmol applet is normally run by copying the
+		built <code class="filename">*.jar</code> files into a test
+		directory and then running a web page that accesses them.
+	</p><p>
+		On Linux/Unix/OSX:
+		</p><pre class="screen"><code class="prompt">~/workspace/Jmol$</code> ./jmol</pre><p>
+	</p><p>
+		On Windows (not using Eclipse):
+		</p><pre class="screen"><code class="prompt">C:\workspace\Jmol&gt;</code> jmol</pre><p>
+	</p><p>
+		If you are using the Eclipse <acronym class="acronym">IDE</acronym>, you can run the
+		application and/or the applet from within Eclipse. This allows for simpler
+		debugging. See <a class="xref" href="#Eclipse" title="Chapter&nbsp;9.&nbsp;Using Eclipse">Chapter&nbsp;9, <i>Using Eclipse</i></a> for more information.
+	</p></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="CodingStandard"></a>Chapter&nbsp;5.&nbsp;Coding Standard</h2></div></div></div><div class="itemizedlist"><ul type="disc"><li><p>
+				Your text editor should indent for you. If it doesn't then either
+				learn how to enable it or get another editor.
+			</p></li><li><p>
+				Indentation level should be <span class="bold"><strong>two spaces</strong></span>.
+		    </p><pre class="programlisting">class Foo {
+  int someClassVariable;
+
+  Foo(int evenOrOdd) {
+    someClassVariable = 99;
+  }
+
+  ...
+}</pre><p>
+			</p></li><li><p>
+				Space characters should be used instead of tabs.
+			</p></li><li><p>
+				Assignment and arithmetic operators generally contain spaces on both
+				sides.
+				</p><pre class="programlisting">a = b + c;</pre><p>
+			</p><p>
+				You are allowed to eliminate the spaces within expressions in order
+				to make operator precedence more clear.
+				</p><pre class="programlisting">int cSquared = a*a + b*b;</pre><p>
+			</p></li><li><p>
+				Spaces follow commas in argument lists.
+				</p><pre class="programlisting">foo(a, 3.14159, "jmol");</pre><p>
+			</p></li><li><p>
+				Lines should be no more than <span class="bold"><strong>80</strong></span>
+				characters wide.
+			</p></li><li><p>
+				Open brace goes on the line that starts the block. Close brace goes
+				on a line by itself.
+				</p><pre class="programlisting">if (condition) {
+    ...
+  } else {
+    ...
+  }
+  
+  while (condition) {
+    ...
+  }</pre><p>
+			</p></li><li><p>
+				Loop indexes start at 0, not 1.
+			</p></li><li><p>
+				The <span class="bold"><strong>only</strong></span> valid comparison operators for loop
+				termination are <code class="code">&lt;</code> and <code class="code">&gt;=</code>
+				... anything else is probably a bug. If you are really
+				<span class="bold"><strong>sure</strong></span> that it is not a bug then put a comment in
+				the code.
+			</p></li><li><p>
+				Use long descriptive variable names and method names. Do not be
+				afraid of typing.
+			</p></li><li><p>
+				Line-by-line comments within the code are
+				<span class="bold"><strong>discouraged</strong></span> ... except in very special
+				circumstances. If you put in lots of comments like this then you may
+				find them deleted.
+			</p></li><li><p>
+				If you feel obligated to insert comments put them as javadoc before
+				the function body.
+			</p></li><li><p>
+				If your code is changing then do not put in comments. <span class="bold"><strong>Bad/outdated
+				comments are worse than no comments.</strong></span>
+			</p></li><li><p>
+				You may want to look
+				at <a class="ulink" href="http://www.amazon.com/exec/obidos/ASIN/0521777682" target="_top">The
+				Elements of Java Style by Vermeulen, et al</a>.
+			</p></li></ul></div></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="Releasing"></a>Chapter&nbsp;6.&nbsp;Making a release</h2></div></div></div><p>
+		A Jmol release consists of both the application and the applet.
+		Presumably both will have been well tested. For release, we are generating
+		a number of <code class="filename">JAR</code> files using Java 1.1. This is to
+		provide compatibility with the Microsoft Java Runtime Environment.
+		
+	</p><p>
+		In the <code class="filename">Jmol-data</code> CVS module directory
+		a number of test files are located for the input filters. All files below
+		that module should be checked prior to a release.
+	</p></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="Packaging"></a>Chapter&nbsp;7.&nbsp;Packaging</h2></div></div></div><p>
+		Distribution packages will be made for any platform for which a developer
+		promises to provide support. File used to create packages should be
+		commited to CVS under the Jmol/packaging directory. Currently the
+		following packages are available:
+	</p><div class="itemizedlist"><ul type="disc"><li><p>
+				<a class="ulink" href="http://www.debian.org" target="_top">Debian</a>
+				(by Daniel Leidert and Egon Willighagen)
+			</p></li><li><p>
+				RPM (by Miguel Howard)
+			</p></li></ul></div></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="CVS"></a>Chapter&nbsp;8.&nbsp;DEPRECATED - Working with Jmol's CVS</h2></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#tagging">Tagging CVS</a></span></dt><dt><span class="sect1"><a href="#branching">CVS Branches</a></span></dt><dd><dl><dt><span class="sect2"><a href="#branch_access">Accessing a branch</a></span></dt><dt><span class="sect2"><a href="#branch_creating">Creating a branch</a></span></dt><dt><span class="sect2"><a href="#branch_merging">Merging branches</a></span></dt></dl></dd></dl></div><p>
+		This section is deprecated since Jmol has moved to <span class="command"><strong>svn</strong></span>.
+	</p><p>
+		This section gives information on how to work with Jmol's CVS at
+		SourceForge.
+	</p><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="tagging"></a>Tagging CVS</h2></div></div></div><p>
+			It is important to tag CVS when a distribution was made. This makes it
+			possible to later retrieve the exact source code from CVS in that
+			release. This can be done with
+			</p><pre class="screen">cvs tag <em class="replaceable"><code>tag-name</code></em></pre><p>
+			in the directory where the CVS files are stored.
+		</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="branching"></a>CVS Branches</h2></div></div></div><p>
+			Sometimes it is convenient to have separate branches to work on. One
+			for an upcoming release, and one branch for the unstable version. Minor
+			bug fixes can then go into the stable branch, while major changes can
+			go into the unstable branch. This section explains how to access, use,
+			and create branches.
+		</p><div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="branch_access"></a>Accessing a branch</h3></div></div></div><p>
+				The command
+				</p><pre class="screen">cvs checkout <em class="replaceable"><code>module</code></em></pre><p>
+				by default gets the source code from the <span class="emphasis"><em>HEAD</em></span>
+				branch, which is the unstable branch of Jmol. Accessing a specific
+				branch can be done with (e.g. for the <span class="emphasis"><em>b6</em></span> branch):
+				</p><pre class="screen">cvs checkout -r b6 -d Jmol-6 Jmol</pre><p>
+			</p><p>
+				This will check out a copy of the Jmol module from the b6 branch into
+				a directory called <code class="filename">Jmol-6</code>.
+			</p><p>
+				To determine to which branch a specific locally stored file belongs,
+				you can do:
+				</p><pre class="screen">cvs status <em class="replaceable"><code>file</code></em></pre><p>
+			</p></div><div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="branch_creating"></a>Creating a branch</h3></div></div></div><p>
+				A branch of <span class="emphasis"><em>HEAD</em></span> can be created with
+				</p><pre class="screen">cvs rtag -b -r HEAD <em class="replaceable"><code>branch-name</code></em> <em class="replaceable"><code>module</code></em></pre><p>
+			</p></div><div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="branch_merging"></a>Merging branches</h3></div></div></div><p>
+				Bug fixes which have been commited to a branch can be merged to
+				the <span class="emphasis"><em>HEAD</em></span> branch. To do this, check out (or update)
+				a	<span class="emphasis"><em>HEAD</em></span> branch, and then type in that directory
+				</p><pre class="screen">cvs update -j <em class="replaceable"><code>parameter</code></em> <em class="replaceable"><code>branch-to-merge</code></em></pre><p>
+				Then the branch from which the changes were merged
+				with <span class="emphasis"><em>HEAD</em></span> should be tagged, to make it possible
+				to merge later changes with <span class="emphasis"><em>HEAD</em></span> too. For
+				example, a session might look like:
+				</p><pre class="screen"><code class="prompt">&gt;</code> cd ~/data/SF/Jmol/Jmol
+<code class="prompt">&gt;</code> cvs update -j b6
+<code class="prompt">&gt;</code> cd ~/data/SF/Jmol/Jmol-6
+<code class="prompt">&gt;</code> cvs tag b6-merged-20030725</pre><p>
+			</p><p>
+				Changes made after this merge to branch <span class="emphasis"><em>b6</em></span>, can
+				then be merged with <span class="emphasis"><em>HEAD</em></span> with:
+				</p><pre class="screen"><code class="prompt">&gt;</code> cd ~/data/SF/Jmol/Jmol
+<code class="prompt">&gt;</code> cvs update -j b6-merged-20030725 -j b6
+<code class="prompt">&gt;</code> cd ~/data/SF/Jmol/Jmol-6
+<code class="prompt">&gt;</code> cvs tag b6-merged-20031011</pre><p>
+			</p></div></div></div><div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a name="Eclipse"></a>Chapter&nbsp;9.&nbsp;Using Eclipse</h2></div></div></div><div class="toc"><p><b>Table of Contents</b></p><dl><dt><span class="sect1"><a href="#Eclipse_prerequisites">Eclipse prerequisites</a></span></dt><dt><span class="sect1"><a href="#Eclipse_CVSConfig">CVS Repository configuration</a></span></dt><dt><span class="sect1"><a href="#Eclipse_CheckingOut">Checking Out Jmol from CVS</a></span></dt><dt><span class="sect1"><a href="#Eclipse_Configuring">Configuring Eclipse to build Jmol</a></span></dt><dd><dl><dt><span class="sect2"><a href="#JavaExeLocation">Identifying the location of the Java executables</a></span></dt><dt><span class="sect2"><a href="#JavaLibLocation">Identifying the location of the Java library</a></span></dt><dt><span class="sect2"><a href="#MatchingJavaCompiler">Matching the Java compiler to the Java Runtime Environment</a></span></dt></dl></dd><dt><span class="sect1"><a href="#Eclipse_Running">Running and Debugging Jmol</a></span></dt><dt><span class="sect1"><a href="#Eclipse_Building">Building Jmol</a></span></dt></dl></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="Eclipse_prerequisites"></a>Eclipse prerequisites</h2></div></div></div><p>
+			This section must be updated for <span class="command"><strong>svn</strong></span>.
+		</p><div class="itemizedlist"><ul type="disc"><li><p>
+					<span class="package">Java 2 JDK 1.4</span> or  <span class="package">Java 5 JDK 1.5</span>
+					(<a class="ulink" href="http://java.sun.com/" target="_top">http://java.sun.com/</a>).
+				</p></li><li><p>
+					<span class="package">Eclipse SDK</span> 3.1
+					(<a class="ulink" href="http://www.eclipse.org/downloads" target="_top">http://www.eclipse.org/downloads</a>)
+				</p></li></ul></div><p>
+			Eclipse must be installed and correctly configured before following
+			this procedure.
+		</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="Eclipse_CVSConfig"></a>CVS Repository configuration</h2></div></div></div><p>
+			To configure Eclipse to access Jmol's CVS repository, do the following:
+		</p><div class="itemizedlist"><ul type="disc"><li><p>Launch Eclipse.</p></li><li><p>
+					Using the menu system at the top of the application, navigate to <span class="guimenu">Window</span> &#8594; <span class="guisubmenu">Open Perspective</span> &#8594; <span class="guimenuitem">Other...</span> and choose <span class="guimenuitem">CVS Repository Exploring</span>.
+					Then click on the <span class="guibutton">[OK]</span> button.
+				</p></li><li><p>
+					Then <span class="mousebutton">right</span> click in
+					the <span class="guilabel">CVS Repositories</span> windows and select <span class="guisubmenu">New</span> &#8594; <span class="guimenuitem">Repository Location...</span> in the contextual menu.
+				</p></li><li><p>
+					In the <span class="guilabel">Add CVS Repository</span> window, enter the
+					following values:
+					</p><div class="variablelist"><dl><dt><span class="term"><em class="parameter"><code>Host:</code></em></span></dt><dd><p><strong class="userinput"><code>cvs.sourceforge.net</code></strong></p></dd><dt><span class="term"><em class="parameter"><code>Repository path:</code></em></span></dt><dd><p><strong class="userinput"><code>/cvsroot/jmol</code></strong></p></dd><dt><span class="term"><em class="parameter"><code>Authentication:</code></em></span></dt><dd><p>
+									<strong class="userinput"><code>anonymous</code></strong> for anonymous access,
+									or <strong class="userinput"><code>your login id</code></strong> for developer access
+								</p></dd><dt><span class="term"><em class="parameter"><code>Password:</code></em></span></dt><dd><p>
+									<strong class="userinput"><code>empty</code></strong> for anonymous access
+									or <strong class="userinput"><code>your password</code></strong> for developer access
+								</p></dd><dt><span class="term"><em class="parameter"><code>Connection type:</code></em></span></dt><dd><p>
+									<strong class="userinput"><code>pserver</code></strong> for anonymous
+									or <strong class="userinput"><code>extssh</code></strong> for developer access
+								</p></dd><dt><span class="term"><em class="parameter"><code>Use Default Port</code></em></span></dt><dd><p><strong class="userinput"><code>checked</code></strong></p></dd><dt><span class="term"><em class="parameter"><code>Validate Connection on Finish</code></em></span></dt><dd><p><strong class="userinput"><code>checked</code></strong></p></dd><dt><span class="term"><em class="parameter"><code>Save Password</code></em></span></dt><dd><p>
+									<strong class="userinput"><code>checked</code></strong> if password should be stored
+									or <strong class="userinput"><code>unchecked</code></strong> if you want to type the password
+									every time you need it
+								</p></dd></dl></div><p>
+				</p><p>
+					Click on the <span class="guibutton">[Finish]</span> button, and you are done.
+				</p></li></ul></div></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="Eclipse_CheckingOut"></a>Checking Out Jmol from CVS</h2></div></div></div><div class="itemizedlist"><p>To check out Jmol from CVS, do the following:</p><ul type="disc"><li><p>
+					Switch to the <span class="guilabel">CVS Repository Exploring perspective</span>
+					using <span class="guimenu">Window</span> &#8594; <span class="guisubmenu">Open Perspective</span> &#8594; <span class="guimenuitem">Other...</span> and choose <span class="guimenuitem">CVS Repository Exploring</span>.
+					Click on the <span class="guibutton">[OK]</span> button.
+				</p></li><li><p>
+					<span class="mousebutton">Click</span> on the repository location you added in the
+					previous section and then <span class="mousebutton">click</span>
+					on <span class="bold"><strong>HEAD</strong></span>. You should see a message on the
+					status line indicating that Eclipse is connecting to the server.
+				</p></li><li><p>
+					Right click on <span class="command"><strong>Jmol</strong></span> and select 
+					<span class="guimenu">Check Out</span>
+					in the contextual menu. The files should start transferring. 
+					If you do not want to wait, you can indicate that you want the transfer to occur in the background. 
+				</p></li><li><p>
+					If you want, you can also check out Jmol-web: Right click on
+					<span class="command"><strong>Jmol-web</strong></span> and select 
+					<span class="guimenu">Check out</span>
+					in the contextual menu.
+				</p></li></ul></div></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="Eclipse_Configuring"></a>Configuring Eclipse to build Jmol</h2></div></div></div><div class="orderedlist"><p>
+				To configure Eclipse 3.1 to build Jmol, you need to make sure, that:
+			</p><ol type="a"><li><p>
+					the location of the Java executables (<code class="filename">javac.exe</code>
+					and <code class="filename">jarsigner.exe</code>) is identified</p></li><li><p>
+					the location of the Java library (<code class="filename">tools.jar</code>)
+					is identified
+				</p></li><li><p>
+					Eclipse is using the same version of the Java compiler as the Java Runtime Environment
+				</p></li></ol></div><div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="JavaExeLocation"></a>Identifying the location of the Java executables</h3></div></div></div><p>
+				Ant needs to know where to find <code class="filename">javac(.exe)</code>
+				and <code class="filename">jarsigner(.exe)</code>. This simply requires adding the
+				Java SDK <code class="filename">bin</code> directory to the
+				<code class="envar">PATH</code> environment variable.
+			</p><p>
+				To do this on Windows, you need to open the
+				Windows "<span class="guilabel">System Control Panel</span>". On the
+				<span class="guilabel">Advanced</span> tab, select <span class="guibutton">[Environment Variables]</span>.
+				Scroll down to the <code class="envar">PATH</code> system variable and append to it
+				a semicolon (;) followed by the path to the Java SDK binaries, something
+				like "<strong class="userinput"><code>;c:\j2sdk1.4.2_10\bin</code></strong>".
+			</p></div><div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="JavaLibLocation"></a>Identifying the location of the Java library</h3></div></div></div><p>
+				Ant needs to know where to find
+				<code class="filename">tools.jar</code>. From <span class="guimenu">Window</span> &#8594; <span class="guimenuitem">Preferences...</span>. In the <span class="guilabel">Preferences</span> Window go to <span class="guisubmenu">Ant</span> &#8594; <span class="guimenuitem">Runtime</span> and select <span class="guimenuitem">Global Entries</span> and click on
+				the <span class="guibutton">[Add External JARs]</span> button. Navigate to the directory
+				containing <code class="filename">tools.jar</code> (probably something
+				like <code class="filename">c:\j2sdk1.4.2_10\lib</code>),
+				select <code class="filename">tools.jar</code> and
+				click on <span class="guibutton">[OK]</span>.
+			</p></div><div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a name="MatchingJavaCompiler"></a>Matching the Java compiler to the Java Runtime Environment</h3></div></div></div><p>
+				From <span class="guimenu">Window</span> &#8594; <span class="guimenuitem"> Preferences...</span> and there select <span class="guisubmenu">Java</span>. Compare the version
+				listed for the compiler with that for the
+				selected <span class="guisubmenu">installed JREs</span>. If they are not the same,
+				use the <span class="guibutton">Search</span> facility to find more installed JREs.
+				Then select the JRE that matches the compiler.
+			</p></div></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="Eclipse_Running"></a>Running and Debugging Jmol</h2></div></div></div><p>
+			You can run and debug Jmol directly within Eclipse. 
+		</p><p>
+			Open a Java Perspective using <span class="guimenu">Window</span> &#8594; <span class="guimenuitem">Open Perspective</span> &#8594; <span class="guimenuitem">Other...</span> and there select <span class="guimenuitem">Java</span>.
+		</p><p>
+			To run either the application or the applet <span class="mousebutton">right</span>
+			click on <span class="command"><strong>Jmol</strong></span> under the <span class="guibutton">Projects</span> tab
+			and select (for the applet) <span class="guisubmenu">Run As</span> &#8594; <span class="guimenuitem">Java Applet</span> or (for the application) <span class="guisubmenu">Run As</span> &#8594; <span class="guimenuitem">Java Application</span>. The main class for the application
+			is <code class="classname">org.openscience.jmol.app.Jmol</code>. 
+		</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="Eclipse_Building"></a>Building Jmol</h2></div></div></div><p>
+			If not already done, open a Java Perspective using <span class="guimenu">Window</span> &#8594; <span class="guimenuitem">Open Perspective</span> &#8594; <span class="guimenuitem">Other...</span> and there select <span class="guimenuitem">Java</span>.
+		</p><p>
+			To make a full build of Jmol under Eclipse, just do the following:
+			Find the <code class="filename">build.xml</code> in the <span class="guilabel">Package Explorer</span>
+			window and <span class="mousebutton">right</span> click on it. Then select <span class="guisubmenu">Run As</span> &#8594; <span class="guimenuitem">Ant Build</span> in the contextual menu. If the build fails, look carefully at
+			the message, and if you can't figure it out, send a copy of it in an email message
+			to <code class="email">&lt;<a class="email" href="mailto:jmol-developers@lists.sourceforge.net">jmol-developers@lists.sourceforge.net</a>&gt;</code>. Problems might include Ant not
+			being able to find the Java compiler (<span class="errortext">"JAVA_HOME not in CLASSPATH?"</span>)
+			or a difference in Java compiler and runtime environment versions (<span class="errortext">"class
+			file has wrong version 49.0, should be 48.0"</span>).
+		</p></div></div></div></body></html>

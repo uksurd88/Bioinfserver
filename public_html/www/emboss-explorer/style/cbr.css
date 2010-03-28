@@ -1,0 +1,206 @@
+body {	/* top-level container */
+	padding-right: 16px;	/* accomodate Internet Explorer scrollbar */
+	font-family: "Verdana", sans-serif;
+	font-size: small;
+}
+html>body {	/* top-level container, hidden from IE */
+	padding-right: 0px;	/* reverse the action taken above */
+}
+h1 {	/* EMBOSS explorer title */
+	margin-bottom: 0px;
+	padding: .25em;
+	background: #039;
+	color: white;
+	font-family: "Verdana", sans-serif;
+	font-weight: bold;
+	font-size: 75%;
+}
+html>h1 {	/* EMBOSS explorer title, hidden from IE */
+	font-size: 50%;
+}
+.error {
+	color: red;
+}
+#menu span.sort {	/* link to toggle sort style */
+	display: block;
+	white-space: nowrap;
+	padding: .25em;
+	background: #039;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 85%;
+}
+#menu span.sort a {
+	color: white;
+	font-weight: bold;
+}
+#menu ul {	/* all menu lists */
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#menu #groups {	/* top-level list with grouped applications */
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#menu #apps {	/* top-level list with ungrouped applications */
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 3px 6px 3px 6px;
+	background: #cc3 url(../images/cbr-corner-ne.gif) no-repeat top right;
+	text-align: right;
+}
+#menu li.group {	/* surrounding box for each group (title and list) */
+	margin-top: 1em;
+	padding: 3px 6px 0px 0px;
+	text-align: right;
+	background: #cc3 url(../images/cbr-corner-ne.gif) no-repeat top right;
+}
+#menu span.group {	/* surrounding box for each group title */
+	text-align: right;
+	font-family: "Verdana", sans-serif;
+	font-weight: bold;
+	color: #039;
+}
+#menu ul.group {	/* surrounding box for each group list */
+	padding: 0px 0px 3px 6px;
+	background: #cc3 url(../images/cbr-corner-sw.gif) no-repeat bottom left;
+}
+#menu a {	/* link to individual application */
+	color: black;
+	text-decoration: none;
+}
+#menu a:hover {
+	color: #039;
+	text-decoration: underline;
+}
+
+#input h2 {	/* application title */
+	margin-bottom: 0px;
+	font-family: "Verdana", sans-serif;
+	font-weight: bold;
+	font-size: 200%;
+}
+#input p.documentation {	/* application description */
+	margin-top: 0px;
+	padding-bottom: .25em;
+	border-bottom: 1px solid black;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 100%;
+}
+#input #legend {	/* required/optional legend */
+}
+#input form {	/* input form */
+	margin-top: 2em;
+}
+#input fieldset {	/* surrounding box for each section */
+	/*
+	border-top: 1px dotted gray;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	*/
+}
+#input legend {	/* section title text */
+	color: gray;
+}
+#input div {	/* all input fields */
+	margin-top:	1.5em;
+}
+#input div.required {	/* required input fields */
+	padding: .25em;
+	background: #cc3;
+}
+#input div.additional {	/* non-required input fields */
+}
+#input #submit {	/* surrounding box for submit button */
+	text-align: center;
+}
+#input p {	/* input field group text */
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#input ol {	/* input field group list */
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#input span.label {	/* input field label text */
+}
+#input span.field {	/* input field itself */
+}
+#input span.description {	/* input field description */
+	font-style: italic;
+	display: block;
+	margin-left:	1em;
+}
+#input #email span.description {
+	display: block;
+}
+
+#horizon {	/* horizon div for vertical centering */
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	text-align: center;
+}
+#running {	/* EMBOSS is running div */
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	width: 450px;
+	height: 45px;
+	margin-left: -225px;
+	text-align: center;
+}
+#running img {	/* EMBOSS is running image */
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+#running p {	/* EMBOSS is running text */
+	margin-top: 1em;
+	text-align: center;
+}
+
+#output span.item {
+	display: block;
+	margin-top: 1em;
+	padding: 0px 0px 3px 6px;
+	background: #cc3 url(../images/cbr-corner-sw.gif) no-repeat bottom left;
+}
+#output dt {
+	padding: 3px 6px 0px 0px;
+	background: #cc3 url(../images/cbr-corner-ne.gif) no-repeat top right;
+	color: #039;
+}
+#output dt span.type {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#output dd {
+}
+#output dt.error {
+}
+#output dt.outfile {	/* output file label */
+}
+#output dd.outfile {	/* output file contents */
+}
+#output dt.image {	/* output image label */
+}
+#output dd.image {	/* output image */
+	margin-top: 1em;
+}
+#output img {
+	border: 2px solid #039;
+}
+#output pre {	/* inline output */
+	font-size: 110%;
+}
+html>#output pre {	/* inline output, hidden from IE */
+	font-size: 100%;
+}

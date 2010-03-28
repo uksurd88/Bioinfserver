@@ -1,0 +1,5 @@
+eventTime<-data.matrix(read.delim('/home/ss533/public_html/cgi-bin/bugpandata/eventfile.txt'))
+require(Cairo)
+CairoPNG(width=280,height=325,"/home/ss533/public_html/cgi-bin/bugpandata/45b48a/10092/eventTime.png")
+hist(eventTime,col="BurlyWood",50,xlab="tStart Event Times(45b48a)")
+dev.off()

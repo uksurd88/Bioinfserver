@@ -1,0 +1,46 @@
+<%def .show>
+<div class=hourglass id=<%$id%> align=center>
+<img src=lib/hourglass.png width=64 height=64>
+</div>
+<div class=hourglasscontent id=<%$cid%>>
+<script language="JavaScript"> document.getElementById("<%$cid%>").style.display = "none"; </script>
+% $m->flush_buffer;
+<%args>
+$id
+</%args>
+<%init>
+ my $cid = "${id}_content";
+</%init>
+</%def>
+
+<%def .hide>
+</div>
+<script language="JavaScript">
+document.getElementById("<%$id%>").style.display = "none";
+document.getElementById("<%$cid%>").style.display = "block";
+</script>
+% $m->flush_buffer;
+<%args>
+$id
+</%args>
+<%init>
+ my $cid = "${id}_content";
+</%init>
+</%def>
+
+<%init>
+$id =~ s/[^A-Za-z0-9]+/_/g;
+if ($op eq 'show') {
+  return $m->comp(".show", id => $id);
+}
+elsif ($op eq 'hide') {
+  return $m->comp(".hide", id => $id);
+}
+else {
+  die "\"\$op\" argument to hourglass.m must be \"show\" or \"hide\"\n";
+}
+</%init>
+<%args>
+$op
+$id => "hourglass$ENV{UNIQUE_ID}"
+</%args>

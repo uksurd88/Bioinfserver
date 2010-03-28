@@ -1,0 +1,38 @@
+<h3> Headers in </h3>
+<ul>
+% foreach my $key (grep { defined($r->headers_in->{$_}) } sort keys %{$r->headers_in}) {
+<li><b><% $key %></b>: <% $r->headers_in->{$key} |h%>
+% }
+</ul>
+
+<h3> Headers out </h3>
+<ul>
+% foreach my $key (sort keys %{$r->headers_out}) {
+<li><b><% $key %></b>: <% $r->headers_out->{$key} |h%>
+% }
+</ul>
+
+<h3> Headers out (error responses) </h3>
+<ul>
+% foreach my $key (sort keys %{$r->err_headers_out}) {
+<li><b><% $key %></b>: <% $r->err_headers_out->{$key} |h%>
+% }
+</ul>
+
+<h3> Request notes </h3>
+<ul>
+% foreach my $key (sort keys %{$r->notes}) {
+<li><b><% $key %></b>: <% $r->notes->{$key} |h%>
+% }
+</ul>
+
+<h3> Subprocess environment </h3>
+<ul>
+% foreach my $key (sort keys %{$r->subprocess_env}) {
+<li><b><% $key %></b>: <% $r->subprocess_env->{$key} |h%>
+% }
+</ul>
+
+<%attr>
+title => "HTTP headers in/out, Request notes, Environment"
+</%attr>

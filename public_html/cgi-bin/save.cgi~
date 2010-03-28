@@ -1,0 +1,47 @@
+#!/usr/bin/perl
+
+# loading usual development settings/
+#use strict;
+use warnings;
+use CGI;
+use Time::HiRes qw/gettimeofday tv_interval/;
+# Outputs any errors to the browser window
+use CGI::Carp qw(fatalsToBrowser);
+
+# decalarations
+my $q = new CGI;
+my $username = $q-> param('username');
+my $useroutput = $q -> param('useroutput');
+my $filename = $q -> param('filename');
+my @buglist;
+my $line;
+my $everyline;
+my $i=0;
+my $session;
+my @session;
+my @ecVoltage;
+my @show;
+my $start;
+my @start;
+my @start1;
+my $match;
+my @module;
+my $numberofRows;
+my $files;
+my @files;
+
+# basic html starts for outputting
+print "Content-Type: text/html";
+print <<END_HTML;
+
+<html>
+<title> Flexible spreadsheet </title>
+
+<table id="sessTable" border="1">
+<tr id="sesRow">
+<td>Session Name</td>
+<td>Start Time</td>
+<td>Modules Run</td>
+</tr>
+END_HTML
+

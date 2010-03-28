@@ -1,0 +1,18 @@
+<html>
+
+<script language="JavaScript" src="/prototype.js"></script>
+<script>
+function chuck() {
+var text= $('myText');
+alert(myText.value);
+alert("Hello");
+}
+</script>
+<body>
+<input type="text" id='myText'></input>
+<input type="button" onClick="chuck()" value="check" >
+</input>
+
+</body>
+</html>
+

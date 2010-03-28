@@ -1,0 +1,5 @@
+approachLoV
+tStop
+tStart
+take 2 tStart
+plot $ take 1 ecVoltage

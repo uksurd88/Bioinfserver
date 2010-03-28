@@ -1,0 +1,45 @@
+#!/usr/bin/perl
+
+# file: cookie.pl
+
+use CGI qw(:standard :html3);
+# recover the "preferences" cookie.
+%preferences = cookie('preferences');
+
+# If the user wants to change the background color or her
+# name, they will appear among our CGI parameters.
+foreach ('name') {
+    $preferences{$_} = param($_) || $preferences{$_};
+}
+
+# Refresh the cookie so that it doesn't expire.
+$the_cookie = cookie(-name=>'preferences',
+                     -value=>\%preferences,
+                     -path=>'/',
+                     -expires=>'+30d');
+print header(-cookie=>$the_cookie);
+
+# Adjust the title to incorporate the user's name, if provided.
+$title = $preferences{'name'} ? 
+    "Welcome back, $preferences{name}!" : "Customizable Page";
+
+print start_html(-title=>$title,
+                 -bgcolor=>$preferences{'background'},
+                 -text=>$preferences{'text'}
+		 );
+
+print h1($title);
+    ;
+
+# Create the form
+print hr,
+    start_form,
+    
+    "Your first name: ",
+    textfield(-name=>'name',
+              -default=>$preferences{'name'},
+              -size=>30),br,
+
+    submit(-label=>'Set preferences'),
+    end_form,
+    hr;

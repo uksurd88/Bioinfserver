@@ -1,0 +1,200 @@
+
+
+
+ CLUSTAL W (1.8) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: model            99 aa
+Sequence 2: 1                39 aa
+Sequence 3: 2                60 aa
+Sequence 4: 3                60 aa
+Sequence 5: 4                60 aa
+Sequence 6: 5                60 aa
+Sequence 7: 6                60 aa
+Sequence 8: 7                60 aa
+Sequence 9: 8                60 aa
+Sequence 10: 9                60 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  100
+Sequences (1:3) Aligned. Score:  100
+Sequences (1:4) Aligned. Score:  98
+Sequences (1:5) Aligned. Score:  95
+Sequences (1:6) Aligned. Score:  100
+Sequences (1:7) Aligned. Score:  98
+Sequences (1:8) Aligned. Score:  98
+Sequences (1:9) Aligned. Score:  96
+Sequences (1:10) Aligned. Score:  100
+Sequences (2:3) Aligned. Score:  5
+Sequences (2:4) Aligned. Score:  5
+Sequences (2:5) Aligned. Score:  15
+Sequences (2:6) Aligned. Score:  5
+Sequences (2:7) Aligned. Score:  5
+Sequences (2:8) Aligned. Score:  5
+Sequences (2:9) Aligned. Score:  10
+Sequences (2:10) Aligned. Score:  5
+Sequences (3:4) Aligned. Score:  98
+Sequences (3:5) Aligned. Score:  93
+Sequences (3:6) Aligned. Score:  100
+Sequences (3:7) Aligned. Score:  98
+Sequences (3:8) Aligned. Score:  98
+Sequences (3:9) Aligned. Score:  96
+Sequences (3:10) Aligned. Score:  100
+Sequences (4:5) Aligned. Score:  91
+Sequences (4:6) Aligned. Score:  98
+Sequences (4:7) Aligned. Score:  96
+Sequences (4:8) Aligned. Score:  100
+Sequences (4:9) Aligned. Score:  98
+Sequences (4:10) Aligned. Score:  98
+Sequences (5:6) Aligned. Score:  93
+Sequences (5:7) Aligned. Score:  91
+Sequences (5:8) Aligned. Score:  91
+Sequences (5:9) Aligned. Score:  91
+Sequences (5:10) Aligned. Score:  93
+Sequences (6:7) Aligned. Score:  98
+Sequences (6:8) Aligned. Score:  98
+Sequences (6:9) Aligned. Score:  96
+Sequences (6:10) Aligned. Score:  100
+Sequences (7:8) Aligned. Score:  96
+Sequences (7:9) Aligned. Score:  95
+Sequences (7:10) Aligned. Score:  98
+Sequences (8:9) Aligned. Score:  98
+Sequences (8:10) Aligned. Score:  98
+Sequences (9:10) Aligned. Score:  96
+Guide tree        file created:   [multipleseq.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:1308
+Group 2: Sequences:   3      Score:1308
+Group 3: Sequences:   4      Score:1303
+Group 4: Sequences:   2      Score:1307
+Group 5: Sequences:   3      Score:1294
+Group 6: Sequences:   7      Score:1296
+Group 7: Sequences:   8      Score:1261
+Group 8: Sequences:   9      Score:1300
+Group 9: Sequences:  10      Score:163
+Alignment Score 13146
+CLUSTAL-Alignment file created  [multipleseq.aln]
+<br><br><br>Date: Sun Jul 19 15:05:05 BST 2009<br>
+
+<form></FORM>Content-Type: text/html; charset=ISO-8859-1
+
+  <html>
+  <head><title>Form Validation</title></head>
+  <body>
+
+  <form action="reports.html" method="post">
+  <input type="hidden" name="submit" value="Submit">
+    <input type="radio" name="Blast report" value="blast">Blast Report
+  <input type="radio" name="Modeller report" value="modeller">Modeller Report
+<input type="radio" name="Alignment file" value="alignment">Alignment Report
+  </p>
+  <input type="submit" name="go" value="go">
+</form> 
+  </body></html>
+Please wait while modeller is running...
+The job is finished<HR>Thanks for visiting my page.<br> Sukhdeep Singh ji you are 77 th visitor of my website.<br> <b>Total Visits : 77</b><marquee><font face=andy><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> Created by <b>Sukhdeep Singh</b> Webmodeller v 1.0</font></marquee></body>
+</html>
+
+
+
+ CLUSTAL W (1.8) Multiple Sequence Alignments
+
+
+
+Sequence format is Pearson
+Sequence 1: model            99 aa
+Sequence 2: 1                39 aa
+Sequence 3: 2                60 aa
+Sequence 4: 3                60 aa
+Sequence 5: 4                60 aa
+Sequence 6: 5                60 aa
+Sequence 7: 6                60 aa
+Sequence 8: 7                60 aa
+Sequence 9: 8                60 aa
+Sequence 10: 9                60 aa
+Start of Pairwise alignments
+Aligning...
+Sequences (1:2) Aligned. Score:  100
+Sequences (1:3) Aligned. Score:  100
+Sequences (1:4) Aligned. Score:  98
+Sequences (1:5) Aligned. Score:  95
+Sequences (1:6) Aligned. Score:  100
+Sequences (1:7) Aligned. Score:  98
+Sequences (1:8) Aligned. Score:  98
+Sequences (1:9) Aligned. Score:  96
+Sequences (1:10) Aligned. Score:  100
+Sequences (2:3) Aligned. Score:  5
+Sequences (2:4) Aligned. Score:  5
+Sequences (2:5) Aligned. Score:  15
+Sequences (2:6) Aligned. Score:  5
+Sequences (2:7) Aligned. Score:  5
+Sequences (2:8) Aligned. Score:  5
+Sequences (2:9) Aligned. Score:  10
+Sequences (2:10) Aligned. Score:  5
+Sequences (3:4) Aligned. Score:  98
+Sequences (3:5) Aligned. Score:  93
+Sequences (3:6) Aligned. Score:  100
+Sequences (3:7) Aligned. Score:  98
+Sequences (3:8) Aligned. Score:  98
+Sequences (3:9) Aligned. Score:  96
+Sequences (3:10) Aligned. Score:  100
+Sequences (4:5) Aligned. Score:  91
+Sequences (4:6) Aligned. Score:  98
+Sequences (4:7) Aligned. Score:  96
+Sequences (4:8) Aligned. Score:  100
+Sequences (4:9) Aligned. Score:  98
+Sequences (4:10) Aligned. Score:  98
+Sequences (5:6) Aligned. Score:  93
+Sequences (5:7) Aligned. Score:  91
+Sequences (5:8) Aligned. Score:  91
+Sequences (5:9) Aligned. Score:  91
+Sequences (5:10) Aligned. Score:  93
+Sequences (6:7) Aligned. Score:  98
+Sequences (6:8) Aligned. Score:  98
+Sequences (6:9) Aligned. Score:  96
+Sequences (6:10) Aligned. Score:  100
+Sequences (7:8) Aligned. Score:  96
+Sequences (7:9) Aligned. Score:  95
+Sequences (7:10) Aligned. Score:  98
+Sequences (8:9) Aligned. Score:  98
+Sequences (8:10) Aligned. Score:  98
+Sequences (9:10) Aligned. Score:  96
+Guide tree        file created:   [multipleseq.dnd]
+Start of Multiple Alignment
+There are 9 groups
+Aligning...
+Group 1: Sequences:   2      Score:1308
+Group 2: Sequences:   3      Score:1308
+Group 3: Sequences:   4      Score:1303
+Group 4: Sequences:   2      Score:1307
+Group 5: Sequences:   3      Score:1294
+Group 6: Sequences:   7      Score:1296
+Group 7: Sequences:   8      Score:1261
+Group 8: Sequences:   9      Score:1300
+Group 9: Sequences:  10      Score:163
+Alignment Score 13146
+CLUSTAL-Alignment file created  [multipleseq.aln]
+<br><br><br>Date: Sun Jul 19 15:05:23 BST 2009<br>
+
+<form></FORM>Content-Type: text/html; charset=ISO-8859-1
+
+  <html>
+  <head><title>Form Validation</title></head>
+  <body>
+
+  <form action="reports.html" method="post">
+  <input type="hidden" name="submit" value="Submit">
+    <input type="radio" name="Blast report" value="blast">Blast Report
+  <input type="radio" name="Modeller report" value="modeller">Modeller Report
+<input type="radio" name="Alignment file" value="alignment">Alignment Report
+  </p>
+  <input type="submit" name="go" value="go">
+</form> 
+  </body></html>
+Please wait while modeller is running...
+The job is finished<HR>Thanks for visiting my page.<br> Sukhdeep Singh ji you are 78 th visitor of my website.<br> <b>Total Visits : 78</b><marquee><font face=andy><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> Created by <b>Sukhdeep Singh</b> Webmodeller v 1.0</font></marquee></body>
+</html>

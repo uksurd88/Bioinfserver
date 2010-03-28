@@ -1,0 +1,17 @@
+I am your Virtual Navigator
+RIGHT
+DOWN
+LEFT
+DOWN
+DOWN
+DOWN
+DOWN
+DOWN
+RIGHT
+DOWN
+RIGHT
+LEFT
+New Query Column
+Commencing UserQuery
+I am your Virtual Navigator
+I am your Virtual Navigator

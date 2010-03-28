@@ -1,0 +1,24 @@
+<html>
+<head>
+<title> Simple Ajax.Autocompleter Example
+</title>
+<script language="JavaScript" src="/prototype.js"></script>
+<script type="text/javascript" src="/scriptaculous.js"></script>
+<script type="text/javascript">
+window.onload = function () {
+new Ajax.Autocompleter(
+'textfield',
+'menufield',
+'htmlfile.html',
+{}
+);
+}
+</script>
+</head>
+<body>
+<div>
+<input type="text" id="textfield"></input>
+<div id="menufield"></div>
+</div>
+</body>
+</html>

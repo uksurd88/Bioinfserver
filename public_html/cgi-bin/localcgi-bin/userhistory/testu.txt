@@ -1,0 +1,34 @@
+I am your Virtual Navigator
+DOWN
+DOWN
+DOWN
+DOWN
+LEFT
+RIGHT
+RIGHT
+LEFT
+LEFT
+UP
+UP
+RIGHT
+RIGHT
+DOWN
+LEFT
+DOWN
+LEFT
+UP
+New Query Column
+Commencing UserQuery
+I am your Virtual Navigator
+DOWN
+DOWN
+DOWN
+RIGHT
+RIGHT
+RIGHT
+New Query Column
+New Query Column
+New Query Column
+Commencing UserQuery for User specified Column
+UP
+Sheet Resetted

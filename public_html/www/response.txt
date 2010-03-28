@@ -1,0 +1,23 @@
+﻿Using Prototype (documentation) for some Ajax work, I found myself repeatedly doing something like
+new Ajax.Request(some_url, {method:'post', parameters: some_parameters, onComplete:function(transport) {
+  eval(transport.responseText);
+}});
+The effect is that the response text, the output of the backend (at some_url), is evaluated as JavaScript code on the requesting page.
+Too much duplicated code, though.
+With Ajax.Updater, you can specify the option evalScripts:true to have script tag contents in the response text evaluated, but Ajax.Updater also updates some specified element with the non-script output. If I would use this, I would need some dummy element, and also to wrap the backend output in script tags.
+Instead, I subclassed Ajax.Request with an Ajax.Eval class that does exactly what I want and nothing more. It takes an URL and some parameters, and evaluates the output as JavaScript.
+Code:
+Ajax.Eval = Class.create();
+Object.extend(Object.extend(Ajax.Eval.prototype, Ajax.Request.prototype), {
+  initialize: function(url, pars) {
+    this.transport = Ajax.getTransport();
+    this.setOptions({method:'post', parameters:pars});
+    this.options.onComplete = (function(transport) {
+      eval(transport.responseText);
+    });
+    this.request(url);
+  }
+});
+Now, I can simply do
+new Ajax.Eval(some_url, some_parameters);
+

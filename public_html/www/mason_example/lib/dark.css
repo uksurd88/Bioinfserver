@@ -1,0 +1,5 @@
+body { background: #222222; color: white; font-size: 12 }
+div.outer { background: white; padding: 1px }
+div.component { background: #444444; padding: 4px }
+div.footer { font-weight: bold ; font-size: 10px }
+a { color: #ff8888 }

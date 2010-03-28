@@ -1,0 +1,25 @@
+I am your Virtual Navigator
+DOWN
+DOWN
+DOWN
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+UP
+LEFT
+UP
+LEFT
+UP
+LEFT
+UP
+LEFT
+RIGHT
+RIGHT
+RIGHT
+RIGHT
+DOWN
+DOWN
+DOWN
+LEFT
+I am your Virtual Navigator

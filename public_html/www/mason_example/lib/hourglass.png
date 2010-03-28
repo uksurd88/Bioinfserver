@@ -1,0 +1,22 @@
+<%init>
+$r->content_type('image/png');
+$m->print(MIME::Base64::decode_base64(<<EOF));
+iVBORw0KGgoAAAANSUhEUgAAAEAAAAA2AgMAAAAKfHeRAAAACVBMVEX///8A
+AAD///9+749PAAAAAXRSTlMAQObYZgAAAAFiS0dEAIgFHUgAAAAJcEhZcwAA
+CxIAAAsSAdLdfvwAAAAHdElNRQfTARMCODAVcE3ZAAABJ0lEQVR4nI2TXa4D
+IQiFIdF3SWQ/ksC7JrL/rVw6nVpnmubWxy9w+DkI8PH88gBQtbSWoCA0SdoO
+oKpClPQAHymQ3QA74AQo3B+AJmCJVIBk5QAKCBcQQpeI0l8plL8AbafGC1Bo
+YEiDnoCjitkGUkOeEsXLCbCjW9aW2glgsg+xRPAC5MNIuy6Q2dkslQVQfJBK
+WwBqNdEKb4AyyNoOJj0a24BluQKVcQOUb6DYfxH1HmF0K3vXmHLro4NcWueE
+uA8XEiD7+Kk/bNgWRE+j3ivUp5VryWFDwSi7bMgNSuLNqLCSePeWAFl3b2dD
+Gmbvc4gr9Epxoieg0nJ10b6ObgCrRqcLVJkeK5QFyHwoWeonqMbuNZasyE8w
+3GcfISMH+PUD0dcP9AdERFhxl7oOSwAAAABJRU5ErkJggg==
+EOF
+return;
+</%init>
+<%attr>
+no_autoheader => 1
+</%attr>
+<%once>
+use MIME::Base64;
+</%once>

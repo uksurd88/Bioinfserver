@@ -1,0 +1,27 @@
+DOWN
+I am your Virtual Navigator
+DOWN
+LEFT
+UP
+LEFT
+UP
+RIGHT
+LEFT
+LEFT
+RIGHT
+New Query Column
+DOWN
+DOWN
+DOWN
+UP
+DOWN
+DOWN
+DOWN
+DOWN
+UP
+RIGHT
+UP
+LEFT
+DOWN
+DOWN
+UP

@@ -1,0 +1,198 @@
+body {	/* top-level container */
+	padding-right: 16px;	/* accomodate Internet Explorer scrollbar */
+}
+html>body {	/* top-level container, hidden from IE */
+	padding-right: 0px;	/* reverse the action taken above */
+}
+h1 {	/* EMBOSS explorer title */
+	margin-bottom: 0px;
+	font-family: "Tahoma", sans-serif;
+	font-weight: normal;
+	font-size:	75%;	/* 50% is too small in IE */
+	padding-bottom: 1px;
+	border-bottom: 1px solid black;
+}
+html>h1 {	/* EMBOSS explorer title, hidden from IE */
+	font-size: 50%;	/* 75% is too big elsewhere */
+}
+.error {
+	color: red;
+}
+#menu span.sort {	/* link to toggle sort style */
+	display: block;
+	white-space: nowrap;
+	/*
+	padding: .25em;
+	background: #ddf;
+	*/
+	text-align: center;
+	font-size: 85%;
+}
+#menu ul {	/* all menu lists */
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#menu #groups {	/* top-level list with grouped applications */
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#menu #apps {	/* top-level list with ungrouped applications */
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-right: .5em;
+	padding-top: .25em;
+	padding-bottom: .25em;
+	border-right: 2px solid #ddf;
+	text-align: right;
+}
+#menu li.group {	/* surrounding box for each group (title and list) */
+	margin-top: 1em;
+	padding-right: .5em;
+	border-right: 2px solid #ddf;
+	text-align: right;
+}
+#menu span.group {	/* surrounding box for each group title */
+	text-align: right;
+	font-family: "Tahoma", sans-serif;
+	font-weight: bold;
+}
+#menu ul.group {	/* surrounding box for each group list */
+}
+#menu a {	/* link to individual application */
+}
+
+#input h2 {	/* application title */
+	margin-bottom: 0px;
+	font-family: "Tahoma", sans-serif;
+	font-weight: bold;
+	font-size: 200%;
+}
+#input p.documentation {	/* application description */
+	margin-top: 0px;
+	padding-bottom: .25em;
+	border-bottom: 1px solid black;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 100%;
+}
+#input #legend {	/* required/optional legend */
+}
+#input form {	/* input form */
+	margin-top: 2em;
+}
+#input fieldset {	/* surrounding box for each section */
+	/*
+	border-top: 1px dotted gray;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	*/
+}
+#input legend {	/* section title text */
+	color: gray;
+}
+#input div {	/* all input fields */
+	margin-top:	1.5em;
+}
+#input div.required {	/* required input fields */
+	padding: .25em;
+	background: #ddf;
+}
+#input div.additional {	/* non-required input fields */
+}
+#input #submit {	/* surrounding box for submit button */
+	text-align: center;
+}
+#input p {	/* input field group text */
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#input ol {	/* input field group list */
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#input span.label {	/* input field label text */
+}
+#input span.field {	/* input field itself */
+}
+#input span.description {	/* input field description */
+	font-style: italic;
+	display: block;
+	margin-left:	1em;
+}
+#input #email span.description {
+	display: block;
+}
+
+#horizon {	/* horizon div for vertical centering */
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	overflow: visible;
+	text-align: center;
+}
+#running {	/* EMBOSS is running div */
+	position: absolute;
+	top: -25px;
+	left: 50%;
+	width: 450px;
+	height: 45px;
+	margin-left: -225px;
+	text-align: center;
+}
+#running img {	/* EMBOSS is running image */
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+#running p {	/* EMBOSS is running text */
+	margin-top: 1em;
+	text-align: center;
+}
+
+#output span.item {
+	display: block;
+	margin-top: 1em;
+	padding-top: 2px;
+	padding-left: .5em;
+	padding-bottom: 2px;
+	border-left: 2px solid #ddf;
+}
+#output dt {
+}
+#output dt span.type {
+	font-family: "Tahoma", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#output dd {
+	margin-left: 1em;
+}
+#output .error {
+	color: red;
+}
+#output dt.inline {	/* inline output file label */
+}
+#output dd.inline {	/* inline output file contents */
+}
+#output dt.outfile {	/* output file label */
+}
+#output dd.outfile {	/* output file contents */
+}
+#output dt.image {	/* output image label */
+}
+#output dd.image {	/* output image */
+	margin-top: 1em;
+}
+#output img {
+	border: 2px solid #def;
+}
+#output pre {	/* inline output */
+	font-size: 110%;
+}
+html>#output pre {	/* inline output, hidden from IE */
+	font-size: 100%;
+}

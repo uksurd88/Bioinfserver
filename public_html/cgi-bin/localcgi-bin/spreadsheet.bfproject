@@ -1,0 +1,12 @@
+name: New project
+files: /var/LocustBrain/www/cgi-bin/sessions.cgi
+files: /var/www/cgi-bin/sheet.cgi
+files: /var/www/sheet.html
+basedir: /var/www/
+webdir: 
+template: 
+word_wrap: 0
+view_html_toolbar: 1
+view_custom_menu: 1
+view_main_toolbar: 1
+view_left_panel: 1

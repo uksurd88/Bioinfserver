@@ -1,0 +1,16 @@
+take 1 tStart
+take 1 tStop
+tStop
+tStop
+tStart
+tStop
+tStop
+tStart
+tStart
+take 1 tStart
+tStart
+take 1 tStop
+tStop
+tStop
+tStart
+tStop

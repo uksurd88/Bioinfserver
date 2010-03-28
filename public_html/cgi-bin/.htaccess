@@ -1,0 +1,9 @@
+AuthUserFile /home/ss533/public_html/cgi-bin/.htpasswd
+AuthGroupFile /dev/null
+AuthName "BugPan Interface"
+AuthType Basic
+
+<Limit GET>
+require valid-user
+</Limit>
+

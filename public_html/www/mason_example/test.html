@@ -1,0 +1,11 @@
+<p> This is a test </p>
+
+% if ($r->can('uri')) {
+<p> uri (from mod_perl) = <%$ENV{REQUEST_URI}%> </p>
+% } else {
+<p> uri (from CGI env) = <%$ENV{REQUEST_URI}%> </p>
+% }
+
+<%attr>
+title => "A test"
+</%attr>

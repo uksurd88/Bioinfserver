@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<title>Mason: <% $title %></title>
+<link rel="alternate stylesheet" title="Dark" type="text/css" href="lib/dark.css">
+<link rel="stylesheet" title="Light" type="text/css" href="lib/light.css">
+</head>
+<body>
+<h1><% $title %></h1>
+
+% if ($m->request_comp->source_file !~ m|/index.html$|) {
+<p> <a href="./">Back to index</a> </p>
+% }
+
+<div class=outer>
+<div class=component>
+% $m->call_next;
+</div>
+</div>
+
+<hr>
+<table width="100%" class=footertable><tr valign=top><td align=left>
+<div class=poweredby>
+<a href="http://www.masonhq.com/"><img width="88" height="31" border="0" src="http://www.masonhq.com/i/powered_by/powered-by-white2.png" alt="Powered by Mason"></a>
+</div>
+</td><td align=right>
+<div class=footer>
+% if ($ENV{REMOTE_USER}) {
+You are logged in as &quot;<% $r->connection->user |h%>&quot;<br>
+% }
+#<% $ENV{UNIQUE_ID} %>
+</div>
+</td></tr></table>
+
+</body>
+</html>
+
+<%init>
+ my $next = $m->request_comp;
+ # On mod_perl, $r->content_type contains Apache's (well, mod_mime's) idea of the content type
+ if ($m->isa('HTML::Mason::Request::ApacheHandler')) {
+   return $m->call_next if ($r->content_type eq 'text/css' || $next->attr_exists('no_autoheader'));
+ }
+ else {
+   # Otherwise, use CGI variables and assumptions about file mapping to do this
+   if ($ENV{REQUEST_URI} =~ /\.css/ || $next->attr_exists('no_autoheader')) {
+     $r->content_type("text/css");
+     return $m->call_next;
+   }
+ }
+ my $title = $next->attr_exists("title") ? $next->attr("title") : $ENV{REQUEST_URI};
+ $r->content_type("text/html; charset=utf-8");
+</%init>
+
+<%def .negotiate_content>
+<%args>
+$accept
+%provide
+</%args>
+<%init>
+my $q = 1;
+my %accept_items;
+my %result_items;
+for my $el (split(/, */, $accept)) {
+  my $item;
+  if ($el =~ m/^(\S+); *q=([0-9.]+)/) {
+    $item = $1;
+    $q = $2;
+  }
+  else {
+    $item = $el;
+  }
+  $accept_items{lc($item)} = $q;
+}
+for my $item (sort keys %provide) {
+  if ($accept_items{$item}) {
+    $result_items{$item} = $provide{$item}*$accept_items{$item};
+  }
+  elsif ($accept_items{'*'}) {
+    $result_items{$item} = $provide{$item}*$accept_items{'*'};
+  }
+}
+my @result = sort { $result_items{$b} <=> $result_items{$a} } keys %result_items;
+$r->log->debug("Chose '$result[0]' from '$accept'");
+return $result[0];
+</%init>
+</%def>

@@ -1,0 +1,115 @@
+
+                         MODELLER 9v4, 2008/05/09, r6267
+
+     PROTEIN STRUCTURE MODELLING BY SATISFACTION OF SPATIAL RESTRAINTS
+
+
+                     Copyright(c) 1989-2008 Andrej Sali
+                            All Rights Reserved
+
+                             Written by A. Sali
+                               with help from
+           B. Webb, M.S. Madhusudhan, M-Y. Shen, M.A. Marti-Renom,
+                N. Eswar, F. Alber, M. Topf, B. Oliva, A. Fiser,
+                    R. Sanchez, B. Yerkovich, A. Badretdinov,
+                      F. Melo, J.P. Overington, E. Feyfant
+                 University of California, San Francisco, USA
+                    Rockefeller University, New York, USA
+                      Harvard University, Cambridge, USA
+                   Imperial Cancer Research Fund, London, UK
+              Birkbeck College, University of London, London, UK
+
+
+Kind, OS, HostName, Kernel, Processor: 4, Linux bioinf3.bioc.le.ac.uk 2.6.27.30-170.2.82.fc10.x86_64 x86_64
+Date and time of compilation         : 2008/05/09 14:35:17
+MODELLER executable type             : x86_64-intel8
+Job starting time (YY/MM/DD HH:MM:SS): 2009/11/10 11:57:53
+
+openf___224_> Open           $(LIB)/restyp.lib
+openf___224_> Open           ${MODINSTALL9v4}/modlib/resgrp.lib
+rdresgr_266_> Number of residue groups:        2
+openf___224_> Open           ${MODINSTALL9v4}/modlib/sstruc.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:      3234074    3158.275     3.084
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:      3234602    3158.791     3.085
+openf___224_> Open           ${MODINSTALL9v4}/modlib/resdih.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:      3283202    3206.252     3.131
+rdrdih__263_> Number of dihedral angle types         :        9
+              Maximal number of dihedral angle optima:        3
+              Dihedral angle names                   :  Alph Phi Psi Omeg chi1 chi2 chi3 chi4 chi5
+openf___224_> Open           ${MODINSTALL9v4}/modlib/radii.lib
+
+Dynamically allocated memory at   amaxlibraries [B,KiB,MiB]:      3292178    3215.018     3.140
+openf___224_> Open           ${MODINSTALL9v4}/modlib/radii14.lib
+openf___224_> Open           ${MODINSTALL9v4}/modlib/af_mnchdef.lib
+rdwilmo_274_> Mainchain residue conformation classes:  APBLE
+openf___224_> Open           ${MODINSTALL9v4}/modlib/mnch.lib
+rdclass_257_> Number of classes:        5
+openf___224_> Open           ${MODINSTALL9v4}/modlib/mnch1.lib
+openf___224_> Open           ${MODINSTALL9v4}/modlib/mnch2.lib
+openf___224_> Open           ${MODINSTALL9v4}/modlib/mnch3.lib
+openf___224_> Open           ${MODINSTALL9v4}/modlib/xs4.mat
+rdrrwgh_268_> Number of residue types:       21
+openf___224_> Open           alignment.ali
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3303637    3226.208     3.151
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3305087    3227.624     3.152
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3338443    3260.198     3.184
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3369243    3290.276     3.213
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3430843    3350.433     3.272
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3554043    3470.745     3.389
+
+Dynamically allocated memory at   amaxalignment [B,KiB,MiB]:      3800443    3711.370     3.624
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3800471    3711.397     3.624
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3800499    3711.425     3.624
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3800527    3711.452     3.624
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3800555    3711.479     3.624
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3800771    3711.690     3.625
+
+Dynamically allocated memory at    amaxsequence [B,KiB,MiB]:      3804819    3715.644     3.629
+read_al_374_> Non-standard residue type,position,sequence:  .       57        1
+read_al_374_> Non-standard residue type,position,sequence:  .     1013        2
+
+Read the alignment from file       : alignment.ali
+Total number of alignment positions:  1013
+
+  #  Code        #_Res #_Segm PDB_code    Name
+-------------------------------------------------------------------------------
+  1   template      55      3    template .
+  2      model    1013      3       model .
+check_a_343_> >> BEGINNING OF COMMAND
+openf___224_> Open           template.pdb
+
+Dynamically allocated memory at   amaxstructure [B,KiB,MiB]:      3980937    3887.634     3.797
+openf___224_> Open           template.pdb
+read_te_291E> Sequence difference between alignment and  pdb :
+                  x  (mismatch at alignment position      1)
+ Alignment        RLIIMNACLMTDPVTQPAFSAFVTQDWRLIIMNACLMTDPVTQPAFSAFVTQDW. 
+       PDB        MVNAIRTPDQRFSNLDQYPFSPNYLDDLPGYPGLRAHYLDEGNSDAEDVFLCLHGE
+     Match                                 *                            *
+  Alignment residue type   15 (R, ARG) does not match pdb
+  residue type   11 (M, MET),
+  for align code template (atom file template), pdb residue number "1", chain "A"
+
+  Please check your alignment file header to be sure you correctly specified
+  the starting and ending residue numbers and chains. The alignment sequence
+  must match that from the atom file exactly.
+
+  Another possibility is that some residues in the atom file are missing,
+  perhaps because they could not be resolved experimentally. (Note that Modeller
+  reads only the ATOM and HETATM records in PDB, NOT the SEQRES records.)
+  In this case, simply replace the section of your alignment corresponding
+  to these missing residues with gaps.
+read_te_288W> Protein not accepted:        1  template

@@ -1,0 +1,12 @@
+brain.cgi
+brain.cgi~
+main.cgi
+main.cgi~
+myfirstcgiscript.cgi
+mysecondcgiscript.cgi
+session1.cgi
+session2.cgi
+sessions.cgi
+sessions.cgi~
+sessionscripts.cgi
+tt.txt

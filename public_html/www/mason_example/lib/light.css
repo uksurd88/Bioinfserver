@@ -1,0 +1,4 @@
+body { font-size: 12 }
+div.outer { background: black; padding: 1px }
+div.component { background: #eeeeee; padding: 4px }
+div.footer { font-weight: bold ; font-size: 10px }
